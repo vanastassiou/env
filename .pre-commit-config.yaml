@@ -1,0 +1,16 @@
+# Prerequisites:
+# - Install pre-commit: `pip install pre-commit`
+# - `pre-commit install`
+
+repos:
+- repo: https://github.com/Yelp/detect-secrets
+  rev: v1.5.0
+  hooks:
+  - id: detect-secrets
+    args: ['--baseline', '.secrets.baseline']
+    stages: [pre-push]
+# Syntax for local hooks:
+# -   id: my-hook-name
+#     name: 'My Hook'
+#     entry: ./scripts/custom-hook.sh
+#     language: script
