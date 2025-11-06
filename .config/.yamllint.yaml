@@ -1,0 +1,74 @@
+# Reference: https://yamllint.readthedocs.io/en/stable/rules.html
+
+rules:
+  anchors:
+    forbid-duplicated-anchors: true
+    forbid-undeclared-aliases: true
+    forbid-unused-anchors: true
+  braces:
+    forbid: false
+    max-spaces-inside: 0
+    max-spaces-inside-empty: -1
+    min-spaces-inside: 0
+    min-spaces-inside-empty: -1
+  brackets:
+    forbid: false
+    max-spaces-inside: 0
+    max-spaces-inside-empty: -1
+    min-spaces-inside: 0
+    min-spaces-inside-empty: -1
+  commas:
+    max-spaces-after: 1
+    max-spaces-before: 0
+    min-spaces-after: 1
+  comments:
+    ignore-shebangs: true
+    min-spaces-from-content: 1
+    require-starting-space: true
+  comments-indentation: {}
+  document-end:
+    present: false
+  document-start:
+    present: false
+  empty-lines:
+    max: 1
+    max-end: 1
+    max-start: 1
+  empty-values:
+    forbid-in-block-mappings: true
+    forbid-in-block-sequences: true
+    forbid-in-flow-mappings: true
+  float-values:
+    forbid-inf: true
+    forbid-nan: true
+    forbid-scientific-notation: true
+    require-numeral-before-decimal: true
+  hyphens:
+    max-spaces-after: 1
+  indentation:
+    check-multi-line-strings: true
+    indent-sequences: true
+    spaces: 2
+  key-duplicates:
+    forbid-duplicated-merge-keys: false
+  line-length:
+    allow-non-breakable-inline-mappings: true
+    allow-non-breakable-words: true
+    max: 88
+  new-line-at-end-of-file: "enable"
+  new-lines:
+    type: "unix"
+  octal-values:
+    forbid-explicit-octal: true
+    forbid-implicit-octal: true
+  quoted-strings:
+    allow-quoted-quotes: false
+    check-keys: false
+    extra-allowed: []
+    extra-required: []
+    quote-type: "any"
+    required: true
+  trailing-spaces: {}
+  truthy:
+    allowed-values: ["true", "false"]
+    check-keys: true

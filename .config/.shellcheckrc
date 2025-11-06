@@ -1,0 +1,8 @@
+# References:
+#   * https://www.shellcheck.net/wiki/
+#   * https://www.shellcheck.net/wiki/Directive
+
+color=never
+format=json
+severity="error"
+shell=bash

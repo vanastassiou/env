@@ -1,16 +1,87 @@
-# Prerequisites:
-# - Install pre-commit: `pip install pre-commit`
-# - `pre-commit install`
-
 repos:
-- repo: https://github.com/Yelp/detect-secrets
-  rev: v1.5.0
-  hooks:
-  - id: detect-secrets
-    args: ['--baseline', '.secrets.baseline']
-    stages: [pre-push]
-# Syntax for local hooks:
-# -   id: my-hook-name
-#     name: 'My Hook'
-#     entry: ./scripts/custom-hook.sh
-#     language: script
+  - repo: "https://github.com/pre-commit/pre-commit-hooks"
+    rev: "v5.0.0"
+    hooks:
+      - id: "check-added-large-files"
+        args: ["--maxkb=500"] # Default
+      - id: "check-ast"
+      - id: "check-builtin-literals"
+      - id: "check-case-conflict"
+      - id: "check-docstring-first"
+      - id: "check-executables-have-shebangs"
+      - id: "check-illegal-windows-names"
+      - id: "check-json"
+      - id: "check-merge-conflict"
+        args: ["--assume-in-merge"] # For fixing accidentally committed strings
+      - id: "check-shebang-scripts-are-executable"
+      - id: "check-symlinks"
+      - id: "check-vcs-permalinks"
+      - id: "check-yaml"
+      - id: "debug-statements"
+      - id: "destroyed-symlinks"
+      - id: "detect-aws-credentials"
+      - id: "detect-private-key"
+      - id: "end-of-file-fixer"
+      - id: "forbid-submodules"
+      - id: "mixed-line-ending"
+      - id: "name-tests-test"
+        args: ["--pytest"] # Default
+      - id: "no-commit-to-branch"
+      - id: "requirements-txt-fixer"
+      - id: "trailing-whitespace"
+
+  # Formatting and linting
+  - repo: "local"
+    hooks:
+      - id: "prettier"
+        name: "prettier (YAML)"
+        entry: "npx prettier --write"
+        language: "system"
+        types_or: ["yaml", "json"]
+
+  - repo: "https://github.com/shellcheck-py/shellcheck-py"
+    rev: "v0.10.0.1"
+    hooks:
+      - id: "shellcheck"
+        args: ["--rcfile=./.config/.shellcheckrc", "--severity=warning"]
+
+  - repo: "https://github.com/adrienverge/yamllint"
+    rev: "v1.37.0"
+    hooks:
+      - id: "yamllint"
+        args: ["-c=./.config/.yamllint.yaml"]
+
+  - repo: "https://github.com/DavidAnson/markdownlint-cli2"
+    rev: "v0.17.2"
+    hooks:
+      - id: "markdownlint-cli2"
+        name: "markdownlint-fix"
+        args: ["--config", "./.config/.markdownlint.yaml", "--fix"]
+
+  - repo: "https://github.com/DavidAnson/markdownlint-cli2"
+    rev: "v0.17.2"
+    hooks:
+      - id: "markdownlint-cli2"
+        args: ["--config", "./.config/.markdownlint.yaml"]
+
+  - repo: "https://github.com/astral-sh/ruff-pre-commit"
+    rev: "v0.11.4"
+    hooks:
+      - id: "ruff" # Replaces black, isort, flake8, docformatter, pydocstyle
+        args: ["--fix"]
+      - id: "ruff-format" # Place after ruff as ruff fixes may require reformatting
+
+  # Security scanning
+
+  - repo: "https://github.com/Yelp/detect-secrets"
+    rev: "v1.5.0"
+    hooks:
+      - id: "detect-secrets" # Scans for secrets and sensitive data
+        args: ["--baseline", "./.config/.secrets.baseline"]
+
+  - repo: "https://github.com/PyCQA/bandit"
+    rev: "1.8.3"
+    hooks:
+      - id: "bandit" # Security linter for Python code
+        args: ["-c", "pyproject.toml"]
+        additional_dependencies: ["bandit[toml]"]

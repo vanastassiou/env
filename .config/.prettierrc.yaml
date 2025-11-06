@@ -1,0 +1,8 @@
+# Reference: https://prettier.io/docs/options
+
+bracketSpacing: true
+endOfLine: "lf"
+printWidth: 88
+proseWrap: "always"
+singleQuote: false
+tabWidth: 2
