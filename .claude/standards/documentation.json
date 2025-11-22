@@ -1,0 +1,186 @@
+{
+  "documentation-standards": {
+    "version": "1.0.0",
+    "description": "Global documentation standards for consistent quality",
+    "terminology": {
+      "standardTerms": {
+        "API key": "API key",
+        "api-key": "API key",
+        "apikey": "API key",
+        "webhook": "webhook",
+        "web hook": "webhook",
+        "OAuth": "OAuth 2.0",
+        "oauth": "OAuth 2.0",
+        "CLI": "CLI (Command Line Interface)",
+        "REST API": "REST API",
+        "JSON": "JSON",
+        "YAML": "YAML"
+      },
+      "defineOnFirstUse": [
+        "API",
+        "CLI",
+        "SDK",
+        "JWT",
+        "HTTP",
+        "HTTPS",
+        "SSH",
+        "TLS",
+        "SSL"
+      ],
+      "avoidTerms": [
+        "simply",
+        "just",
+        "easily",
+        "obviously",
+        "clearly",
+        "seamlessly",
+        "robust",
+        "powerful",
+        "flexible",
+        "comprehensive"
+      ]
+    },
+    "codeExamples": {
+      "format": {
+        "language": "bash",
+        "includeOutput": true,
+        "includeErrorHandling": true,
+        "copyPasteReady": true
+      },
+      "requirements": {
+        "testable": true,
+        "specific": true,
+        "noPlaceholders": false,
+        "includeDependencies": true
+      },
+      "languages": {
+        "bash": {
+          "showPrompt": false,
+          "showOutput": true
+        },
+        "javascript": {
+          "style": "modern",
+          "includeImports": true
+        },
+        "python": {
+          "style": "PEP8",
+          "includeImports": true
+        }
+      }
+    },
+    "structure": {
+      "headings": {
+        "case": "sentence",
+        "nesting": 3,
+        "prefixes": []
+      },
+      "sectionOrder": [
+        "Overview",
+        "Prerequisites",
+        "Installation",
+        "Quick Start",
+        "Configuration",
+        "Usage",
+        "Examples",
+        "API Reference",
+        "Troubleshooting",
+        "FAQ",
+        "Contributing",
+        "License"
+      ],
+      "requiredSections": {
+        "README": [
+          "Overview",
+          "Installation",
+          "Usage"
+        ],
+        "API": [
+          "Authentication",
+          "Endpoints",
+          "Examples",
+          "Error Codes"
+        ],
+        "Guide": [
+          "Introduction",
+          "Steps",
+          "Examples"
+        ]
+      }
+    },
+    "style": {
+      "tone": "professional",
+      "voice": "active",
+      "person": "second",
+      "formality": "moderate",
+      "punctuation": {
+        "emDash": false,
+        "serialComma": true,
+        "singleQuotes": false
+      },
+      "formatting": {
+        "codeInline": true,
+        "boldForEmphasis": true,
+        "italicsForTerms": false,
+        "listsForSequences": true
+      }
+    },
+    "quality": {
+      "requirements": {
+        "informationDensity": 0.6,
+        "sentenceLengthVariation": true,
+        "noEmptySummaries": true,
+        "noRhetoricalQuestions": true,
+        "specificExamples": true,
+        "definedTerms": true
+      },
+      "checks": {
+        "spellcheck": true,
+        "grammarcheck": true,
+        "linkvalidation": true,
+        "codevalidation": true
+      }
+    },
+    "audiences": {
+      "developer": {
+        "assumedKnowledge": [
+          "git",
+          "command line",
+          "programming basics",
+          "HTTP",
+          "JSON"
+        ],
+        "defineTerms": [
+          "domain-specific terms",
+          "project-specific jargon",
+          "uncommon acronyms"
+        ],
+        "exampleComplexity": "intermediate",
+        "technicalDepth": "detailed"
+      },
+      "enduser": {
+        "assumedKnowledge": [
+          "basic computer use",
+          "web browsing"
+        ],
+        "defineTerms": [
+          "all technical terms",
+          "all acronyms",
+          "all jargon"
+        ],
+        "exampleComplexity": "beginner",
+        "technicalDepth": "high-level"
+      },
+      "mixed": {
+        "assumedKnowledge": [
+          "basic computer use"
+        ],
+        "defineTerms": [
+          "technical terms on first use",
+          "all acronyms"
+        ],
+        "exampleComplexity": "beginner-to-intermediate",
+        "technicalDepth": "progressive"
+      }
+    }
+  }
+}

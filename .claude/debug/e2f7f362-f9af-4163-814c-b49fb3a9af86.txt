@@ -1,0 +1,873 @@
+[DEBUG] Watching for changes in setting files /home/v/.claude/settings.json...
+[DEBUG] Applying permission update: Adding 20 allow rule(s) to destination 'userSettings': ["Bash(npx claude-flow:*)","Bash(npm run lint)","Bash(npm run test:*)","Bash(npm test:*)","Bash(git status)","Bash(git diff:*)","Bash(git log:*)","Bash(git add:*)","Bash(git commit:*)","Bash(git push)","Bash(git config:*)","Bash(git tag:*)","Bash(git branch:*)","Bash(git checkout:*)","Bash(git stash:*)","Bash(jq:*)","Bash(node:*)","Bash(which:*)","Bash(pwd)","Bash(ls:*)"]
+[DEBUG] Applying permission update: Adding 1 deny rule(s) to destination 'userSettings': ["Bash(rm -rf /)"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/v/.bashrc
+[DEBUG] Snapshots directory: /home/v/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/v/.claude/shell-snapshots/snapshot-bash-1763674772504-5udfv6.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/v/.claude/todos/e2f7f362-f9af-4163-814c-b49fb3a9af86-agent-e2f7f362-f9af-4163-814c-b49fb3a9af86.json.tmp.13014.1763674772509
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/v/.claude/todos/e2f7f362-f9af-4163-814c-b49fb3a9af86-agent-e2f7f362-f9af-4163-814c-b49fb3a9af86.json.tmp.13014.1763674772509 to /home/v/.claude/todos/e2f7f362-f9af-4163-814c-b49fb3a9af86-agent-e2f7f362-f9af-4163-814c-b49fb3a9af86.json
+[DEBUG] File /home/v/.claude/todos/e2f7f362-f9af-4163-814c-b49fb3a9af86-agent-e2f7f362-f9af-4163-814c-b49fb3a9af86.json written atomically
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/v/.claude/skills, project=/home/v/repos/learning/pro-d/gvias/.claude/skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Shell snapshot created successfully (4765 bytes)
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763674772703
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50428 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763674772703 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] MCP server "claude-flow": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ruv-swarm": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "flow-nexus": Starting connection with timeout of 30000ms
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763674773207
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50428 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763674773207 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Executing hooks for SessionStart:startup
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763674773301
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50323 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763674773301 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763674773311
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50323 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763674773311 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763674773322
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50323 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763674773322 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=undefined
+[DEBUG] Skipping plugin installations - ENABLE_PLUGINS not set
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763674773571
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50428 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763674773571 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[ERROR] MCP server "ruv-swarm" Server stderr: [2fefdfc7-af29-4ae3-9b94-d281d7986c69] [INFO] ruv-swarm MCP server starting in stdio mode (NO TIMEOUT VERSION) {
+  protocol: 'stdio',
+  sessionId: '2fefdfc7-af29-4ae3-9b94-d281d7986c69',
+  nodeVersion: 'v24.9.0',
+  platform: 'linux',
+  arch: 'x64'
+}
+[ERROR] MCP server "ruv-swarm" Server stderr: [2fefdfc7-af29-4ae3-9b94-d281d7986c69] [INFO] Connection established {
+  sessionId: '2fefdfc7-af29-4ae3-9b94-d281d7986c69',
+  event: 'established',
+  protocol: 'stdio',
+  transport: 'stdin/stdout',
+  timestamp: '2025-11-20T21:39:33.944Z'
+}
+[DEBUG] MCP server "ruv-swarm": Successfully connected to stdio server in 1221ms
+[DEBUG] MCP server "ruv-swarm": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"ruv-swarm-no-timeout","version":"1.0.20"}}
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763674774421
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50428 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763674774421 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[ERROR] MCP server "ruv-swarm" Server stderr: [2fefdfc7-af29-4ae3-9b94-d281d7986c69] [INFO] MCP server running with NO TIMEOUT MECHANISMS {
+  connectionStatus: 'INFINITE_RUNTIME',
+  timeoutStatus: 'DISABLED',
+  connectionMode: 'INFINITE'
+}
+[DEBUG] AutoUpdater: Detected installation type: npm-global
+[DEBUG] AutoUpdater: Using global update method
+[DEBUG] MCP server "ruv-swarm": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "ruv-swarm": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+[ERROR] MCP server "claude-flow" Server stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+[DEBUG] MCP server "flow-nexus": Successfully connected to stdio server in 1692ms
+[DEBUG] MCP server "flow-nexus": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"Flow Nexus Complete","version":"2.0.0"}}
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token 'E', "E2B Templa"... is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'base',   "... is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'react',  "... is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'vanilla', 'node'," is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'nodejs'" is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ']', "]" is not valid JSON
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763674776205
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50428 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763674776205 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[ERROR] MCP server "claude-flow" Server stderr: npm error code ENOTEMPTY
+[ERROR] MCP server "claude-flow" Server stderr: npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+[ERROR] MCP server "claude-flow" Server stderr: npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_39_33_299Z-debug-0.log
+[DEBUG] MCP server "claude-flow": Connection failed after 7222ms: MCP error -32000: Connection closed
+[ERROR] MCP server "claude-flow" Connection failed: MCP error -32000: Connection closed
+[DEBUG] MCP server "agentic-payments": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ide": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ide": Successfully connected to ws-ide server in 14ms
+[DEBUG] MCP server "ide": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Claude Code Cursor MCP","version":"2.0.10"}}
+[ERROR] MCP server "agentic-payments" Server stderr: npm warn exec The following package was not found and will be installed: agentic-payments@0.1.13
+[ERROR] MCP server "agentic-payments" Server stderr: npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+[DEBUG] MCP server "agentic-payments": Connection timeout triggered after 30006ms (limit: 30000ms)
+[DEBUG] MCP server "agentic-payments": Connection failed after 30006ms: Connection to MCP server "agentic-payments" timed out after 30000ms
+[ERROR] MCP server "agentic-payments" Connection failed: Connection to MCP server "agentic-payments" timed out after 30000ms
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Added snapshot for 2344a03b-ffcf-42de-8b97-48c32d2d9912, tracking 0 files
+[DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763674823907
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50638 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763674823907 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 26ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] AutoUpdater: Detected installation type: npm-global
+[DEBUG] AutoUpdater: Using global update method
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763674825276
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50638 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763674825276 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_40_35_702Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Permission suggestions for Edit: [
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+[DEBUG] MCP server "ide": Calling MCP tool: openDiff
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[ERROR] MCP server "agentic-payments" Server stderr: npm error process terminated
+[ERROR] MCP server "agentic-payments" Server stderr: npm error signal SIGTERM
+[ERROR] MCP server "agentic-payments" Server stderr: npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_39_40_455Z-debug-0.log
+[DEBUG] MCP server "ide": Calling MCP tool: close_tab
+[DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 7ms
+[DEBUG] FileHistory: Tracked file modification for /home/v/repos/learning/pro-d/gvias/risk-management-framework.md
+[DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674854395
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 24894 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674854395 to /home/v/repos/learning/pro-d/gvias/risk-management-framework.md
+[DEBUG] File /home/v/repos/learning/pro-d/gvias/risk-management-framework.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true with timeout 60000ms
+[DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 144ms
+[DEBUG] MCP server "ide": Tool 'openDiff' completed successfully in 16s
+[DEBUG] MCP server "ide": Calling MCP tool: close_tab
+[DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 9ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_40_54_534Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 10ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_41_07_148Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 7ms
+[DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674869131
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 25362 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674869131 to /home/v/repos/learning/pro-d/gvias/risk-management-framework.md
+[DEBUG] File /home/v/repos/learning/pro-d/gvias/risk-management-framework.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_41_09_270Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 9ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 10ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 14ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_41_42_613Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 5ms
+[DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674904570
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 26074 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674904570 to /home/v/repos/learning/pro-d/gvias/risk-management-framework.md
+[DEBUG] File /home/v/repos/learning/pro-d/gvias/risk-management-framework.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_41_44_704Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 6ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_41_56_029Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 3ms
+[DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674917982
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 26794 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674917982 to /home/v/repos/learning/pro-d/gvias/risk-management-framework.md
+[DEBUG] File /home/v/repos/learning/pro-d/gvias/risk-management-framework.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_41_58_096Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 12ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_42_11_356Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 5ms
+[DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674933551
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 27526 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674933551 to /home/v/repos/learning/pro-d/gvias/risk-management-framework.md
+[DEBUG] File /home/v/repos/learning/pro-d/gvias/risk-management-framework.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_42_13_676Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 12ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_42_24_407Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 15ms
+[DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674946386
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 27977 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674946386 to /home/v/repos/learning/pro-d/gvias/risk-management-framework.md
+[DEBUG] File /home/v/repos/learning/pro-d/gvias/risk-management-framework.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_42_26_503Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 8ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_42_36_751Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 4ms
+[DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674958675
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 28498 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674958675 to /home/v/repos/learning/pro-d/gvias/risk-management-framework.md
+[DEBUG] File /home/v/repos/learning/pro-d/gvias/risk-management-framework.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_42_38_790Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 8ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_42_56_071Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 7ms
+[DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674978176
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 29100 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/risk-management-framework.md.tmp.13014.1763674978176 to /home/v/repos/learning/pro-d/gvias/risk-management-framework.md
+[DEBUG] File /home/v/repos/learning/pro-d/gvias/risk-management-framework.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true with timeout 60000ms
+[DEBUG] Hook command completed with status 123: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_42_58_318Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 9ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 1 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: npx claude-flow@alpha hooks session-end --generate-summary true --persist-state true --export-metrics true with timeout 60000ms
+[DEBUG] Hook command completed with status 217: npx claude-flow@alpha hooks session-end --generate-summary true --persist-state true --export-metrics true
+[DEBUG] Hook stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+npm error code ENOTEMPTY
+npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_43_13_068Z-debug-0.log
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763674995147
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50661 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763674995147 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: /home/v/.claude/shell-snapshots/snapshot-bash-1763674772504-5udfv6.sh
+[DEBUG] MCP server "ruv-swarm": Sending SIGINT to MCP server process
+[DEBUG] MCP server "flow-nexus": Sending SIGINT to MCP server process
+[DEBUG] FileHistory: Making snapshot for message 4488e2c6-e116-4e00-bf2e-ac0df9388d31
+[DEBUG] FileHistory: Added snapshot for 4488e2c6-e116-4e00-bf2e-ac0df9388d31, tracking 1 files
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763675045054
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50744 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763675045054 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763675045073
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 50771 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763675045073 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] MCP server "ruv-swarm": SIGINT failed, sending SIGTERM to MCP server process
+[DEBUG] MCP server "flow-nexus": SIGINT failed, sending SIGTERM to MCP server process
+[ERROR] MCP server "ruv-swarm" Server stderr: [2fefdfc7-af29-4ae3-9b94-d281d7986c69] [INFO] Connection closed {
+  sessionId: '2fefdfc7-af29-4ae3-9b94-d281d7986c69',
+  event: 'closed',
+  messagesProcessed: 4,
+  uptime: 271.405894017
+}
+[2fefdfc7-af29-4ae3-9b94-d281d7986c69] [INFO] MCP: stdin closed, shutting down...
+[DEBUG] MCP server "ruv-swarm": STDIO connection dropped after 270s uptime
+[DEBUG] MCP server "ruv-swarm": Connection error: Unexpected token '�', "🧹 Cleanin"... is not valid JSON
+[DEBUG] MCP server "ruv-swarm": MCP server process exited cleanly
+[DEBUG] MCP server "flow-nexus": MCP server process exited cleanly
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.13014.1763675045287
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 51191 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.13014.1763675045287 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically

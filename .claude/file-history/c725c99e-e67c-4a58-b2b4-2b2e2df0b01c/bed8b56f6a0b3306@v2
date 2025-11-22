@@ -1,0 +1,97 @@
+# PDF to Markdown Converter
+
+A Python script that converts PDF files to Markdown format while preserving document structure, headers, and hyperlinks.
+
+## Features
+
+- ✅ **Header Detection**: Automatically detects headers based on font size and weight
+- ✅ **Hyperlink Preservation**: Extracts and converts both external and internal PDF links
+- ✅ **Text Formatting**: Preserves bold and italic text formatting
+- ✅ **Page Markers**: Adds page separators for multi-page documents
+- ✅ **Smart Header Levels**: Maps font sizes to appropriate Markdown header levels (H1-H6)
+
+## Installation
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Or install directly:
+
+```bash
+pip install pymupdf
+```
+
+## Usage
+
+### Basic Usage
+
+Convert a PDF to Markdown (output will have the same name with .md extension):
+
+```bash
+python scripts/pdf_to_markdown.py input.pdf
+```
+
+### Specify Output File
+
+```bash
+python scripts/pdf_to_markdown.py input.pdf -o output.md
+```
+
+### Make Script Executable (Linux/Mac)
+
+```bash
+chmod +x scripts/pdf_to_markdown.py
+./scripts/pdf_to_markdown.py input.pdf
+```
+
+## Examples
+
+### Convert a research paper:
+
+```bash
+python scripts/pdf_to_markdown.py research_paper.pdf
+```
+
+### Convert with custom output:
+
+```bash
+python scripts/pdf_to_markdown.py document.pdf -o docs/converted_document.md
+```
+
+## How It Works
+
+1. **Font Analysis**: The script analyzes all font sizes in the PDF to determine header hierarchy
+2. **Header Detection**: Larger fonts and bold text are mapped to Markdown headers (# to ######)
+3. **Link Extraction**: Both external URLs and internal page references are extracted
+4. **Structure Preservation**: Page breaks are marked with horizontal rules and comments
+5. **Formatting**: Bold and italic text styles are converted to Markdown syntax
+
+## Output Format
+
+The generated Markdown includes:
+
+- Headers (# to ######) based on font size
+- **Bold text** for emphasized content
+- *Italic text* for italicized content
+- [Hyperlinks](url) for clickable links
+- `---` page separators
+- `<!-- Page N -->` comments for page tracking
+
+## Limitations
+
+- Complex layouts (multi-column, tables) may not convert perfectly
+- Images are not extracted (focus is on text structure)
+- Some PDF formatting may be lost in conversion
+- Font size mapping is heuristic-based
+
+## Requirements
+
+- Python 3.6+
+- pymupdf (PyMuPDF) 1.23.0+
+
+## License
+
+This script is provided as-is for PDF to Markdown conversion tasks.

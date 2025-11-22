@@ -1,0 +1,217 @@
+# Risk Management Framework for BC Non-Profit Events
+
+This framework is a guide to identifying, assessing, and mitigating risks associated with social events. Proper implementation will help protect against financial losses, legal liability, and reputational damage while ensuring appropriate insurance coverage and effective incident response capabilities.
+
+Success requires leadership commitment, adequate resources, and a culture of continuous improvement. Regular review and updates are required to ensure the framework remains effective as risks evolve and organizational capabilities mature.
+
+For support implementing this framework, engage qualified risk management professionals, insurance brokers, and legal counsel familiar with B.C. non-profit requirements.
+
+<!-- toc -->
+
+- [Learning path](#learning-path)
+- [Recommended learning path](#recommended-learning-path)
+  - [Phase 1: Foundation](#phase-1-foundation)
+  - [Phase 2: Specialization](#phase-2-specialization)
+  - [Phase 3: Advanced practice](#phase-3-advanced-practice)
+  - [CISSP credential leverage strategy](#cissp-credential-leverage-strategy)
+    - [CPE credits cross-application](#cpe-credits-cross-application)
+    - [Experience requirement shortcuts](#experience-requirement-shortcuts)
+    - [Marketing advantage](#marketing-advantage)
+  - [Implementation timeline](#implementation-timeline)
+  - [Cost-benefit analysis](#cost-benefit-analysis)
+- [BC-specific resources](#bc-specific-resources)
+  - [Professional associations](#professional-associations)
+  - [Government resources](#government-resources)
+- [Framework table of contents](#framework-table-of-contents)
+
+<!-- tocstop -->
+
+## Learning path
+
+| Domain | Core Competencies | Key Certifications | Non-Diploma Paths |
+|--------|------------------|-------------------|-------------------|
+| **Foundational Risk Management** | - Risk identification, assessment, mitigation<br>- Risk matrices and scoring systems<br>- Enterprise Risk Management (ERM)<br>- Crisis management and incident response<br>- Business continuity planning | - CRISC (ISACA)<br>- ARM (The Institutes)<br>- PMI-RMP (PMI)<br>- CRMA (IIA) | - RIMS Certificate Programs<br>- Canadian Risk Management (CRM) courses<br>- Coursera/edX Risk Management |
+| **Canadian Privacy Law** | - BC PIPA, Federal PIPEDA, FOIPPA<br>- Privacy breach management and notification<br>- Data retention and destruction protocols | - CIPP/C ⭐ (IAPP - most relevant)<br>- CIPM (IAPP)<br>- CIPT (IAPP)<br>- FIP (IAPP - advanced) | - IAPP Canada Privacy Law Fundamentals<br>- CIPO training<br>- Privacy Commissioner resources |
+| **BC/Canadian Regulatory Compliance** | **Provincial**: <br> - WorkSafeBC <br> - OHandS <br> - Societies Act <br> - Insurance Act <br> - Liquor/Food Safety Acts <br> - Building/Fire Codes <br> - Human Rights <br> - Coroners Act<br>**Federal:** <br> - Labour Code <br> - Criminal Code <br> - Tax Act <br> - Accessible Canada Act | - CHRL (CPHR BC and Yukon)<br>- CHRP (CPHR Canada) | - WorkSafeBC training programs<br>- BC Non-Profit Housing courses<br>- CPA Canada compliance courses |
+| **Insurance and Liability** | - Commercial General Liability (CGL)<br>- DandO, event cancellation, EandO insurance<br>- Cyber liability insurance<br>- Certificate requirements and endorsements<br>- Claims management | - CRM (National Alliance)<br>- CPCU (The Institutes)<br>- CIC (National Alliance) | - Insurance Brokers Association of BC<br>- Insurance Institute of Canada<br>- RIMS insurance fundamentals |
+| **Incident Response** | - Incident classification and investigation<br>- Root cause analysis and witness interviewing<br>- Evidence preservation and WorkSafeBC reporting<br>- Crisis communication | - CISA (tech incidents)<br>- CFE (fraud/financial)<br>- CCEP (compliance) | - WorkSafeBC incident investigation<br>- Emergency Management BC<br>- BCIT Emergency Management certificates |
+| **Governance and Compliance** | - Board fiduciary duties and non-profit governance<br>- Conflict of interest and whistleblower protections<br>- Charitable registration compliance<br>- Record retention | - CCEP (compliance and ethics)<br>- CIA (internal auditor)<br>- CGP (governance) | - Institute on Governance<br>- CPA Canada governance programs<br>- Society for Corporate Governance |
+| **Information Security** | - Cybersecurity frameworks (NIST, ISO 27001)<br>- Data breach response and notification<br>- Vendor security and privacy impact assessments<br>- Security awareness training | - CISSP ⭐ (ISC² - gold standard)<br>- CISM (security manager)<br>- ISO 27001 Lead Implementer | - SANS Institute courses<br>- (ISC)² Certified in Cybersecurity (free)<br>- Canadian Centre for Cyber Security |
+| **Financial and Operational Risk** | - Financial risk assessment and fraud prevention<br>- Segregation of duties and budget management<br>- Vendor management and contract risk | - CPA (significant commitment)<br>- CFE (fraud examiner)<br>- CISA (systems auditor) | - CPA Canada Risk Oversight courses<br>- ACFE short courses<br>- IIA Risk-based Auditing |
+| **Safety and Occupational Health** | - OHandS programs<br>- Safety inspections, audits, and PPE<br>- Fire safety and emergency evacuation<br>- First aid and medical response<br>- Alcohol service liability | - CRSP ⭐ (gold standard in Canada)<br>- CHSC (health and safety)<br>- NCSO (construction safety) | - WorkSafeBC COR training<br>- CSSE courses<br>- Serving It Right<br>- FOODSAFE Level 1 |
+| **Soft Skills and Consulting** | - Stakeholder management and communication<br>- Training design and delivery<br>- Report writing and presentation<br>- Change management and project management<br>- Client relationship management | - PMP (project management)<br>- CAPM (associate PM)<br>- CMC (management consultant) | - Toastmasters International<br>- Professional technical writing<br>- LinkedIn Learning consulting skills |
+
+## Recommended learning path
+
+### Phase 1: Foundation
+
+**Standard path (6-12 months):**
+
+- CIPP/C: Privacy law fundamentals
+- CRISC: Risk management core
+- WorkSafeBC training and safety fundamentals
+- BC privacy legislation (PIPA, FOIPPA)
+
+**Accelerated path with CISSP (3-6 months):**
+
+- CIPP/C: 4-6 weeks (security background accelerates concepts)
+- CRISC: 8-10 weeks (CISSP experience counts toward 3-year requirement)
+- WorkSafeBC: 2-4 weeks for core certifications
+
+### Phase 2: Specialization
+
+**Standard path (12-18 months):**
+
+- CISM: Information security management
+- CRSP or CHSC: Safety professional designation
+- CRM or ARM: Insurance fundamentals
+- CCEP or CIA: Governance and compliance
+
+**Accelerated path with CISSP (6-12 months):**
+
+- CRSP or CHSC: 12-16 weeks (skip CISM - 80% overlap with CISSP)
+- CRM or ARM: 10-12 weeks
+- CCEP or CIA: 8-12 weeks
+
+### Phase 3: Advanced practice
+
+**Standard path (18-24 months):**
+
+- CMC: Professional consulting designation
+- Specialized certifications based on client focus
+- Continuous professional development (RIMS, IAPP, ISACA)
+
+**Accelerated path with CISSP (6-12 months):**
+
+- CMC: 6-12 months (CISSP consulting work counts toward requirement)
+- CFE: 8-10 weeks (optional - complements CISSP with fraud investigation)
+- Continuous professional development (IAPP, ISACA, RIMS)
+
+### CISSP credential leverage strategy
+
+#### CPE credits cross-application
+
+Your CISSP requires 40 CPEs annually. Many activities count toward multiple certifications:
+
+| Activity | CISSP CPEs | CRISC CPEs | CIPP/C CPEs | CISM CPEs |
+|----------|------------|------------|-------------|-----------|
+| Privacy webinar | ✓ (Group A) | ✓ | ✓ | ✓ |
+| Risk management course | ✓ (Group A) | ✓ | Limited | ✓ |
+| Consulting work | ✓ (Group B) | ✓ | ✓ | ✓ |
+| Writing/speaking | ✓ (Group A) | ✓ | ✓ | ✓ |
+
+#### Experience requirement shortcuts
+
+- CRISC: CISSP experience counts toward 3-year requirement
+- CCEP: Security compliance work counts toward ethics/compliance experience
+- CMC: CISSP consulting engagements count toward 3-year consulting requirement
+
+#### Marketing advantage
+
+Current state (CISSP only):
+
+- Positioned as security specialist
+- Limited non-profit consulting credibility
+- Narrow service offering (security assessments)
+
+With CISSP + CIPP/C + CRISC:
+
+- Privacy and security consultant (compliant with BC regulations)
+- Enterprise risk management advisor
+- Broader service offering (privacy, security, operational risk)
+- Immediate consulting credibility in BC market
+
+With Full Stack (CISSP + CIPP/C + CRISC + CRSP + CRM + CMC):
+
+- Comprehensive risk management and privacy consultant
+- BC non-profit sector specialist
+- Security, privacy, safety, insurance, operational risk
+- Premium positioning and rates ($150-$300/hour vs. $75-$150/hour)
+
+### Implementation timeline
+
+**Month 1:**
+
+- Register for IAPP membership and purchase CIPP/C materials
+- Join IAPP Canada Privacy Law study group
+- Review BC PIPA and PIPEDA legislation
+- Complete 20 hours CIPP/C study
+- Register for CRISC exam (3-4 months out)
+- Complete free WorkSafeBC online courses
+- Connect with BC privacy professionals on LinkedIn
+
+**Month 2:**
+
+- Take CIPP/C exam
+- Begin CRISC study (2 hours/day)
+- Attend ISACA Vancouver chapter meeting
+- Shadow BC privacy/risk consultant (if possible)
+
+**Month 3:**
+
+- Continue CRISC study
+- Complete WorkSafeBC incident investigation training
+- Research CRSP requirements and timeline
+- Begin documenting safety consulting experience
+
+**Months 1-6:**
+
+- Complete CIPP/C certification
+- Begin CRISC or CISM study
+- Attend local ISACA/IAPP chapter meetings
+- Shadow or volunteer with risk/privacy professionals
+
+**Months 6-18:**
+
+- Complete CRISC/CISM certification
+- Gain hands-on experience with risk assessments
+- Build consulting toolkit (templates, frameworks)
+- Network within BC non-profit sector
+
+**Months 18-36:**
+
+- Pursue advanced certifications (CRSP, CMC)
+- Develop specialized expertise (cybersecurity, insurance, safety)
+- Build case studies and client portfolio
+- Consider independent consulting or partnership
+
+### Cost-benefit analysis
+
+**Certification priorities (ROI ranked):**
+
+| Certification | Cost | Study Time | Experience | ROI | Priority |
+|--------------|------|------------|------------|-----|----------|
+| CIPP/C | $550 | 60 hrs | None | Very High | 1 |
+| CRISC | $675 | 100 hrs | 3 yrs | Very High | 2 |
+| CRSP | $1,500 | 120 hrs | 4 yrs | High | 3 |
+| CRM | $800 | 100 hrs | Varies | High | 4 |
+| CMC | $2,000 | 200 hrs | 3+ yrs | Very High | 5 |
+| CFE | $400 | 80 hrs | None | Medium | 6 |
+| CISM | $675 | 150 hrs | 5 yrs | Skip* | - |
+
+*Skip CISM if you have CISSP (80% overlap, minimal differentiation)
+
+**Expected income progression:**
+
+- **CISSP only:** $75-$125/hour (security assessments)
+- **CISSP + CIPP/C + CRISC (12-18 months):** $125-$200/hour (privacy and risk consulting)
+- **Full stack (24-30 months):** $175-$300/hour (comprehensive risk management, BC non-profit specialist)
+
+## BC-specific resources
+
+### Professional associations
+
+- IAPP Canada (International Association of Privacy Professionals)
+- ISACA Vancouver Chapter
+- RIMS Canada (Risk and Insurance Management Society)
+- CPHR BC and Yukon (HR professionals)
+- BCRSP (Board of Canadian Registered Safety Professionals)
+
+### Government resources
+
+- Office of the Information and Privacy Commissioner for BC
+- WorkSafeBC training and resources
+- BC Financial Services Authority
+- BC Non-Profit Housing Association
+
+## Framework table of contents

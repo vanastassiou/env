@@ -1,0 +1,749 @@
+2025-11-22T04:10:56.472Z [DEBUG] Getting matching hook commands for SessionStart with query: clear
+2025-11-22T04:10:56.472Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:10:56.472Z [DEBUG] Matched 0 unique hooks for query "clear" (0 before deduplication)
+2025-11-22T04:10:56.485Z [DEBUG] FileHistory: Added snapshot for 50541145-375c-47c4-a297-094cb4cbbfaf, tracking 0 files
+2025-11-22T04:10:56.490Z [DEBUG] Rendering user message with 1 content blocks
+2025-11-22T04:10:56.490Z [DEBUG] Block 0: <command-name>/clear</command-name>
+            <command-message>clear</command-message>
+           ...
+2025-11-22T04:10:56.491Z [DEBUG] UserCommandMessage rendering: "clear" (args: "none")
+2025-11-22T04:10:56.491Z [DEBUG] isSkillFormat: false, prefix: "/"
+2025-11-22T04:10:56.517Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784656517
+2025-11-22T04:10:56.517Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:10:56.523Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:10:56.523Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:10:56.523Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784656517 to /home/v/.claude.json
+2025-11-22T04:10:56.523Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:11:00.377Z [DEBUG] [FileIndex] Not in bundled mode, using Fuse.js fallback
+2025-11-22T04:11:00.708Z [DEBUG] [FileIndex] Using Fuse.js fallback for search
+2025-11-22T04:11:01.467Z [DEBUG] [FileIndex] Using Fuse.js fallback for search
+2025-11-22T04:11:02.049Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:11:08.756Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:11:08.757Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:11:08.757Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:11:08.760Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:11:08.760Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:11:08.767Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 11ms
+2025-11-22T04:11:08.777Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-22T04:11:08.777Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:11:08.777Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:11:08.778Z [DEBUG] FileHistory: Making snapshot for message 8906cbae-fc38-47de-84bd-5738c2a39f41
+2025-11-22T04:11:08.778Z [DEBUG] FileHistory: Added snapshot for 8906cbae-fc38-47de-84bd-5738c2a39f41, tracking 0 files
+2025-11-22T04:11:08.795Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-22T04:11:08.834Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 39ms
+2025-11-22T04:11:09.514Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:11:12.651Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:11:22.879Z [DEBUG] executePreToolHooks called for tool: Task
+2025-11-22T04:11:22.882Z [DEBUG] Getting matching hook commands for PreToolUse with query: Task
+2025-11-22T04:11:22.882Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:11:22.882Z [DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+2025-11-22T04:11:22.913Z [DEBUG] Getting matching hook commands for SubagentStart with query: editor-anti-llm
+2025-11-22T04:11:22.913Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:11:22.913Z [DEBUG] Matched 0 unique hooks for query "editor-anti-llm" (0 before deduplication)
+2025-11-22T04:11:25.852Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:13:08.992Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-11-22T04:13:08.992Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:13:08.992Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:13:09.000Z [DEBUG] Getting matching hook commands for PostToolUse with query: Task
+2025-11-22T04:13:09.000Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:13:09.000Z [DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+2025-11-22T04:13:09.022Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:13:09.022Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:13:09.023Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:13:09.027Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:13:09.027Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:13:09.039Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 17ms
+2025-11-22T04:13:11.482Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:13:45.425Z [DEBUG] executePreToolHooks called for tool: ExitPlanMode
+2025-11-22T04:13:45.427Z [DEBUG] Getting matching hook commands for PreToolUse with query: ExitPlanMode
+2025-11-22T04:13:45.427Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:13:45.427Z [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+2025-11-22T04:13:45.457Z [DEBUG] executePermissionRequestHooks called for tool: ExitPlanMode
+2025-11-22T04:13:45.468Z [DEBUG] Getting matching hook commands for PermissionRequest with query: ExitPlanMode
+2025-11-22T04:13:45.468Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:13:45.468Z [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+2025-11-22T04:13:51.756Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:13:51.806Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784831806
+2025-11-22T04:13:51.806Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:13:51.811Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:13:51.811Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:13:51.811Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784831806 to /home/v/.claude.json
+2025-11-22T04:13:51.811Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:13:51.816Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784831815
+2025-11-22T04:13:51.816Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:13:51.820Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:13:51.820Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:13:51.820Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784831815 to /home/v/.claude.json
+2025-11-22T04:13:51.820Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:13:52.692Z [DEBUG] Applying permission update: Setting mode to 'default'
+2025-11-22T04:13:53.492Z [DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+2025-11-22T04:13:53.863Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784833863
+2025-11-22T04:13:53.863Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:13:53.871Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:13:53.871Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:13:53.872Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784833863 to /home/v/.claude.json
+2025-11-22T04:13:53.872Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:13:53.872Z [DEBUG] Applying permission update: Setting mode to 'plan'
+2025-11-22T04:14:05.183Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:14:05.183Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:14:05.183Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:14:05.186Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:14:05.186Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:14:05.194Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 11ms
+2025-11-22T04:14:05.207Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-22T04:14:05.207Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:14:05.207Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:14:05.208Z [DEBUG] FileHistory: Making snapshot for message 0bba6e5d-dadc-4cb3-85ca-2600f2b2dab8
+2025-11-22T04:14:05.208Z [DEBUG] FileHistory: Added snapshot for 0bba6e5d-dadc-4cb3-85ca-2600f2b2dab8, tracking 0 files
+2025-11-22T04:14:05.228Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-22T04:14:05.242Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 14ms
+2025-11-22T04:14:05.839Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:14:08.771Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:14:28.593Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-22T04:14:28.593Z [DEBUG] Found 1 hook matchers in settings
+2025-11-22T04:14:28.593Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-22T04:14:30.369Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:14:30.398Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784870398
+2025-11-22T04:14:30.398Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:14:30.405Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:14:30.405Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:14:30.405Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784870398 to /home/v/.claude.json
+2025-11-22T04:14:30.405Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:14:30.409Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784870409
+2025-11-22T04:14:30.409Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:14:30.414Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:14:30.414Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:14:30.414Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784870409 to /home/v/.claude.json
+2025-11-22T04:14:30.414Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:15:15.673Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:15:15.674Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:15:15.674Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:15:15.678Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:15:15.678Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:15:15.686Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 13ms
+2025-11-22T04:15:15.698Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-22T04:15:15.698Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:15:15.698Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:15:15.698Z [DEBUG] FileHistory: Making snapshot for message cbafada7-26b8-4892-b197-ff6a673fece9
+2025-11-22T04:15:15.698Z [DEBUG] FileHistory: Added snapshot for cbafada7-26b8-4892-b197-ff6a673fece9, tracking 0 files
+2025-11-22T04:15:15.719Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-22T04:15:15.735Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 16ms
+2025-11-22T04:15:16.205Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:15:18.069Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:15:45.371Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-22T04:15:45.371Z [DEBUG] Found 1 hook matchers in settings
+2025-11-22T04:15:45.371Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-22T04:15:46.459Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:15:46.488Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784946488
+2025-11-22T04:15:46.488Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:15:46.495Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:15:46.495Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:15:46.495Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784946488 to /home/v/.claude.json
+2025-11-22T04:15:46.495Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:15:46.498Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784946498
+2025-11-22T04:15:46.498Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:15:46.530Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:15:46.530Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:15:46.530Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784946498 to /home/v/.claude.json
+2025-11-22T04:15:46.530Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:18:13.358Z [ERROR] MCP server "ruv-swarm" Server stderr: (node:227018) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:227018) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:227018) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+2025-11-22T04:18:13.397Z [ERROR] MCP server "ruv-swarm" Server stderr: (node:227018) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:227018) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:227018) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+2025-11-22T04:18:13.404Z [ERROR] MCP server "ruv-swarm" Server stderr: (node:227018) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+2025-11-22T04:18:13.405Z [ERROR] MCP server "ruv-swarm" Server stderr: (node:227018) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:227018) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+2025-11-22T04:31:51.745Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:31:51.746Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:31:51.746Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:31:51.751Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:31:51.751Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:31:51.758Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 13ms
+2025-11-22T04:31:51.773Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-22T04:31:51.773Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:31:51.773Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:31:51.774Z [DEBUG] FileHistory: Making snapshot for message 6205beb3-8f94-4a07-9f4a-a798ea2a9286
+2025-11-22T04:31:51.775Z [DEBUG] FileHistory: Added snapshot for 6205beb3-8f94-4a07-9f4a-a798ea2a9286, tracking 0 files
+2025-11-22T04:31:51.797Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-22T04:31:51.819Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 22ms
+2025-11-22T04:31:52.488Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:31:53.951Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:32:13.973Z [DEBUG] executePreToolHooks called for tool: ExitPlanMode
+2025-11-22T04:32:13.976Z [DEBUG] Getting matching hook commands for PreToolUse with query: ExitPlanMode
+2025-11-22T04:32:13.976Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:32:13.976Z [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+2025-11-22T04:32:13.990Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-22T04:32:14.009Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-22T04:32:14.023Z [DEBUG] executePermissionRequestHooks called for tool: ExitPlanMode
+2025-11-22T04:32:14.025Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-22T04:32:14.054Z [DEBUG] Getting matching hook commands for PermissionRequest with query: ExitPlanMode
+2025-11-22T04:32:14.054Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:32:14.054Z [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+2025-11-22T04:32:14.262Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-22T04:32:26.009Z [DEBUG] Getting matching hook commands for Notification with query: permission_prompt
+2025-11-22T04:32:26.009Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:32:26.009Z [DEBUG] Matched 0 unique hooks for query "permission_prompt" (0 before deduplication)
+2025-11-22T04:32:38.972Z [DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+2025-11-22T04:32:38.982Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:32:39.003Z [DEBUG] Getting matching hook commands for PostToolUse with query: ExitPlanMode
+2025-11-22T04:32:39.003Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:32:39.003Z [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+2025-11-22T04:32:39.011Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-22T04:32:39.036Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:32:39.037Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:32:39.037Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:32:39.042Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:32:39.042Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:32:39.059Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 23ms
+2025-11-22T04:32:42.190Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:32:46.925Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-22T04:32:46.927Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-22T04:32:46.927Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:32:46.927Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-22T04:32:46.935Z [DEBUG] Writing to temp file: /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json.tmp.226770.1763785966935
+2025-11-22T04:32:46.939Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-22T04:32:46.939Z [DEBUG] Renaming /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json.tmp.226770.1763785966935 to /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json
+2025-11-22T04:32:46.939Z [DEBUG] File /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json written atomically
+2025-11-22T04:32:46.939Z [DEBUG] Writing to temp file: /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json.tmp.226770.1763785966939
+2025-11-22T04:32:46.943Z [DEBUG] Temp file written successfully, size: 1439 bytes
+2025-11-22T04:32:46.943Z [DEBUG] Renaming /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json.tmp.226770.1763785966939 to /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json
+2025-11-22T04:32:46.943Z [DEBUG] File /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json written atomically
+2025-11-22T04:32:46.958Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-22T04:32:46.958Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:32:46.958Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-22T04:32:46.989Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:32:46.990Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:32:46.990Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:32:46.997Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:32:46.997Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:32:47.023Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 34ms
+2025-11-22T04:32:49.067Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:34:04.119Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763786044119
+2025-11-22T04:34:04.119Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:34:04.123Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:34:04.123Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:34:04.123Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763786044119 to /home/v/.claude.json
+2025-11-22T04:34:04.123Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:34:04.125Z [DEBUG] Streaming aborted by user: Request was aborted.
+2025-11-22T04:34:04.125Z [ERROR] Error in non-streaming fallback: Request was aborted.
+2025-11-22T04:34:04.125Z [ERROR] Error: Error: Request was aborted.
+    at wo._createMessage (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:401:3151)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-22T04:34:04.229Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763786044229
+2025-11-22T04:34:04.229Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:34:04.233Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:34:04.233Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:34:04.233Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763786044229 to /home/v/.claude.json
+2025-11-22T04:34:04.233Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:34:04.239Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763786044239
+2025-11-22T04:34:04.239Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:34:04.245Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:34:04.245Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:34:04.245Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763786044239 to /home/v/.claude.json
+2025-11-22T04:34:04.245Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:34:23.678Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:34:23.679Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:34:23.679Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:34:23.686Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:34:23.686Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:34:23.699Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 21ms
+2025-11-22T04:34:23.716Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-22T04:34:23.717Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:34:23.717Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:34:23.718Z [DEBUG] FileHistory: Making snapshot for message 4e4ef69f-16f7-40ee-8f27-bc873a7f40fc
+2025-11-22T04:34:23.718Z [DEBUG] FileHistory: Added snapshot for 4e4ef69f-16f7-40ee-8f27-bc873a7f40fc, tracking 0 files
+2025-11-22T04:34:23.741Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-22T04:34:23.757Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 16ms
+2025-11-22T04:34:24.304Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:34:25.791Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:34:32.088Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-22T04:34:32.092Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-22T04:34:32.092Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:34:32.093Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-22T04:34:32.107Z [DEBUG] Writing to temp file: /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json.tmp.226770.1763786072107
+2025-11-22T04:34:32.107Z [DEBUG] Preserving file permissions: 100600
+2025-11-22T04:34:32.112Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-22T04:34:32.112Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:34:32.112Z [DEBUG] Renaming /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json.tmp.226770.1763786072107 to /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json
+2025-11-22T04:34:32.112Z [DEBUG] File /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json written atomically
+2025-11-22T04:34:32.112Z [DEBUG] Writing to temp file: /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json.tmp.226770.1763786072112
+2025-11-22T04:34:32.112Z [DEBUG] Preserving file permissions: 100600
+2025-11-22T04:34:32.116Z [DEBUG] Temp file written successfully, size: 1458 bytes
+2025-11-22T04:34:32.116Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:34:32.116Z [DEBUG] Renaming /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json.tmp.226770.1763786072112 to /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json
+2025-11-22T04:34:32.116Z [DEBUG] File /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json written atomically
+2025-11-22T04:34:32.133Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-22T04:34:32.133Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:34:32.133Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-22T04:34:32.164Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T04:34:32.169Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T04:34:32.169Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:34:32.169Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:34:33.510Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:34:33.535Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Read",
+        "ruleContent": "//home/v/.claude/**"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "session"
+  }
+]
+2025-11-22T04:34:33.556Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T04:34:33.561Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T04:34:33.561Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:34:33.561Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T04:34:36.473Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:34:36.482Z [DEBUG] No hook environment files found
+2025-11-22T04:34:36.702Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T04:34:36.702Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:34:36.702Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:34:37.355Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:34:37.779Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:34:37.840Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T04:34:37.845Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T04:34:37.845Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:34:37.845Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:34:38.877Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:34:39.560Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:34:39.640Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "echo:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+2025-11-22T04:34:39.664Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T04:34:39.687Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T04:34:39.687Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:34:39.687Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T04:34:45.840Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:34:46.034Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T04:34:46.034Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:34:46.034Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:34:46.622Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:34:47.091Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:34:47.161Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:34:47.162Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:34:47.162Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:34:47.170Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:34:47.170Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:34:47.193Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 32ms
+2025-11-22T04:34:48.975Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:37:17.564Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T04:37:17.573Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T04:37:17.573Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:37:17.573Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:37:18.802Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:37:18.894Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addDirectories",
+    "directories": [
+      "/home/v/.claude"
+    ],
+    "destination": "session"
+  },
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+2025-11-22T04:37:19.007Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T04:37:19.047Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T04:37:19.047Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:37:19.047Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T04:37:24.983Z [DEBUG] Getting matching hook commands for Notification with query: permission_prompt
+2025-11-22T04:37:24.983Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:37:24.983Z [DEBUG] Matched 0 unique hooks for query "permission_prompt" (0 before deduplication)
+2025-11-22T04:39:01.136Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:39:01.397Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T04:39:01.397Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:39:01.397Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:39:01.972Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:39:02.489Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:39:02.642Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-22T04:39:02.652Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-22T04:39:02.652Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:39:02.652Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:39:03.745Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:39:03.938Z [DEBUG] MCP server "ide": Calling MCP tool: openDiff
+2025-11-22T04:39:03.947Z [DEBUG] executePermissionRequestHooks called for tool: Write
+2025-11-22T04:39:04.002Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Write
+2025-11-22T04:39:04.002Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:39:04.002Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-22T04:39:10.518Z [DEBUG] Getting matching hook commands for Notification with query: permission_prompt
+2025-11-22T04:39:10.518Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:39:10.518Z [DEBUG] Matched 0 unique hooks for query "permission_prompt" (0 before deduplication)
+2025-11-22T04:39:13.663Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:39:13.729Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:39:13.842Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:39:13.919Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 256ms
+2025-11-22T04:39:13.920Z [DEBUG] MCP server "ide": Tool 'openDiff' completed successfully in 9s
+2025-11-22T04:39:13.920Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 78ms
+2025-11-22T04:39:13.921Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:39:13.922Z [DEBUG] FileHistory: Tracked file modification for /home/v/.claude/hooks/documentation.config.json
+2025-11-22T04:39:14.075Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 154ms
+2025-11-22T04:39:14.082Z [DEBUG] Writing to temp file: /home/v/.claude/hooks/documentation.config.json.tmp.226770.1763786354082
+2025-11-22T04:39:14.088Z [DEBUG] Temp file written successfully, size: 2410 bytes
+2025-11-22T04:39:14.088Z [DEBUG] Renaming /home/v/.claude/hooks/documentation.config.json.tmp.226770.1763786354082 to /home/v/.claude/hooks/documentation.config.json
+2025-11-22T04:39:14.088Z [DEBUG] File /home/v/.claude/hooks/documentation.config.json written atomically
+2025-11-22T04:39:14.133Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-22T04:39:14.133Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:39:14.133Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:39:15.442Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:39:15.631Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-22T04:39:15.647Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-22T04:39:15.648Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:39:15.648Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:39:17.105Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:39:17.229Z [DEBUG] MCP server "ide": Calling MCP tool: openDiff
+2025-11-22T04:39:17.240Z [DEBUG] executePermissionRequestHooks called for tool: Write
+2025-11-22T04:39:17.255Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Write
+2025-11-22T04:39:17.255Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:39:17.255Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-22T04:39:21.864Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:39:22.020Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:39:22.033Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:39:22.117Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 253ms
+2025-11-22T04:39:22.118Z [DEBUG] MCP server "ide": Tool 'openDiff' completed successfully in 4s
+2025-11-22T04:39:22.119Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 87ms
+2025-11-22T04:39:22.119Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:39:22.120Z [DEBUG] FileHistory: Tracked file modification for /home/v/.claude/hooks/post-write
+2025-11-22T04:39:22.147Z [DEBUG] Writing to temp file: /home/v/.claude/hooks/post-write.tmp.226770.1763786362147
+2025-11-22T04:39:22.152Z [DEBUG] Temp file written successfully, size: 3131 bytes
+2025-11-22T04:39:22.152Z [DEBUG] Renaming /home/v/.claude/hooks/post-write.tmp.226770.1763786362147 to /home/v/.claude/hooks/post-write
+2025-11-22T04:39:22.152Z [DEBUG] File /home/v/.claude/hooks/post-write written atomically
+2025-11-22T04:39:22.231Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-22T04:39:22.231Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:39:22.231Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:39:22.356Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 237ms
+2025-11-22T04:39:23.502Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:39:23.561Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-22T04:39:23.814Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-22T04:39:23.835Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-22T04:39:23.835Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:39:23.835Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:39:25.125Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:39:25.278Z [DEBUG] MCP server "ide": Calling MCP tool: openDiff
+2025-11-22T04:39:25.298Z [DEBUG] executePermissionRequestHooks called for tool: Write
+2025-11-22T04:39:25.348Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Write
+2025-11-22T04:39:25.348Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:39:25.348Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-22T04:39:27.864Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:39:27.989Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:39:27.998Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:39:28.067Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 203ms
+2025-11-22T04:39:28.068Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 70ms
+2025-11-22T04:39:28.068Z [DEBUG] MCP server "ide": Tool 'openDiff' completed successfully in 2s
+2025-11-22T04:39:28.068Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:39:28.069Z [DEBUG] FileHistory: Tracked file modification for /home/v/.claude/hooks/post-edit
+2025-11-22T04:39:28.082Z [DEBUG] Writing to temp file: /home/v/.claude/hooks/post-edit.tmp.226770.1763786368082
+2025-11-22T04:39:28.096Z [DEBUG] Temp file written successfully, size: 3336 bytes
+2025-11-22T04:39:28.096Z [DEBUG] Renaming /home/v/.claude/hooks/post-edit.tmp.226770.1763786368082 to /home/v/.claude/hooks/post-edit
+2025-11-22T04:39:28.097Z [DEBUG] File /home/v/.claude/hooks/post-edit written atomically
+2025-11-22T04:39:28.144Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-22T04:39:28.144Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:39:28.144Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:39:28.227Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 159ms
+2025-11-22T04:39:29.295Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:39:29.319Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-22T04:39:29.457Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-22T04:39:29.490Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-22T04:39:29.490Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:39:29.490Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:39:30.595Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:39:30.752Z [DEBUG] MCP server "ide": Calling MCP tool: openDiff
+2025-11-22T04:39:30.856Z [DEBUG] executePermissionRequestHooks called for tool: Write
+2025-11-22T04:39:30.869Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Write
+2025-11-22T04:39:30.869Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:39:30.869Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-22T04:39:32.641Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:39:32.655Z [DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+2025-11-22T04:39:32.655Z [DEBUG] Applying permission update: Adding 1 directory with destination 'session': ["/home/v/.claude/hooks"]
+2025-11-22T04:39:32.761Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:39:32.771Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:39:32.805Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 164ms
+2025-11-22T04:39:32.806Z [DEBUG] MCP server "ide": Tool 'openDiff' completed successfully in 2s
+2025-11-22T04:39:32.806Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 35ms
+2025-11-22T04:39:32.807Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:39:32.807Z [DEBUG] FileHistory: Tracked file modification for /home/v/.claude/hooks/pre-commit
+2025-11-22T04:39:32.833Z [DEBUG] Writing to temp file: /home/v/.claude/hooks/pre-commit.tmp.226770.1763786372833
+2025-11-22T04:39:32.840Z [DEBUG] Temp file written successfully, size: 3293 bytes
+2025-11-22T04:39:32.841Z [DEBUG] Renaming /home/v/.claude/hooks/pre-commit.tmp.226770.1763786372833 to /home/v/.claude/hooks/pre-commit
+2025-11-22T04:39:32.841Z [DEBUG] File /home/v/.claude/hooks/pre-commit written atomically
+2025-11-22T04:39:32.875Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-22T04:39:32.875Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:39:32.875Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:39:32.965Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 158ms
+2025-11-22T04:39:33.944Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:39:33.967Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-22T04:39:34.105Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-22T04:39:34.137Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-22T04:39:34.138Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:39:34.138Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:39:35.238Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:39:35.388Z [DEBUG] MCP server "ide": Calling MCP tool: openDiff
+2025-11-22T04:39:35.426Z [DEBUG] executePermissionRequestHooks called for tool: Write
+2025-11-22T04:39:35.439Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Write
+2025-11-22T04:39:35.439Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:39:35.439Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-22T04:39:37.413Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:39:37.539Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:39:37.549Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:39:37.614Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 201ms
+2025-11-22T04:39:37.615Z [DEBUG] MCP server "ide": Tool 'openDiff' completed successfully in 2s
+2025-11-22T04:39:37.615Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 66ms
+2025-11-22T04:39:37.615Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:39:37.616Z [DEBUG] FileHistory: Tracked file modification for /home/v/.claude/agents/documentation-chain.json
+2025-11-22T04:39:37.629Z [DEBUG] Writing to temp file: /home/v/.claude/agents/documentation-chain.json.tmp.226770.1763786377629
+2025-11-22T04:39:37.639Z [DEBUG] Temp file written successfully, size: 4493 bytes
+2025-11-22T04:39:37.639Z [DEBUG] Renaming /home/v/.claude/agents/documentation-chain.json.tmp.226770.1763786377629 to /home/v/.claude/agents/documentation-chain.json
+2025-11-22T04:39:37.639Z [DEBUG] File /home/v/.claude/agents/documentation-chain.json written atomically
+2025-11-22T04:39:37.691Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-22T04:39:37.691Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:39:37.691Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:39:37.771Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 156ms
+2025-11-22T04:39:38.801Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:39:38.961Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-22T04:39:38.986Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-22T04:39:38.986Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:39:38.986Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:39:40.188Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:39:40.911Z [DEBUG] MCP server "ide": Calling MCP tool: openDiff
+2025-11-22T04:39:40.987Z [DEBUG] executePermissionRequestHooks called for tool: Write
+2025-11-22T04:39:41.005Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Write
+2025-11-22T04:39:41.005Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:39:41.005Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-22T04:39:46.914Z [DEBUG] Getting matching hook commands for Notification with query: permission_prompt
+2025-11-22T04:39:46.914Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:39:46.914Z [DEBUG] Matched 0 unique hooks for query "permission_prompt" (0 before deduplication)
+2025-11-22T04:40:10.911Z [DEBUG] MCP server "ide": Tool 'openDiff' still running (30s elapsed)
+2025-11-22T04:40:33.840Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:40:33.857Z [DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+2025-11-22T04:40:33.857Z [DEBUG] Applying permission update: Adding 1 directory with destination 'session': ["/home/v/.claude/standards"]
+2025-11-22T04:40:33.967Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:40:33.979Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:40:34.054Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 214ms
+2025-11-22T04:40:34.055Z [DEBUG] MCP server "ide": Tool 'openDiff' completed successfully in 53s
+2025-11-22T04:40:34.055Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 76ms
+2025-11-22T04:40:34.055Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:40:34.056Z [DEBUG] FileHistory: Tracked file modification for /home/v/.claude/standards/documentation.json
+2025-11-22T04:40:34.073Z [DEBUG] Writing to temp file: /home/v/.claude/standards/documentation.json.tmp.226770.1763786434073
+2025-11-22T04:40:34.078Z [DEBUG] Temp file written successfully, size: 4229 bytes
+2025-11-22T04:40:34.078Z [DEBUG] Renaming /home/v/.claude/standards/documentation.json.tmp.226770.1763786434073 to /home/v/.claude/standards/documentation.json
+2025-11-22T04:40:34.078Z [DEBUG] File /home/v/.claude/standards/documentation.json written atomically
+2025-11-22T04:40:34.125Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-22T04:40:34.125Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:40:34.125Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:40:34.245Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 190ms
+2025-11-22T04:40:35.364Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:40:35.563Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-22T04:40:35.582Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-22T04:40:35.582Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:40:35.582Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:40:36.746Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:40:36.880Z [DEBUG] MCP server "ide": Calling MCP tool: openDiff
+2025-11-22T04:40:36.912Z [DEBUG] executePermissionRequestHooks called for tool: Write
+2025-11-22T04:40:36.928Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Write
+2025-11-22T04:40:36.928Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:40:36.928Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-22T04:40:42.881Z [DEBUG] Getting matching hook commands for Notification with query: permission_prompt
+2025-11-22T04:40:42.881Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:40:42.881Z [DEBUG] Matched 0 unique hooks for query "permission_prompt" (0 before deduplication)
+2025-11-22T04:41:07.447Z [DEBUG] MCP server "ide": Tool 'openDiff' still running (30s elapsed)
+2025-11-22T04:41:09.239Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:41:09.257Z [DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+2025-11-22T04:41:09.257Z [DEBUG] Applying permission update: Adding 1 directory with destination 'session': ["/home/v/.claude/examples"]
+2025-11-22T04:41:09.366Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:41:09.383Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:41:09.477Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 238ms
+2025-11-22T04:41:09.478Z [DEBUG] MCP server "ide": Tool 'openDiff' completed successfully in 32s
+2025-11-22T04:41:09.478Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 95ms
+2025-11-22T04:41:09.479Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:41:09.482Z [DEBUG] FileHistory: Tracked file modification for /home/v/.claude/examples/documentation-auto-review.md
+2025-11-22T04:41:09.517Z [DEBUG] Writing to temp file: /home/v/.claude/examples/documentation-auto-review.md.tmp.226770.1763786469517
+2025-11-22T04:41:09.525Z [DEBUG] Temp file written successfully, size: 7710 bytes
+2025-11-22T04:41:09.525Z [DEBUG] Renaming /home/v/.claude/examples/documentation-auto-review.md.tmp.226770.1763786469517 to /home/v/.claude/examples/documentation-auto-review.md
+2025-11-22T04:41:09.525Z [DEBUG] File /home/v/.claude/examples/documentation-auto-review.md written atomically
+2025-11-22T04:41:09.580Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-22T04:41:09.580Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:41:09.580Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:41:09.676Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 197ms
+2025-11-22T04:41:10.797Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:41:10.966Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T04:41:10.985Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T04:41:10.986Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:41:10.986Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:41:12.191Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:41:12.815Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:41:12.913Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "chmod:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+2025-11-22T04:41:13.016Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T04:41:13.033Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T04:41:13.033Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:41:13.033Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T04:41:15.747Z [DEBUG] Persisting permission update: addRules to source 'localSettings'
+2025-11-22T04:41:15.747Z [DEBUG] Persisting 1 allow rule(s) to localSettings
+2025-11-22T04:41:15.752Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/.claude/settings.local.json.tmp.226770.1763786475752
+2025-11-22T04:41:15.752Z [DEBUG] Preserving file permissions: 100600
+2025-11-22T04:41:15.757Z [DEBUG] Temp file written successfully, size: 385 bytes
+2025-11-22T04:41:15.757Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:41:15.757Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/.claude/settings.local.json.tmp.226770.1763786475752 to /home/v/repos/learning/pro-d/gvias/.claude/settings.local.json
+2025-11-22T04:41:15.758Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/.claude/settings.local.json written atomically
+2025-11-22T04:41:15.784Z [DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Bash(chmod:*)"]
+2025-11-22T04:41:15.824Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:41:16.097Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T04:41:16.097Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:41:16.098Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:41:16.988Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:41:17.395Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:41:17.587Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-22T04:41:17.623Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-22T04:41:17.624Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:41:17.624Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-22T04:41:17.708Z [DEBUG] Writing to temp file: /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json.tmp.226770.1763786477708
+2025-11-22T04:41:17.708Z [DEBUG] Preserving file permissions: 100600
+2025-11-22T04:41:17.716Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-22T04:41:17.716Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:41:17.716Z [DEBUG] Renaming /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json.tmp.226770.1763786477708 to /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json
+2025-11-22T04:41:17.716Z [DEBUG] File /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json written atomically
+2025-11-22T04:41:17.716Z [DEBUG] Writing to temp file: /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json.tmp.226770.1763786477716
+2025-11-22T04:41:17.716Z [DEBUG] Preserving file permissions: 100600
+2025-11-22T04:41:17.733Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-22T04:41:17.733Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:41:17.733Z [DEBUG] Renaming /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json.tmp.226770.1763786477716 to /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json
+2025-11-22T04:41:17.733Z [DEBUG] File /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json written atomically
+2025-11-22T04:41:17.800Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-22T04:41:17.800Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:41:17.800Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-22T04:41:17.893Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T04:41:17.929Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T04:41:17.929Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:41:17.929Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:41:19.567Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:41:19.929Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T04:41:19.929Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:41:19.930Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:41:20.620Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:41:21.015Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:41:21.051Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-22T04:41:21.052Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-22T04:41:21.053Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-22T04:41:21.144Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:41:21.145Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:41:21.145Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:41:21.150Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:41:21.151Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:41:21.172Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 28ms
+2025-11-22T04:41:24.685Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:41:39.886Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-22T04:41:39.886Z [DEBUG] Found 1 hook matchers in settings
+2025-11-22T04:41:39.886Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-22T04:41:41.003Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:41:41.046Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763786501046
+2025-11-22T04:41:41.046Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:41:41.051Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:41:41.051Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:41:41.051Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763786501046 to /home/v/.claude.json
+2025-11-22T04:41:41.051Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:41:41.056Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763786501056
+2025-11-22T04:41:41.056Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:41:41.062Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:41:41.062Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:41:41.062Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763786501056 to /home/v/.claude.json
+2025-11-22T04:41:41.062Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:42:17.921Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:42:17.921Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:42:17.921Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:42:17.927Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:42:17.927Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:42:17.937Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 16ms
+2025-11-22T04:42:17.954Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-22T04:42:17.954Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:42:17.954Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:42:17.956Z [DEBUG] FileHistory: Making snapshot for message 8be0ff29-b290-419f-a5dc-39ed8b425267
+2025-11-22T04:42:17.992Z [DEBUG] FileHistory: Added snapshot for 8be0ff29-b290-419f-a5dc-39ed8b425267, tracking 7 files
+2025-11-22T04:42:18.014Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-22T04:42:18.042Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 28ms
+2025-11-22T04:42:18.887Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:42:20.724Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:42:32.094Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-22T04:42:32.288Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-22T04:42:32.288Z [DEBUG] Found 1 hook matchers in settings
+2025-11-22T04:42:32.288Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-22T04:42:33.337Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:42:33.370Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763786553370
+2025-11-22T04:42:33.370Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:42:33.376Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:42:33.376Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:42:33.376Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763786553370 to /home/v/.claude.json
+2025-11-22T04:42:33.376Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:42:33.381Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763786553381
+2025-11-22T04:42:33.381Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:42:33.390Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:42:33.390Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:42:33.390Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763786553381 to /home/v/.claude.json
+2025-11-22T04:42:33.391Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:44:27.616Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763786667616
+2025-11-22T04:44:27.616Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:44:27.623Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:44:27.623Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:44:27.623Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763786667616 to /home/v/.claude.json
+2025-11-22T04:44:27.623Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:44:27.623Z [DEBUG] Applying permission update: Setting mode to 'plan'
+2025-11-22T04:44:39.886Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:44:39.887Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:44:39.887Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:44:39.896Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:44:39.896Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:44:39.906Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 20ms
+2025-11-22T04:44:39.921Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-22T04:44:39.921Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:44:39.921Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:44:39.923Z [DEBUG] FileHistory: Making snapshot for message 19193107-c28b-4ff8-af48-09cc045a5788
+2025-11-22T04:44:39.924Z [DEBUG] FileHistory: Added snapshot for 19193107-c28b-4ff8-af48-09cc045a5788, tracking 7 files
+2025-11-22T04:44:39.949Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-22T04:44:39.974Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 25ms
+2025-11-22T04:44:40.575Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:44:44.196Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:44:54.508Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-22T04:44:54.508Z [DEBUG] Found 1 hook matchers in settings
+2025-11-22T04:44:54.508Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-22T04:44:55.597Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:44:55.638Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763786695638
+2025-11-22T04:44:55.638Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:44:55.648Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:44:55.648Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:44:55.648Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763786695638 to /home/v/.claude.json
+2025-11-22T04:44:55.648Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:44:55.653Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763786695653
+2025-11-22T04:44:55.653Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:44:55.659Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:44:55.659Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:44:55.660Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763786695653 to /home/v/.claude.json
+2025-11-22T04:44:55.660Z [DEBUG] File /home/v/.claude.json written atomically

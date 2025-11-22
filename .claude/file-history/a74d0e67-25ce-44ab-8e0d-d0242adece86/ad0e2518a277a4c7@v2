@@ -1,0 +1,114 @@
+#!/bin/bash
+# Global Pre-Commit Hook: Review all staged documentation files before commit
+# This hook prevents commits of unreviewed documentation in any Claude project
+
+set -e
+
+CONFIG_FILE="$HOME/.claude/hooks/documentation.config.json"
+
+# Check if config exists
+if [ ! -f "$CONFIG_FILE" ]; then
+  exit 0
+fi
+
+# Check if auto-review is enabled for pre-commit
+ENABLED=$(jq -r '.["auto-review"].enabled' "$CONFIG_FILE" 2>/dev/null || echo "false")
+PRE_COMMIT_ENABLED=$(jq -r '.["auto-review"].hooks["pre-commit"]' "$CONFIG_FILE" 2>/dev/null || echo "false")
+
+if [ "$ENABLED" != "true" ] || [ "$PRE_COMMIT_ENABLED" != "true" ]; then
+  exit 0
+fi
+
+# Get list of staged documentation files
+STAGED_DOCS=$(git diff --cached --name-only --diff-filter=ACM 2>/dev/null | grep -E '\.(md|mdx)$' || true)
+
+if [ -z "$STAGED_DOCS" ]; then
+  exit 0
+fi
+
+echo "📋 Reviewing staged documentation files before commit..."
+
+# Function to check if file should be excluded
+should_exclude() {
+  local file="$1"
+  local excludes=$(jq -r '.["auto-review"].exclude[]' "$CONFIG_FILE" 2>/dev/null)
+
+  while IFS= read -r exclude; do
+    if [[ "$file" == $exclude ]]; then
+      return 0
+    fi
+  done <<< "$excludes"
+
+  return 1
+}
+
+# Process each staged documentation file
+FILES_REVIEWED=0
+FILES_MODIFIED=0
+
+while IFS= read -r file; do
+  # Skip excluded files
+  if should_exclude "$file"; then
+    continue
+  fi
+
+  # Determine config for this file
+  if [[ "$file" == "README.md" ]]; then
+    CONFIG_KEY="README.md"
+  elif [[ "$file" == docs/api/* ]]; then
+    CONFIG_KEY="docs/api/**"
+  elif [[ "$file" == docs/guides/* ]]; then
+    CONFIG_KEY="docs/guides/**"
+  else
+    CONFIG_KEY="default"
+  fi
+
+  MODE=$(jq -r ".\"auto-review\".config.overrides[\"$CONFIG_KEY\"].mode // .\"auto-review\".config.default.mode" "$CONFIG_FILE")
+  AUDIENCE=$(jq -r ".\"auto-review\".config.overrides[\"$CONFIG_KEY\"].audience // .\"auto-review\".config.default.audience" "$CONFIG_FILE")
+
+  echo "  Reviewing: $file (mode: $MODE, audience: $AUDIENCE)"
+
+  # Run editor-anti-llm agent
+  if command -v npx &> /dev/null && npx claude-flow --version &> /dev/null 2>&1; then
+    if npx claude-flow agent run editor-anti-llm \
+      --file "$file" \
+      --mode "$MODE" \
+      --audience "$AUDIENCE" \
+      --auto-apply \
+      2>/dev/null; then
+
+      FILES_REVIEWED=$((FILES_REVIEWED + 1))
+
+      # Check if file was modified
+      if git diff --name-only "$file" 2>/dev/null | grep -q "$file"; then
+        FILES_MODIFIED=$((FILES_MODIFIED + 1))
+        echo "    ✓ Reviewed and improved"
+        # Re-stage the modified file
+        git add "$file"
+      else
+        echo "    ✓ Reviewed (no changes needed)"
+      fi
+    else
+      echo "    ⚠ Review failed (continuing anyway)"
+    fi
+  else
+    echo "    ⚠ claude-flow not available (skipping review)"
+  fi
+
+  FILES_REVIEWED=$((FILES_REVIEWED + 1))
+done <<< "$STAGED_DOCS"
+
+# Summary
+if [ $FILES_REVIEWED -gt 0 ]; then
+  echo ""
+  echo "✅ Documentation review complete:"
+  echo "   Files reviewed: $FILES_REVIEWED"
+  echo "   Files improved: $FILES_MODIFIED"
+
+  # Log to review log
+  REVIEW_LOG="$HOME/.claude/logs/reviews.log"
+  mkdir -p "$(dirname "$REVIEW_LOG")"
+  echo "$(date -Iseconds) | PRE-COMMIT | Reviewed: $FILES_REVIEWED | Modified: $FILES_MODIFIED" >> "$REVIEW_LOG"
+fi
+
+exit 0

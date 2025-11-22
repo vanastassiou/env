@@ -1,0 +1,998 @@
+2025-11-22T04:06:59.263Z [DEBUG] Watching for changes in setting files /home/v/.claude/settings.json, /home/v/repos/learning/pro-d/gvias/.claude/settings.local.json...
+2025-11-22T04:06:59.288Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-11-22T04:06:59.289Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-11-22T04:06:59.289Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-11-22T04:06:59.289Z [DEBUG] [LSP SERVER MANAGER] initialize() called
+2025-11-22T04:06:59.289Z [DEBUG] [LSP SERVER MANAGER] Calling getAllLspServers()
+2025-11-22T04:06:59.298Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-11-22T04:06:59.301Z [DEBUG] Applying permission update: Adding 20 allow rule(s) to destination 'userSettings': ["Bash(npx claude-flow:*)","Bash(npm run lint)","Bash(npm run test:*)","Bash(npm test:*)","Bash(git status)","Bash(git diff:*)","Bash(git log:*)","Bash(git add:*)","Bash(git commit:*)","Bash(git push)","Bash(git config:*)","Bash(git tag:*)","Bash(git branch:*)","Bash(git checkout:*)","Bash(git stash:*)","Bash(jq:*)","Bash(node:*)","Bash(which:*)","Bash(pwd)","Bash(ls:*)"]
+2025-11-22T04:06:59.301Z [DEBUG] Applying permission update: Adding 1 deny rule(s) to destination 'userSettings': ["Bash(rm -rf /)"]
+2025-11-22T04:06:59.301Z [DEBUG] Applying permission update: Adding 5 allow rule(s) to destination 'localSettings': ["WebSearch","WebFetch(domain:bcacc.ca)","WebFetch(domain:www.ccpa-accp.ca)","WebFetch(domain:www2.gov.bc.ca)","WebFetch(domain:news.gov.bc.ca)"]
+2025-11-22T04:06:59.303Z [DEBUG] Total LSP servers loaded: 0
+2025-11-22T04:06:59.334Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2025-11-22T04:06:59.334Z [DEBUG] LSP manager initialized with 0 servers
+2025-11-22T04:06:59.381Z [DEBUG] LSP server manager initialized successfully
+2025-11-22T04:06:59.381Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2025-11-22T04:06:59.421Z [DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/v/.claude/skills, project=/home/v/repos/learning/pro-d/gvias/.claude/skills
+2025-11-22T04:06:59.421Z [DEBUG] >>>>> getPluginSkills CALLED <<<<<
+2025-11-22T04:06:59.422Z [DEBUG] Passes: Cache stale, returning cached data and refreshing in background
+2025-11-22T04:06:59.477Z [DEBUG] Creating shell snapshot for bash (/bin/bash)
+2025-11-22T04:06:59.478Z [DEBUG] Looking for shell config file: /home/v/.bashrc
+2025-11-22T04:06:59.478Z [DEBUG] Snapshots directory: /home/v/.claude/shell-snapshots
+2025-11-22T04:06:59.478Z [DEBUG] Creating snapshot at: /home/v/.claude/shell-snapshots/snapshot-bash-1763784419478-5nb1o1.sh
+2025-11-22T04:06:59.478Z [DEBUG] Shell binary exists: true
+2025-11-22T04:06:59.478Z [DEBUG] Execution timeout: 10000ms
+2025-11-22T04:06:59.482Z [DEBUG] Writing to temp file: /home/v/.claude/todos/e01a7f2f-48c4-414d-a3da-8b7c636fe04e-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json.tmp.226770.1763784419482
+2025-11-22T04:06:59.493Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-22T04:06:59.493Z [DEBUG] Renaming /home/v/.claude/todos/e01a7f2f-48c4-414d-a3da-8b7c636fe04e-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json.tmp.226770.1763784419482 to /home/v/.claude/todos/e01a7f2f-48c4-414d-a3da-8b7c636fe04e-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json
+2025-11-22T04:06:59.493Z [DEBUG] File /home/v/.claude/todos/e01a7f2f-48c4-414d-a3da-8b7c636fe04e-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json written atomically
+2025-11-22T04:06:59.505Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2025-11-22T04:06:59.505Z [DEBUG] Total plugin skills loaded: 0
+2025-11-22T04:06:59.505Z [DEBUG] Total plugin commands loaded: 0
+2025-11-22T04:06:59.505Z [DEBUG] Registered 0 hooks from 0 plugins
+2025-11-22T04:06:59.509Z [DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+2025-11-22T04:06:59.515Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills
+2025-11-22T04:06:59.532Z [DEBUG] Git remote URL: personal-github:vanastassiou/learning.git
+2025-11-22T04:06:59.532Z [DEBUG] Parsed repository: personal-github:vanastassiou/learning from URL: personal-github:vanastassiou/learning.git
+2025-11-22T04:06:59.534Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784419534
+2025-11-22T04:06:59.535Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:06:59.541Z [DEBUG] Temp file written successfully, size: 45833 bytes
+2025-11-22T04:06:59.541Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:06:59.541Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784419534 to /home/v/.claude.json
+2025-11-22T04:06:59.541Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:06:59.541Z [DEBUG] Added /home/v/repos/learning/pro-d/gvias to tracked paths for repo personal-github:vanastassiou/learning
+2025-11-22T04:06:59.555Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+2025-11-22T04:06:59.624Z [DEBUG] Total plugin agents loaded: 0
+2025-11-22T04:06:59.652Z [DEBUG] Shell snapshot created successfully (4765 bytes)
+2025-11-22T04:06:59.657Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784419657
+2025-11-22T04:06:59.657Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:06:59.664Z [DEBUG] Temp file written successfully, size: 45833 bytes
+2025-11-22T04:06:59.664Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:06:59.664Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784419657 to /home/v/.claude.json
+2025-11-22T04:06:59.664Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:06:59.666Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784419666
+2025-11-22T04:06:59.666Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:06:59.672Z [DEBUG] Temp file written successfully, size: 45833 bytes
+2025-11-22T04:06:59.672Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:06:59.672Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784419666 to /home/v/.claude.json
+2025-11-22T04:06:59.672Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:06:59.687Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784419687
+2025-11-22T04:06:59.687Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:06:59.692Z [DEBUG] Temp file written successfully, size: 46183 bytes
+2025-11-22T04:06:59.692Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:06:59.692Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784419687 to /home/v/.claude.json
+2025-11-22T04:06:59.692Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:06:59.821Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784419821
+2025-11-22T04:06:59.821Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:06:59.828Z [DEBUG] Temp file written successfully, size: 46183 bytes
+2025-11-22T04:06:59.828Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:06:59.828Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784419821 to /home/v/.claude.json
+2025-11-22T04:06:59.829Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:06:59.829Z [DEBUG] Passes eligibility cached for org cb5dcd1f-79bc-405b-af93-f720fcb8744d: false
+2025-11-22T04:07:00.041Z [DEBUG] Passes: Using fresh cached eligibility data
+2025-11-22T04:07:00.056Z [DEBUG] MCP server "claude-flow@alpha": Starting connection with timeout of 30000ms
+2025-11-22T04:07:00.063Z [DEBUG] MCP server "ruv-swarm": Starting connection with timeout of 30000ms
+2025-11-22T04:07:00.067Z [DEBUG] MCP server "flow-nexus": Starting connection with timeout of 30000ms
+2025-11-22T04:07:00.073Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784420073
+2025-11-22T04:07:00.073Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:07:00.078Z [DEBUG] Temp file written successfully, size: 46183 bytes
+2025-11-22T04:07:00.078Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:07:00.079Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784420073 to /home/v/.claude.json
+2025-11-22T04:07:00.079Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:07:00.093Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2025-11-22T04:07:00.093Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:07:00.093Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2025-11-22T04:07:00.238Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784420238
+2025-11-22T04:07:00.238Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:07:00.244Z [DEBUG] Temp file written successfully, size: 46078 bytes
+2025-11-22T04:07:00.245Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:07:00.245Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784420238 to /home/v/.claude.json
+2025-11-22T04:07:00.245Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:07:00.248Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784420247
+2025-11-22T04:07:00.248Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:07:00.259Z [DEBUG] Temp file written successfully, size: 46078 bytes
+2025-11-22T04:07:00.259Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:07:00.259Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784420247 to /home/v/.claude.json
+2025-11-22T04:07:00.260Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:07:00.269Z [DEBUG] performStartupChecks called
+2025-11-22T04:07:00.270Z [DEBUG] Starting background plugin installations
+2025-11-22T04:07:00.270Z [DEBUG] performBackgroundPluginInstallations called
+2025-11-22T04:07:00.750Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:07:00.754Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784420754
+2025-11-22T04:07:00.754Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:07:00.762Z [DEBUG] Temp file written successfully, size: 46183 bytes
+2025-11-22T04:07:00.762Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:07:00.762Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784420754 to /home/v/.claude.json
+2025-11-22T04:07:00.762Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:07:01.006Z [DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+2025-11-22T04:07:01.013Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2025-11-22T04:07:01.056Z [DEBUG] MCP server "ruv-swarm": Successfully connected to stdio server in 995ms
+2025-11-22T04:07:01.057Z [DEBUG] MCP server "ruv-swarm": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"ruv-swarm-no-timeout","version":"1.0.20"}}
+2025-11-22T04:07:01.059Z [ERROR] MCP server "ruv-swarm" Server stderr: [6bceb0c5-6baa-469a-8e14-0a36fadf75b3] [INFO] ruv-swarm MCP server starting in stdio mode (NO TIMEOUT VERSION) {
+  protocol: 'stdio',
+  sessionId: '6bceb0c5-6baa-469a-8e14-0a36fadf75b3',
+  nodeVersion: 'v24.9.0',
+  platform: 'linux',
+  arch: 'x64'
+}
+[6bceb0c5-6baa-469a-8e14-0a36fadf75b3] [INFO] Connection established {
+  sessionId: '6bceb0c5-6baa-469a-8e14-0a36fadf75b3',
+  event: 'established',
+  protocol: 'stdio',
+  transport: 'stdin/stdout',
+  timestamp: '2025-11-22T04:07:00.374Z'
+}
+[6bceb0c5-6baa-469a-8e14-0a36fadf75b3] [INFO] MCP server running with NO TIMEOUT MECHANISMS {
+  connectionStatus: 'INFINITE_RUNTIME',
+  timeoutStatus: 'DISABLED',
+  connectionMode: 'INFINITE'
+}
+2025-11-22T04:07:01.065Z [DEBUG] Getting matching hook commands for SubagentStart with query: Explore
+2025-11-22T04:07:01.066Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:07:01.066Z [DEBUG] Matched 0 unique hooks for query "Explore" (0 before deduplication)
+2025-11-22T04:07:01.080Z [DEBUG] Getting matching hook commands for SubagentStart with query: Plan
+2025-11-22T04:07:01.080Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:07:01.080Z [DEBUG] Matched 0 unique hooks for query "Plan" (0 before deduplication)
+2025-11-22T04:07:01.103Z [DEBUG] MCP server "ruv-swarm": STDIO connection dropped after 0s uptime
+2025-11-22T04:07:01.104Z [DEBUG] MCP server "ruv-swarm": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+2025-11-22T04:07:01.141Z [DEBUG] Summarizing all 89 messages (~42821 tokens)
+2025-11-22T04:07:01.160Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784421160
+2025-11-22T04:07:01.160Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:07:01.168Z [DEBUG] Temp file written successfully, size: 46183 bytes
+2025-11-22T04:07:01.168Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:07:01.168Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784421160 to /home/v/.claude.json
+2025-11-22T04:07:01.168Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:07:01.182Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784421182
+2025-11-22T04:07:01.183Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:07:01.189Z [DEBUG] Temp file written successfully, size: 46183 bytes
+2025-11-22T04:07:01.189Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:07:01.189Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784421182 to /home/v/.claude.json
+2025-11-22T04:07:01.189Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:07:01.373Z [ERROR] MCP server "claude-flow@alpha" Server stderr: [2025-11-22T04:07:01.371Z] INFO [claude-flow-mcp] (session-cf-1763784421370-203i) Claude-Flow MCP server starting in stdio mode
+2025-11-22T04:07:01.373Z [ERROR] MCP server "claude-flow@alpha" Server stderr: {"arch":"x64","mode":"mcp-stdio","nodeVersion":"v24.9.0","pid":227128,"platform":"linux","protocol":"stdio","sessionId":"session-cf-1763784421370-203i","version":"2.7.35"}
+2025-11-22T04:07:01.375Z [ERROR] MCP server "claude-flow@alpha" Server stderr: [2025-11-22T04:07:01.375Z] INFO [claude-flow-mcp] (session-cf-1763784421370-203i) 🔌 Connection established: session-cf-1763784421370-203i
+2025-11-22T04:07:01.376Z [DEBUG] MCP server "claude-flow@alpha": Successfully connected to stdio server in 1332ms
+2025-11-22T04:07:01.376Z [DEBUG] MCP server "claude-flow@alpha": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"claude-flow","version":"2.7.35"}}
+2025-11-22T04:07:01.384Z [ERROR] MCP server "claude-flow@alpha" Server stderr: [2025-11-22T04:07:01.384Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+2025-11-22T04:07:01.384Z [ERROR] MCP server "claude-flow@alpha" Server stderr: [2025-11-22T04:07:01.384Z] INFO [fallback-store] Successfully initialized SQLite store
+[2025-11-22T04:07:01.384Z] INFO [claude-flow-mcp] (session-cf-1763784421370-203i) Shared memory store initialized (same as npx)
+[2025-11-22T04:07:01.384Z] INFO [claude-flow-mcp] (session-cf-1763784421370-203i) Using SQLite storage
+2025-11-22T04:07:01.385Z [DEBUG] MCP server "claude-flow@alpha": STDIO connection dropped after 0s uptime
+2025-11-22T04:07:01.385Z [DEBUG] MCP server "claude-flow@alpha": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+2025-11-22T04:07:01.543Z [DEBUG] MCP server "flow-nexus": Successfully connected to stdio server in 1476ms
+2025-11-22T04:07:01.543Z [DEBUG] MCP server "flow-nexus": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"Flow Nexus Complete","version":"2.0.0"}}
+2025-11-22T04:07:01.553Z [DEBUG] MCP server "agentic-payments": Starting connection with timeout of 30000ms
+2025-11-22T04:07:01.558Z [DEBUG] MCP server "claude-flow": Starting connection with timeout of 30000ms
+2025-11-22T04:07:01.564Z [DEBUG] MCP server "ide": Starting connection with timeout of 30000ms
+2025-11-22T04:07:01.572Z [DEBUG] MCP server "ide": Successfully connected to ws-ide server in 10ms
+2025-11-22T04:07:01.572Z [DEBUG] MCP server "ide": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Claude Code Cursor MCP","version":"2.0.47"}}
+2025-11-22T04:07:01.593Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784421593
+2025-11-22T04:07:01.593Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:07:01.617Z [DEBUG] Temp file written successfully, size: 46183 bytes
+2025-11-22T04:07:01.617Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:07:01.617Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784421593 to /home/v/.claude.json
+2025-11-22T04:07:01.617Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:07:01.695Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:07:01.732Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:07:01.845Z [DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+2025-11-22T04:07:01.845Z [DEBUG] MCP server "flow-nexus": Connection error: Unexpected token 'E', "E2B Templa"... is not valid JSON
+2025-11-22T04:07:01.846Z [DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+2025-11-22T04:07:01.846Z [DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'base',   "... is not valid JSON
+2025-11-22T04:07:01.846Z [DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+2025-11-22T04:07:01.847Z [DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'react',  "... is not valid JSON
+2025-11-22T04:07:01.847Z [DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+2025-11-22T04:07:01.847Z [DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'vanilla', 'node'," is not valid JSON
+2025-11-22T04:07:01.847Z [DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+2025-11-22T04:07:01.848Z [DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'nodejs'" is not valid JSON
+2025-11-22T04:07:01.848Z [DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+2025-11-22T04:07:01.848Z [DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ']', "]" is not valid JSON
+2025-11-22T04:07:02.019Z [DEBUG] Summarizing all 53 messages (~20759 tokens)
+2025-11-22T04:07:02.532Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:07:02.617Z [ERROR] MCP server "agentic-payments" Server stderr: [MCP] Starting Agentic Payments MCP Server...
+2025-11-22T04:07:02.620Z [ERROR] MCP server "agentic-payments" Server stderr: [MCP] Starting stdio transport...
+2025-11-22T04:07:02.621Z [ERROR] MCP server "agentic-payments" Server stderr: [MCP] Agentic Payments MCP server running on stdio
+[MCP] Available tools: 10
+2025-11-22T04:07:02.626Z [DEBUG] MCP server "agentic-payments": Successfully connected to stdio server in 1074ms
+2025-11-22T04:07:02.626Z [DEBUG] MCP server "agentic-payments": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"agentic-payments","version":"0.1.0"}}
+2025-11-22T04:07:02.659Z [ERROR] MCP server "claude-flow" Server stderr: [2025-11-22T04:07:02.657Z] INFO [claude-flow-mcp] (session-cf-1763784422656-t1hv) Claude-Flow MCP server starting in stdio mode
+2025-11-22T04:07:02.659Z [ERROR] MCP server "claude-flow" Server stderr: {"arch":"x64","mode":"mcp-stdio","nodeVersion":"v24.9.0","pid":227208,"platform":"linux","protocol":"stdio","sessionId":"session-cf-1763784422656-t1hv","version":"2.7.35"}
+2025-11-22T04:07:02.661Z [ERROR] MCP server "claude-flow" Server stderr: [2025-11-22T04:07:02.661Z] INFO [claude-flow-mcp] (session-cf-1763784422656-t1hv) 🔌 Connection established: session-cf-1763784422656-t1hv
+2025-11-22T04:07:02.662Z [DEBUG] MCP server "claude-flow": Successfully connected to stdio server in 1105ms
+2025-11-22T04:07:02.662Z [DEBUG] MCP server "claude-flow": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"claude-flow","version":"2.7.35"}}
+2025-11-22T04:07:02.664Z [ERROR] MCP server "claude-flow" Server stderr: [2025-11-22T04:07:02.664Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+2025-11-22T04:07:02.664Z [ERROR] MCP server "claude-flow" Server stderr: [2025-11-22T04:07:02.664Z] INFO [fallback-store] Successfully initialized SQLite store
+[2025-11-22T04:07:02.664Z] INFO [claude-flow-mcp] (session-cf-1763784422656-t1hv) Shared memory store initialized (same as npx)
+[2025-11-22T04:07:02.664Z] INFO [claude-flow-mcp] (session-cf-1763784422656-t1hv) Using SQLite storage
+2025-11-22T04:07:02.665Z [DEBUG] MCP server "claude-flow": STDIO connection dropped after 0s uptime
+2025-11-22T04:07:02.665Z [DEBUG] MCP server "claude-flow": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+2025-11-22T04:07:02.907Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:07:03.024Z [DEBUG] Summarizing all 100 messages (~33350 tokens)
+2025-11-22T04:07:03.858Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-22T04:07:03.858Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-22T04:07:03.860Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:07:03.968Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-11-22T04:07:03.968Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:07:03.968Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:07:04.104Z [DEBUG] Summarizing all 20 messages (~4698 tokens)
+2025-11-22T04:07:05.106Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:07:05.537Z [DEBUG] Summarizing all 134 messages (~97439 tokens)
+2025-11-22T04:07:06.093Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:07:06.971Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-11-22T04:07:06.971Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:07:06.971Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:07:19.216Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:07:19.216Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:07:19.224Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:07:19.224Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:07:19.256Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-22T04:07:19.256Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:07:19.256Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:07:19.257Z [DEBUG] FileHistory: Added snapshot for a4ba6dc8-e806-48b5-a4fa-4f342679b701, tracking 0 files
+2025-11-22T04:07:19.278Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-22T04:07:19.288Z [DEBUG] Total plugin output styles loaded: 0
+2025-11-22T04:07:19.309Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 31ms
+2025-11-22T04:07:19.919Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:07:24.061Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:07:25.442Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-22T04:07:25.445Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-22T04:07:25.445Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:07:25.445Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T04:07:25.456Z [DEBUG] Permission suggestions for Read: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Read",
+        "ruleContent": "//home/v/.claude/agents/**"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "session"
+  }
+]
+2025-11-22T04:07:25.477Z [ERROR] Error: Error: EISDIR: illegal operation on a directory, read
+    at Module.readSync (node:fs:739:18)
+    at Object.readSync (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:472)
+    at aD (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:4131:105)
+    at WN (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:4133:204)
+    at kf5 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2400:7603)
+    at K (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2400:6803)
+    at file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2400:7137
+    at cW (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:744:21554)
+    at Qz (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:744:41144)
+    at E$ (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:744:35177)
+2025-11-22T04:07:25.482Z [ERROR] Error: Error: EISDIR: illegal operation on a directory, read
+    at Module.readFileSync (node:fs:440:20)
+    at Object.readFileSync (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:299)
+    at WN (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:4133:219)
+    at kf5 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2400:7603)
+    at K (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2400:6803)
+    at file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2400:7137
+    at cW (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:744:21554)
+    at Qz (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:744:41144)
+    at E$ (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:744:35177)
+    at u2 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:742:4841)
+2025-11-22T04:07:25.484Z [DEBUG] executePermissionRequestHooks called for tool: Read
+2025-11-22T04:07:25.487Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Read
+2025-11-22T04:07:25.487Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:07:25.487Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T04:07:27.930Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:07:27.945Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:07:27.962Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-22T04:07:27.962Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:07:27.962Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T04:07:27.995Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:07:27.995Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:07:27.995Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:07:28.001Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:07:28.001Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:07:28.013Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 83ms
+2025-11-22T04:07:28.014Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 19ms
+2025-11-22T04:07:32.965Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:07:46.620Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-22T04:07:46.620Z [DEBUG] Found 1 hook matchers in settings
+2025-11-22T04:07:46.621Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-22T04:07:47.736Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:07:47.770Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784467770
+2025-11-22T04:07:47.770Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:07:47.777Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:07:47.777Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:07:47.777Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784467770 to /home/v/.claude.json
+2025-11-22T04:07:47.777Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:07:47.782Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784467782
+2025-11-22T04:07:47.782Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:07:47.788Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:07:47.788Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:07:47.788Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784467782 to /home/v/.claude.json
+2025-11-22T04:07:47.789Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:08:56.741Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:08:56.742Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:08:56.742Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:08:56.745Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:08:56.745Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:08:56.756Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 15ms
+2025-11-22T04:08:56.767Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-22T04:08:56.767Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:08:56.767Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:08:56.768Z [DEBUG] FileHistory: Making snapshot for message 22610c33-555f-4296-b185-997ec50f8940
+2025-11-22T04:08:56.768Z [DEBUG] FileHistory: Added snapshot for 22610c33-555f-4296-b185-997ec50f8940, tracking 0 files
+2025-11-22T04:08:56.785Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-22T04:08:56.801Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 16ms
+2025-11-22T04:08:57.391Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:09:01.538Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:09:26.432Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-22T04:09:26.433Z [DEBUG] Found 1 hook matchers in settings
+2025-11-22T04:09:26.433Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-22T04:09:27.595Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:09:27.625Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784567625
+2025-11-22T04:09:27.625Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:09:27.636Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:09:27.636Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:09:27.636Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784567625 to /home/v/.claude.json
+2025-11-22T04:09:27.636Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:09:27.640Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784567640
+2025-11-22T04:09:27.640Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:09:27.645Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:09:27.645Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:09:27.645Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784567640 to /home/v/.claude.json
+2025-11-22T04:09:27.645Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:10:05.141Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:10:05.141Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:10:05.141Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:10:05.147Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:10:05.147Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:10:05.153Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 12ms
+2025-11-22T04:10:05.166Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-22T04:10:05.166Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:10:05.166Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:10:05.166Z [DEBUG] FileHistory: Making snapshot for message ecacab20-29ec-4951-aef1-243343be19a3
+2025-11-22T04:10:05.166Z [DEBUG] FileHistory: Added snapshot for ecacab20-29ec-4951-aef1-243343be19a3, tracking 0 files
+2025-11-22T04:10:05.184Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-22T04:10:05.205Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 21ms
+2025-11-22T04:10:06.539Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:10:07.920Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:10:13.194Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-22T04:10:13.196Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-22T04:10:13.196Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:10:13.197Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:10:14.252Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:10:14.276Z [DEBUG] MCP server "ide": Calling MCP tool: openDiff
+2025-11-22T04:10:14.282Z [DEBUG] executePermissionRequestHooks called for tool: Write
+2025-11-22T04:10:14.285Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Write
+2025-11-22T04:10:14.286Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:10:14.286Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-22T04:10:17.643Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:10:17.649Z [DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+2025-11-22T04:10:17.649Z [DEBUG] Applying permission update: Adding 1 directory with destination 'session': ["/home/v/.claude/agents"]
+2025-11-22T04:10:17.660Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:10:17.663Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:10:17.672Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 9ms
+2025-11-22T04:10:17.680Z [DEBUG] FileHistory: Tracked file modification for /home/v/.claude/agents/editor-anti-llm.md
+2025-11-22T04:10:17.684Z [DEBUG] Writing to temp file: /home/v/.claude/agents/editor-anti-llm.md.tmp.226770.1763784617684
+2025-11-22T04:10:17.684Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:10:17.699Z [DEBUG] Temp file written successfully, size: 1803 bytes
+2025-11-22T04:10:17.699Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:10:17.699Z [DEBUG] Renaming /home/v/.claude/agents/editor-anti-llm.md.tmp.226770.1763784617684 to /home/v/.claude/agents/editor-anti-llm.md
+2025-11-22T04:10:17.700Z [DEBUG] File /home/v/.claude/agents/editor-anti-llm.md written atomically
+2025-11-22T04:10:17.714Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-22T04:10:17.714Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:10:17.714Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-22T04:10:17.741Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 98ms
+2025-11-22T04:10:17.741Z [DEBUG] MCP server "ide": Tool 'openDiff' completed successfully in 3s
+2025-11-22T04:10:17.742Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T04:10:17.747Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 5ms
+2025-11-22T04:10:18.821Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:10:19.010Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:10:19.010Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:10:19.010Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:10:19.014Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:10:19.014Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:10:19.030Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 20ms
+2025-11-22T04:10:21.265Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:10:27.150Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-22T04:10:27.150Z [DEBUG] Found 1 hook matchers in settings
+2025-11-22T04:10:27.150Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-22T04:10:28.192Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:10:28.223Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784628223
+2025-11-22T04:10:28.223Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:10:28.229Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:10:28.229Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:10:28.229Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784628223 to /home/v/.claude.json
+2025-11-22T04:10:28.229Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:10:28.235Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784628235
+2025-11-22T04:10:28.235Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:10:28.240Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:10:28.240Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:10:28.240Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784628235 to /home/v/.claude.json
+2025-11-22T04:10:28.241Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:10:50.253Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784650253
+2025-11-22T04:10:50.253Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:10:50.262Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:10:50.262Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:10:50.262Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784650253 to /home/v/.claude.json
+2025-11-22T04:10:50.262Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:10:50.262Z [DEBUG] Applying permission update: Setting mode to 'plan'
+2025-11-22T04:10:50.784Z [DEBUG] Applying permission update: Setting mode to 'default'
+2025-11-22T04:10:51.505Z [DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+2025-11-22T04:10:51.843Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763784651843
+2025-11-22T04:10:51.843Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:10:51.848Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:10:51.848Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:10:51.848Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763784651843 to /home/v/.claude.json
+2025-11-22T04:10:51.849Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:10:51.849Z [DEBUG] Applying permission update: Setting mode to 'plan'
+2025-11-22T04:10:56.448Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:10:56.448Z [DEBUG] Getting matching hook commands for SessionEnd with query: clear
+2025-11-22T04:10:56.448Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:10:56.448Z [DEBUG] Matched 0 unique hooks for query "clear" (0 before deduplication)
+2025-11-22T04:10:56.452Z [DEBUG] Cleared all session hooks for session e01a7f2f-48c4-414d-a3da-8b7c636fe04e

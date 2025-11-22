@@ -1,0 +1,211 @@
+# Risk Management Framework for BC Non-Profit Events
+
+This framework is a guide to identifying, assessing, and mitigating risks associated with social events. Proper implementation will help protect against financial losses, legal liability, and reputational damage while ensuring appropriate insurance coverage and effective incident response capabilities.
+
+Success requires leadership commitment, adequate resources, and a culture of continuous improvement. Regular review and updates are required to ensure the framework remains effective as risks evolve and organizational capabilities mature.
+
+For support implementing this framework, engage qualified risk management professionals, insurance brokers, and legal counsel familiar with B.C. non-profit requirements.
+
+<!-- toc -->
+
+- [Learning path](#learning-path)
+- [Recommended learning path](#recommended-learning-path)
+  - [CISSP credential leverage strategy](#cissp-credential-leverage-strategy)
+    - [CPE credits cross-application](#cpe-credits-cross-application)
+    - [Experience requirement shortcuts](#experience-requirement-shortcuts)
+    - [Marketing advantage](#marketing-advantage)
+  - [Implementation timeline](#implementation-timeline)
+  - [Cost-benefit analysis](#cost-benefit-analysis)
+- [BC-specific resources](#bc-specific-resources)
+  - [Professional associations](#professional-associations)
+  - [Government resources](#government-resources)
+- [Framework table of contents](#framework-table-of-contents)
+
+<!-- tocstop -->
+
+## Learning path
+
+| Domain | Core Competencies | Key Certifications | Non-Diploma Paths |
+|--------|------------------|-------------------|-------------------|
+| Foundational Risk Management | - Risk identification, assessment, mitigation<br>- Risk matrices and scoring systems<br>- Enterprise Risk Management (ERM)<br>- Crisis management and incident response<br>- Business continuity planning | - [CRISC](https://www.isaca.org/credentialing/crisc) (ISACA)<br>- [ARM](https://web.theinstitutes.org/designations/associate-risk-management) (The Institutes)<br>- [PMI-RMP](https://www.pmi.org/certifications/risk-management-rmp) (PMI)<br>- [CRMA](https://www.theiia.org/en/certifications/crma/) (IIA) | - [RIMS Certificate Programs](https://www.rims.org/education/certificate-programs)<br>- [Canadian Risk Management courses](https://www.theiia.org/en/member-resources/chapters/canada/)<br>- [Coursera Risk Management](https://www.coursera.org/search?query=risk%20management) / [edX Risk Management](https://www.edx.org/learn/risk-management) |
+| Canadian Privacy Law | - BC PIPA, Federal PIPEDA, FOIPPA<br>- Privacy breach management and notification<br>- Data retention and destruction protocols | - [CIPP/C](https://iapp.org/certify/cippc/) ⭐ (IAPP - most relevant)<br>- [CIPM](https://iapp.org/certify/cipm/) (IAPP)<br>- [CIPT](https://iapp.org/certify/cipt/) (IAPP)<br>- [FIP](https://iapp.org/certify/fip/) (IAPP - advanced) | - [IAPP Canadian Privacy Textbook](https://iapp.org/resources/article/canadian-privacy-textbook/)<br>- [CIPO training](https://www.priv.gc.ca/en/for-organizations/)<br>- [Privacy Commissioner resources](https://www.oipc.bc.ca/) |
+| BC/Canadian Regulatory Compliance | Provincial: <br> - WorkSafeBC <br> - OHandS <br> - Societies Act <br> - Insurance Act <br> - Liquor/Food Safety Acts <br> - Building/Fire Codes <br> - Human Rights <br> - Coroners Act<br>Federal: <br> - Labour Code <br> - Criminal Code <br> - Tax Act <br> - Accessible Canada Act | - [CPHR](https://cphrbc.ca/cphr-designation/become-a-cphr/) (CPHR BC and Yukon)<br>- [CHRP](https://cphr.ca/certification/chrp/) (CPHR Canada) | - [WorkSafeBC training programs](https://www.worksafebc.com/en/health-safety/education-training-certification)<br>- [BC Non-Profit Housing courses](https://bcnpha.ca/learning/)<br>- [CPA Canada compliance courses](https://www.cpacanada.ca/en/career-and-professional-development) |
+| Insurance and Liability | - Commercial General Liability (CGL)<br>- DandO, event cancellation, EandO insurance<br>- Cyber liability insurance<br>- Certificate requirements and endorsements<br>- Claims management | - [CRM](https://www.riskeducation.org/programs/crm/) (National Alliance)<br>- [CPCU](https://web.theinstitutes.org/designations/cpcu) (The Institutes)<br>- [CIC](https://www.riskeducation.org/programs/cic/) (National Alliance) | - [Insurance Brokers Association of BC](https://www.ibabc.org/)<br>- [Insurance Institute of Canada](https://www.insuranceinstitute.ca/)<br>- [RIMS insurance fundamentals](https://www.rims.org/education) |
+| Incident Response | - Incident classification and investigation<br>- Root cause analysis and witness interviewing<br>- Evidence preservation and WorkSafeBC reporting<br>- Crisis communication | - [CISA](https://www.isaca.org/credentialing/cisa) (tech incidents)<br>- [CFE](https://www.acfe.com/cfe-credential.aspx) (fraud/financial)<br>- [CCEP](https://www.corporatecompliance.org/certification/ccep) (compliance) | - [WorkSafeBC incident investigation](https://www.worksafebc.com/en/health-safety/education-training-certification/incident-investigation)<br>- [Emergency Management BC](https://www2.gov.bc.ca/gov/content/safety/emergency-management)<br>- [BCIT Emergency Management certificates](https://www.bcit.ca/programs/emergency-management-certificate-part-time-7060acert/) |
+| Governance and Compliance | - Board fiduciary duties and non-profit governance<br>- Conflict of interest and whistleblower protections<br>- Charitable registration compliance<br>- Record retention | - [CCEP](https://www.corporatecompliance.org/certification/ccep) (compliance and ethics)<br>- [CIA](https://www.theiia.org/en/certifications/cia/) (internal auditor)<br>- [CCGP](https://www.societycorpgov.org/certification-home) (governance - Society for Corporate Governance) | - [Institute on Governance](https://iog.ca/)<br>- [CPA Canada governance programs](https://www.cpacanada.ca/en/business-and-accounting-resources/strategy-risk-and-governance/governance)<br>- [Society for Corporate Governance](https://www.governanceprofessionals.org/) |
+| Information Security | - Cybersecurity frameworks (NIST, ISO 27001)<br>- Data breach response and notification<br>- Vendor security and privacy impact assessments<br>- Security awareness training | - [CISSP](https://www.isc2.org/certifications/cissp) ⭐ (ISC² - gold standard)<br>- [CISM](https://www.isaca.org/credentialing/cism) (security manager)<br>- [ISO 27001 Lead Implementer](https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001) | - [SANS Institute courses](https://www.sans.org/cyber-security-courses/)<br>- [(ISC)² Certified in Cybersecurity](https://www.isc2.org/certifications/cc) (free)<br>- [Canadian Centre for Cyber Security](https://www.cyber.gc.ca/) |
+| Financial and Operational Risk | - Financial risk assessment and fraud prevention<br>- Segregation of duties and budget management<br>- Vendor management and contract risk | - [CPA](https://www.cpacanada.ca/en/become-a-cpa) (significant commitment)<br>- [CFE](https://www.acfe.com/cfe-credential.aspx) (fraud examiner)<br>- [CISA](https://www.isaca.org/credentialing/cisa) (systems auditor) | - [CPA Canada Risk Oversight courses](https://www.cpacanada.ca/en/business-and-accounting-resources/strategy-risk-and-governance/risk-oversight)<br>- [ACFE short courses](https://www.acfe.com/training-events-and-products/all-products)<br>- [IIA Risk-based Auditing](https://www.theiia.org/en/content/globaliia/training/) |
+| Safety and Occupational Health | - OHandS programs<br>- Safety inspections, audits, and PPE<br>- Fire safety and emergency evacuation<br>- First aid and medical response<br>- Alcohol service liability | - [CRSP](https://bcrsp.ca/canadian-registered-safety-professional-crsp) ⭐ (gold standard in Canada)<br>- [CHSC](https://bcrsp.ca/canadian-health-and-safety-consultant-chsc) (health and safety)<br>- [NCSO](https://cfcsa.ca/ncso_nhsa.php) (construction safety) | - [WorkSafeBC COR training](https://www.worksafebc.com/en/health-safety/create-manage/certificate-recognition)<br>- [CSSE courses](https://www.csse.org/)<br>- [Serving It Right](https://www.servingitright.com/)<br>- [FOODSAFE Level 1](https://foodsafe.ca/) |
+| Soft Skills and Consulting | - Stakeholder management and communication<br>- Training design and delivery<br>- Report writing and presentation<br>- Change management and project management<br>- Client relationship management | - [PMP](https://www.pmi.org/certifications/project-management-pmp) (project management)<br>- [CAPM](https://www.pmi.org/certifications/certified-associate-capm) (associate PM)<br>- [CMC](https://cmc-canada.ca/become-a-cmc) (management consultant) | - [Toastmasters International](https://www.toastmasters.org/)<br>- [Professional technical writing](https://www.coursera.org/search?query=technical%20writing)<br>- [LinkedIn Learning consulting skills](https://www.linkedin.com/learning/topics/consulting) |
+
+## Recommended learning path
+
+### Fast-Track: Safety Incident Response Priority (2-3 months)
+
+Immediate ROI for incident management gap analysis:
+
+| Priority | Certification/Training | Cost | Time | Why |
+|----------|----------------------|------|------|-----|
+| 1 | [WorkSafeBC Incident Investigation](https://www.worksafebc.com/en/health-safety/education-training-certification/incident-investigation) | Free | 2-4 weeks | BC regulatory compliance framework |
+| 2 | [CIPP/C](https://iapp.org/certify/cippc/) | $550 | 4-6 weeks | Privacy breach notification requirements |
+| 3 | [BCIT Emergency Management](https://www.bcit.ca/programs/emergency-management-certificate-part-time-7060acert/) | ~$600 | 4-6 weeks | Crisis response protocols |
+
+Outcome: Credible safety incident response consultant in 2-3 months at ~$1,150 total cost.
+
+### Standard Path: Comprehensive Risk Management
+
+| Phase | Standard Path | Accelerated Path (with CISSP) |
+|-------|--------------|-------------------------------|
+| Phase 1: Foundation<br>*Standard: 6-12 months*<br>*Accelerated: 3-6 months* | - WorkSafeBC training and incident investigation<br>- CIPP/C: Privacy and breach notification<br>- CRISC: Risk management core<br>- BC safety/privacy legislation (PIPA, FOIPPA, OHandS) | - WorkSafeBC: 2-4 weeks for core certifications<br>- CIPP/C: 4-6 weeks (security background accelerates)<br>- CRISC: 8-10 weeks (CISSP experience counts toward 3-year requirement) |
+| Phase 2: Specialization<br>*Standard: 12-18 months*<br>*Accelerated: 6-12 months* | - CRSP or CHSC: Safety professional designation<br>- CRM or ARM: Insurance and liability<br>- CCEP or CIA: Compliance and governance<br>- CFE: Incident fraud investigation | - CRSP or CHSC: 12-16 weeks (skip CISM - 80% overlap with CISSP)<br>- CRM or ARM: 10-12 weeks<br>- CCEP or CIA: 8-12 weeks<br>- CFE: 8-10 weeks (incident investigation focus) |
+| Phase 3: Advanced Practice<br>*Standard: 18-24 months*<br>*Accelerated: 6-12 months* | - CMC: Professional consulting designation<br>- Advanced incident response specializations<br>- Continuous professional development (BCRSP, IAPP, RIMS) | - CMC: 6-12 months (CISSP consulting work counts)<br>- Specialized incident response training<br>- Continuous professional development (BCRSP, IAPP, RIMS) |
+
+## CISSP credential leverage strategy
+
+### CPE credits cross-application
+
+Your CISSP requires 40 CPEs annually. Many activities count toward multiple certifications:
+
+| Activity | CISSP CPEs | CRISC CPEs | CIPP/C CPEs | CISM CPEs |
+|----------|------------|------------|-------------|-----------|
+| Privacy webinar | ✓ (Group A) | ✓ | ✓ | ✓ |
+| Risk management course | ✓ (Group A) | ✓ | Limited | ✓ |
+| Consulting work | ✓ (Group B) | ✓ | ✓ | ✓ |
+| Writing/speaking | ✓ (Group A) | ✓ | ✓ | ✓ |
+
+### Experience requirement shortcuts
+
+- CRISC: CISSP experience counts toward 3-year requirement
+- CCEP: Security compliance work counts toward ethics/compliance experience
+- CMC: CISSP consulting engagements count toward 3-year consulting requirement
+
+## Marketing advantage
+
+Fast-Track Position (WorkSafeBC + CIPP/C - 2-3 months):
+
+- Safety incident response specialist (BC-compliant)
+- Privacy breach notification expert
+- Unique positioning: Most safety consultants ignore privacy requirements
+- Service offering: Incident management gap analysis
+- Rate: $100-$150/hour
+
+Mid-Level Position (CISSP + CIPP/C + CRISC - 12-18 months):
+
+- Privacy and security incident response consultant
+- Enterprise risk management advisor
+- Broader offering: privacy, security, operational incident response
+- Rate: $125-$200/hour
+
+Full Stack Position (CISSP + CIPP/C + CRISC + CRSP + CRM + CMC - 24-30 months):
+
+- Comprehensive incident response and risk management consultant
+- BC non-profit sector specialist
+- Complete offering: safety, privacy, security, insurance, operational risk
+- Premium positioning and rates: $175-$300/hour
+
+### Implementation timeline
+
+#### Fast-Track: Safety Incident Response (Months 1-3)
+
+Month 1:
+
+- Complete WorkSafeBC incident investigation training (free, online)
+- Review BC OHandS Regulation and PIPA requirements
+- Begin CIPP/C study (privacy breach notification focus)
+- Download WorkSafeBC incident report templates
+
+Month 2:
+
+- Take CIPP/C exam
+- Enroll in BCIT Emergency Management certificate
+- Build incident response gap analysis checklist
+- Conduct pilot gap analysis (volunteer with local non-profit)
+
+Month 3:
+
+- Complete BCIT Emergency Management basics
+- Document first case study
+- Market as "BC-compliant incident management consultant"
+- Target first paying client
+
+#### Standard Path: Comprehensive Risk Management (Months 1-36)
+
+Months 1-6: Foundation
+
+- Complete WorkSafeBC and CIPP/C certifications
+- Begin CRISC study, register for exam
+- Attend ISACA/IAPP/BCRSP chapter meetings
+- Shadow incident response professionals
+- Build initial consulting toolkit
+
+Months 6-18: Specialization
+
+- Complete CRISC certification
+- Gain hands-on incident investigation experience
+- Develop safety + privacy incident response expertise
+- Network within BC non-profit and safety sectors
+- Document experience for CRSP requirements
+
+Months 18-36: Advanced Practice
+
+- Pursue CRSP and/or CMC certifications
+- Specialize in complex incident response scenarios
+- Build comprehensive case study portfolio
+- Launch independent practice or partnership
+
+### Cost-benefit analysis
+
+#### Priority Rankings by Focus
+
+Incident Response (Fast ROI):
+
+| Certification | Cost | Study Time | Experience | ROI | Priority |
+|--------------|------|------------|------------|-----|----------|
+| WorkSafeBC Incident Investigation | Free | 20-30 hrs | None | Very High | 1 |
+| CIPP/C | $550 | 60 hrs | None | Very High | 2 |
+| BCIT Emergency Management | $600 | 40 hrs | None | High | 3 |
+| CFE | $400 | 80 hrs | None | Medium | 4 |
+
+Comprehensive Risk Management:
+
+| Certification | Cost | Study Time | Experience | ROI | Priority |
+|--------------|------|------------|------------|-----|----------|
+| WorkSafeBC + CIPP/C | $550 | 80 hrs | None | Very High | 1 |
+| CRISC | $675 | 100 hrs | 3 yrs | Very High | 2 |
+| CRSP | $1,500 | 120 hrs | 4 yrs | High | 3 |
+| CRM | $800 | 100 hrs | Varies | High | 4 |
+| CMC | $2,000 | 200 hrs | 3+ yrs | Very High | 5 |
+| CFE | $400 | 80 hrs | None | Medium | 6 |
+| CISM | $675 | 150 hrs | 5 yrs | Skip* | - |
+
+*Skip CISM if you have CISSP (80% overlap, minimal differentiation)
+
+#### Expected income progression
+
+Fast-Track (Incident Response):
+
+- Months 1-3: $100-$150/hour (safety incident gap analysis)
+- Months 6-12: $125-$175/hour (with case studies and experience)
+
+Standard Path (Comprehensive):
+
+- CISSP only: $75-$125/hour (security assessments)
+- WorkSafeBC + CIPP/C + CRISC (12-18 months): $125-$200/hour (incident response and risk)
+- Full stack (24-30 months): $175-$300/hour (comprehensive risk management specialist)
+
+## BC-specific resources
+
+### Professional associations
+
+- [IAPP Canada](https://iapp.org/about/canada/) (International Association of Privacy Professionals)
+- [ISACA Vancouver Chapter](https://engage.isaca.org/vancouverchapter/home)
+- [RIMS Canada](https://www.rims.org/chapters/canada) (Risk and Insurance Management Society)
+- [CPHR BC and Yukon](https://cphrbc.ca/) (HR professionals)
+- [BCRSP](https://bcrsp.ca/) (Board of Canadian Registered Safety Professionals)
+
+### Government resources
+
+- [Office of the Information and Privacy Commissioner for BC](https://www.oipc.bc.ca/)
+- [WorkSafeBC training and resources](https://www.worksafebc.com/en/health-safety/education-training-certification)
+- [BC Financial Services Authority](https://www.bcfsa.ca/)
+- [BC Non-Profit Housing Association](https://bcnpha.ca/)

@@ -1,0 +1,13 @@
+[DEBUG] Watching for changes in setting files /home/v/.claude/settings.json, /home/v/.claude/settings.json, /home/v/.claude/settings.local.json...
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.9377.1759902407582
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 29601 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.9377.1759902407582 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.9377.1759902407612
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 29823 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.9377.1759902407612 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically

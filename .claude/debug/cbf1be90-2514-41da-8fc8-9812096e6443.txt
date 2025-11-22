@@ -1,0 +1,1523 @@
+[DEBUG] Watching for changes in setting files /home/v/.claude/settings.json, /home/v/repos/learning/.claude/settings.json, /home/v/repos/learning/.claude/settings.local.json...
+[DEBUG] Applying permission update: Adding 20 allow rule(s) to destination 'userSettings': ["Bash(npx claude-flow:*)","Bash(npm run lint)","Bash(npm run test:*)","Bash(npm test:*)","Bash(git status)","Bash(git diff:*)","Bash(git log:*)","Bash(git add:*)","Bash(git commit:*)","Bash(git push)","Bash(git config:*)","Bash(git tag:*)","Bash(git branch:*)","Bash(git checkout:*)","Bash(git stash:*)","Bash(jq:*)","Bash(node:*)","Bash(which:*)","Bash(pwd)","Bash(ls:*)"]
+[DEBUG] Applying permission update: Adding 1 deny rule(s) to destination 'userSettings': ["Bash(rm -rf /)"]
+[DEBUG] Applying permission update: Adding 20 allow rule(s) to destination 'projectSettings': ["Bash(npx claude-flow:*)","Bash(npm run lint)","Bash(npm run test:*)","Bash(npm test:*)","Bash(git status)","Bash(git diff:*)","Bash(git log:*)","Bash(git add:*)","Bash(git commit:*)","Bash(git push)","Bash(git config:*)","Bash(git tag:*)","Bash(git branch:*)","Bash(git checkout:*)","Bash(git stash:*)","Bash(jq:*)","Bash(node:*)","Bash(which:*)","Bash(pwd)","Bash(ls:*)"]
+[DEBUG] Applying permission update: Adding 1 deny rule(s) to destination 'projectSettings': ["Bash(rm -rf /)"]
+[DEBUG] Applying permission update: Adding 5 allow rule(s) to destination 'localSettings': ["mcp__ruv-swarm","mcp__claude-flow@alpha","mcp__flow-nexus","WebSearch","WebFetch(domain:www.cosmicpython.com)"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/v/.bashrc
+[DEBUG] Snapshots directory: /home/v/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/v/.claude/shell-snapshots/snapshot-bash-1759951877804-qgqzuy.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json.tmp.39667.1759951877808
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json.tmp.39667.1759951877808 to /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json
+[DEBUG] File /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json written atomically
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759951877819
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37108 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759951877819 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/v/.claude/skills, project=/home/v/repos/learning/.claude/skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Shell snapshot created successfully (4765 bytes)
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759951878017
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37108 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759951878017 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759951878127
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37108 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759951878127 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] MCP server "claude-flow@alpha": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ruv-swarm": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "flow-nexus": Starting connection with timeout of 30000ms
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759951878385
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37108 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759951878385 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Executing hooks for SessionStart:startup
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759951878462
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37003 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759951878462 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759951878468
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37003 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759951878468 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=undefined
+[DEBUG] Skipping plugin installations - ENABLE_PLUGINS not set
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759951878947
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37108 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759951878947 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] MCP server "ruv-swarm": Successfully connected to stdio server in 816ms
+[DEBUG] MCP server "ruv-swarm": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"ruv-swarm-no-timeout","version":"1.0.20"}}
+[ERROR] MCP server "ruv-swarm" Server stderr: [6608ff0d-6db2-4c33-b665-d2bce34ba1a8] [INFO] ruv-swarm MCP server starting in stdio mode (NO TIMEOUT VERSION) {
+  protocol: 'stdio',
+  sessionId: '6608ff0d-6db2-4c33-b665-d2bce34ba1a8',
+  nodeVersion: 'v24.9.0',
+  platform: 'linux',
+  arch: 'x64'
+}
+[6608ff0d-6db2-4c33-b665-d2bce34ba1a8] [INFO] Connection established {
+  sessionId: '6608ff0d-6db2-4c33-b665-d2bce34ba1a8',
+  event: 'established',
+  protocol: 'stdio',
+  transport: 'stdin/stdout',
+  timestamp: '2025-10-08T19:31:18.717Z'
+}
+[6608ff0d-6db2-4c33-b665-d2bce34ba1a8] [INFO] MCP server running with NO TIMEOUT MECHANISMS {
+  connectionStatus: 'INFINITE_RUNTIME',
+  timeoutStatus: 'DISABLED',
+  connectionMode: 'INFINITE'
+}
+[DEBUG] MCP server "ruv-swarm": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "ruv-swarm": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+[DEBUG] MCP server "flow-nexus": Successfully connected to stdio server in 1307ms
+[DEBUG] MCP server "flow-nexus": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"Flow Nexus Complete","version":"2.0.0"}}
+[ERROR] MCP server "claude-flow@alpha" Server stderr: [2025-10-08T19:31:19.703Z] INFO [claude-flow-mcp] (session-cf-1759951879702-8x8u) Claude-Flow MCP server starting in stdio mode
+[ERROR] MCP server "claude-flow@alpha" Server stderr: {
+  arch: 'x64',
+  mode: 'mcp-stdio',
+  nodeVersion: 'v24.9.0',
+  pid: 40099,
+  platform: 'linux',
+  protocol: 'stdio',
+  sessionId: 'session-cf-1759951879702-8x8u',
+  version: '2.5.0-alpha.131'
+}
+[ERROR] MCP server "claude-flow@alpha" Server stderr: [2025-10-08T19:31:19.706Z] INFO [claude-flow-mcp] (session-cf-1759951879702-8x8u) 🔌 Connection established: session-cf-1759951879702-8x8u
+[DEBUG] MCP server "claude-flow@alpha": Successfully connected to stdio server in 1350ms
+[DEBUG] MCP server "claude-flow@alpha": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"claude-flow","version":"2.5.0-alpha.131"}}
+[ERROR] MCP server "claude-flow@alpha" Server stderr: [2025-10-08T19:31:19.716Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[ERROR] MCP server "claude-flow@alpha" Server stderr: [2025-10-08T19:31:19.716Z] INFO [fallback-store] Successfully initialized SQLite store
+[2025-10-08T19:31:19.716Z] INFO [claude-flow-mcp] (session-cf-1759951879702-8x8u) Shared memory store initialized (same as npx)
+[2025-10-08T19:31:19.716Z] INFO [claude-flow-mcp] (session-cf-1759951879702-8x8u) Using SQLite storage
+[DEBUG] MCP server "claude-flow@alpha": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "claude-flow@alpha": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+[DEBUG] MCP server "agentic-payments": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "claude-flow": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ide": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ide": Successfully connected to ws-ide server in 10ms
+[DEBUG] MCP server "ide": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Claude Code Cursor MCP","version":"2.0.10"}}
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token 'E', "E2B Templa"... is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'base',   "... is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'react',  "... is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'vanilla', 'node'," is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'nodejs'" is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ']', "]" is not valid JSON
+[ERROR] MCP server "claude-flow" Server stderr: [2025-10-08T19:31:20.558Z] INFO [claude-flow-mcp] (session-cf-1759951880557-lx8x) Claude-Flow MCP server starting in stdio mode
+[ERROR] MCP server "claude-flow" Server stderr: {
+  arch: 'x64',
+  mode: 'mcp-stdio',
+  nodeVersion: 'v24.9.0',
+  pid: 40152,
+  platform: 'linux',
+  protocol: 'stdio',
+  sessionId: 'session-cf-1759951880557-lx8x',
+  version: '2.5.0-alpha.131'
+}
+[ERROR] MCP server "claude-flow" Server stderr: [2025-10-08T19:31:20.561Z] INFO [claude-flow-mcp] (session-cf-1759951880557-lx8x) 🔌 Connection established: session-cf-1759951880557-lx8x
+[DEBUG] MCP server "claude-flow": Successfully connected to stdio server in 832ms
+[DEBUG] MCP server "claude-flow": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"claude-flow","version":"2.5.0-alpha.131"}}
+[ERROR] MCP server "claude-flow" Server stderr: [2025-10-08T19:31:20.564Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[ERROR] MCP server "claude-flow" Server stderr: [2025-10-08T19:31:20.564Z] INFO [fallback-store] Successfully initialized SQLite store
+[2025-10-08T19:31:20.564Z] INFO [claude-flow-mcp] (session-cf-1759951880557-lx8x) Shared memory store initialized (same as npx)
+[2025-10-08T19:31:20.564Z] INFO [claude-flow-mcp] (session-cf-1759951880557-lx8x) Using SQLite storage
+[DEBUG] MCP server "claude-flow": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "claude-flow": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+[ERROR] MCP server "agentic-payments" Server stderr: [MCP] Starting Agentic Payments MCP Server...
+[ERROR] MCP server "agentic-payments" Server stderr: [MCP] Starting stdio transport...
+[ERROR] MCP server "agentic-payments" Server stderr: [MCP] Agentic Payments MCP server running on stdio
+[ERROR] MCP server "agentic-payments" Server stderr: [MCP] Available tools: 10
+[DEBUG] MCP server "agentic-payments": Successfully connected to stdio server in 1080ms
+[DEBUG] MCP server "agentic-payments": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"agentic-payments","version":"0.1.0"}}
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Writing to temp file: /home/v/.claude/settings.json.tmp.39667.1759951883898
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 4272 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude/settings.json.tmp.39667.1759951883898 to /home/v/.claude/settings.json
+[DEBUG] File /home/v/.claude/settings.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] FileHistory: Added snapshot for 1ff494d5-8e28-4202-9ae9-f9bc21dfbb79, tracking 0 files
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759951883959
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37192 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759951883959 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759951883974
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37192 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759951883974 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Writing to temp file: /home/v/.claude/settings.json.tmp.39667.1759951891077
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 4253 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude/settings.json.tmp.39667.1759951891077 to /home/v/.claude/settings.json
+[DEBUG] File /home/v/.claude/settings.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] FileHistory: Making snapshot for message 75480956-af4f-4990-8007-b9739f8fd98c
+[DEBUG] FileHistory: Added snapshot for 75480956-af4f-4990-8007-b9739f8fd98c, tracking 0 files
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759951891125
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37192 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759951891125 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Writing to temp file: /home/v/.claude/settings.json.tmp.39667.1759951898823
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 4272 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude/settings.json.tmp.39667.1759951898823 to /home/v/.claude/settings.json
+[DEBUG] File /home/v/.claude/settings.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] FileHistory: Making snapshot for message a7f31c48-690a-47e9-a121-8347273f19fa
+[DEBUG] FileHistory: Added snapshot for a7f31c48-690a-47e9-a121-8347273f19fa, tracking 0 files
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759951898882
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37192 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759951898882 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+[DEBUG] Writing to temp file: /home/v/.claude/settings.json.tmp.39667.1759951905863
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 4305 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude/settings.json.tmp.39667.1759951905863 to /home/v/.claude/settings.json
+[DEBUG] File /home/v/.claude/settings.json written atomically
+[DEBUG] Writing to temp file: /home/v/.claude/settings.json.tmp.39667.1759951907516
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 4306 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude/settings.json.tmp.39667.1759951907516 to /home/v/.claude/settings.json
+[DEBUG] File /home/v/.claude/settings.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 9db3814e-6d1f-45ab-9cde-ef9c671615f4
+[DEBUG] FileHistory: Added snapshot for 9db3814e-6d1f-45ab-9cde-ef9c671615f4, tracking 0 files
+[DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759951957824
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37431 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759951957824 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 38ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 13ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 10ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json.tmp.39667.1759952084282
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 1552 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json.tmp.39667.1759952084282 to /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json
+[DEBUG] File /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 19ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (2 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true with timeout 60000ms
+[DEBUG] Hook command completed with status 0: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true
+[DEBUG] Hook stdout: 📝 Executing pre-edit hook...
+📄 File: /home/v/repos/learning/docs/OSCP_Study_Guide_2025.md
+⚙️  Operation: edit
+🤖 Auto-assign agents: ENABLED
+🔄 Load context: ENABLED
+  🤖 Recommended agent: technica...
+[DEBUG] Hook stderr: [2025-10-08T19:35:21.967Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 8ms
+[DEBUG] FileHistory: Tracked file modification for /home/v/repos/learning/docs/OSCP_Study_Guide_2025.md
+[DEBUG] Writing to temp file: /home/v/repos/learning/docs/OSCP_Study_Guide_2025.md.tmp.39667.1759952122101
+[DEBUG] Temp file written successfully, size: 4282 bytes
+[DEBUG] Renaming /home/v/repos/learning/docs/OSCP_Study_Guide_2025.md.tmp.39667.1759952122101 to /home/v/repos/learning/docs/OSCP_Study_Guide_2025.md
+[DEBUG] File /home/v/repos/learning/docs/OSCP_Study_Guide_2025.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (2 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true with timeout 60000ms
+[DEBUG] Hook command completed with status 0: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true
+[DEBUG] Hook stdout: 📝 Executing post-edit hook...
+📄 File: /home/v/repos/learning/docs/OSCP_Study_Guide_2025.md
+🎨 Auto-format: ENABLED
+🧠 Memory update: ENABLED
+  ⚠️  No formatter available for .md
+  🧠 Edit context st...
+[DEBUG] Hook stderr: [2025-10-08T19:35:22.929Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 14ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759952141915
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37431 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759952141915 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (2 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: npx claude-flow@alpha hooks session-end --generate-summary true --persist-state true --export-metrics true with timeout 60000ms
+[DEBUG] Hook command completed with status 0: npx claude-flow@alpha hooks session-end --generate-summary true --persist-state true --export-metrics true
+[DEBUG] Hook stdout: 🔚 Executing session-end hook...
+📊 Summary generation: ENABLED
+💾 State persistence: ENABLED
+📈 Metrics export: ENABLED
+  💾 Full session state persisted
+  📈 Session metrics exported
+
+📊 SESSION SUM...
+[DEBUG] Hook stderr: [2025-10-08T19:35:42.722Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759952142797
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37431 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759952142797 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759952194566
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37431 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759952194566 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Applying permission update: Setting mode to 'plan'
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 12ms
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message e74ef5e1-53f7-437f-824c-3bee673b3bb2
+[DEBUG] FileHistory: Added snapshot for e74ef5e1-53f7-437f-824c-3bee673b3bb2, tracking 1 files
+[DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759952205950
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37571 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759952205950 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 25ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 19ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 17ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebSearch
+[DEBUG] Executing hooks for PreToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for PostToolUse:WebSearch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 19ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: ExitPlanMode
+[DEBUG] Executing hooks for PreToolUse:ExitPlanMode
+[DEBUG] Getting matching hook commands for PreToolUse with query: ExitPlanMode
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Executing hooks for PostToolUse:ExitPlanMode
+[DEBUG] Getting matching hook commands for PostToolUse with query: ExitPlanMode
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 23ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json.tmp.39667.1759952382156
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 1426 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json.tmp.39667.1759952382156 to /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json
+[DEBUG] File /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 19ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (2 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true with timeout 60000ms
+[DEBUG] Hook command completed with status 0: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true
+[DEBUG] Hook stdout: 📝 Executing pre-edit hook...
+📄 File: /home/v/repos/learning/docs/OSCP_Free_Study_Guide_2025.md
+⚙️  Operation: edit
+🤖 Auto-assign agents: ENABLED
+🔄 Load context: ENABLED
+  🤖 Recommended agent: tec...
+[DEBUG] Hook stderr: [2025-10-08T19:40:53.313Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 14ms
+[DEBUG] FileHistory: Tracked file modification for /home/v/repos/learning/docs/OSCP_Free_Study_Guide_2025.md
+[DEBUG] Writing to temp file: /home/v/repos/learning/docs/OSCP_Free_Study_Guide_2025.md.tmp.39667.1759952453400
+[DEBUG] Temp file written successfully, size: 11783 bytes
+[DEBUG] Renaming /home/v/repos/learning/docs/OSCP_Free_Study_Guide_2025.md.tmp.39667.1759952453400 to /home/v/repos/learning/docs/OSCP_Free_Study_Guide_2025.md
+[DEBUG] File /home/v/repos/learning/docs/OSCP_Free_Study_Guide_2025.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (2 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true with timeout 60000ms
+[DEBUG] Hook command completed with status 0: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true
+[DEBUG] Hook stdout: 📝 Executing post-edit hook...
+📄 File: /home/v/repos/learning/docs/OSCP_Free_Study_Guide_2025.md
+🎨 Auto-format: ENABLED
+🧠 Memory update: ENABLED
+  ⚠️  No formatter available for .md
+  🧠 Edit conte...
+[DEBUG] Hook stderr: [2025-10-08T19:40:54.253Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 17ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json.tmp.39667.1759952462271
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json.tmp.39667.1759952462271 to /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json
+[DEBUG] File /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 21ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759952476455
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37571 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759952476455 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (2 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: npx claude-flow@alpha hooks session-end --generate-summary true --persist-state true --export-metrics true with timeout 60000ms
+[DEBUG] Hook command completed with status 0: npx claude-flow@alpha hooks session-end --generate-summary true --persist-state true --export-metrics true
+[DEBUG] Hook stdout: 🔚 Executing session-end hook...
+📊 Summary generation: ENABLED
+💾 State persistence: ENABLED
+📈 Metrics export: ENABLED
+  💾 Full session state persisted
+  📈 Session metrics exported
+
+📊 SESSION SUM...
+[DEBUG] Hook stderr: [2025-10-08T19:41:17.403Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759952477477
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37571 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759952477477 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759952506709
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37571 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759952506709 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Applying permission update: Setting mode to 'plan'
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 16ms
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message e56c2800-13d7-46c1-bd74-436ec0cc8920
+[DEBUG] FileHistory: Added snapshot for e56c2800-13d7-46c1-bd74-436ec0cc8920, tracking 2 files
+[DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759952563732
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37853 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759952563732 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 23ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[ERROR] MCP server "ruv-swarm" Server stderr: (node:39968) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:39968) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[ERROR] MCP server "ruv-swarm" Server stderr: (node:39968) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[ERROR] MCP server "ruv-swarm" Server stderr: (node:39968) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[ERROR] MCP server "ruv-swarm" Server stderr: (node:39968) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:39968) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[ERROR] MCP server "ruv-swarm" Server stderr: (node:39968) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[ERROR] MCP server "ruv-swarm" Server stderr: (node:39968) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:39968) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Persisting permission update: addRules to source 'localSettings'
+[DEBUG] Persisting 1 allow rule(s) to localSettings
+[DEBUG] Writing to temp file: /home/v/repos/learning/.claude/settings.local.json.tmp.39667.1759952583957
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 387 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/repos/learning/.claude/settings.local.json.tmp.39667.1759952583957 to /home/v/repos/learning/.claude/settings.local.json
+[DEBUG] File /home/v/repos/learning/.claude/settings.local.json written atomically
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["WebFetch(domain:www.offsec.com)"]
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Executing hooks for PostToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 16ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: WebFetch
+[DEBUG] Executing hooks for PreToolUse:WebFetch
+[DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Persisting permission update: addRules to source 'localSettings'
+[DEBUG] Persisting 1 allow rule(s) to localSettings
+[DEBUG] Writing to temp file: /home/v/repos/learning/.claude/settings.local.json.tmp.39667.1759952601357
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 429 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/repos/learning/.claude/settings.local.json.tmp.39667.1759952601357 to /home/v/repos/learning/.claude/settings.local.json
+[DEBUG] File /home/v/repos/learning/.claude/settings.local.json written atomically
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["WebFetch(domain:help.offsec.com)"]
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[ERROR] AxiosError: AxiosError: Request failed with status code 403
+    at pN (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:713:1075)
+    at BrotliDecompress.<anonymous> (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:714:9910)
+    at BrotliDecompress.emit (node:events:520:35)
+    at BrotliDecompress.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at cQ1.request (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:716:2078)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async _mB (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2621:8724)
+    at async kmB (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2621:9717)
+    at async Object.call (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2621:15351)
+    at async BY5 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2534:27232)
+    at async FfB (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2534:23358)
+    at async Vs2 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:1846:3734)
+    at async HfB (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:3410:2126)
+    at async AY5 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2534:22551)
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 11ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 22ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 22ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: ExitPlanMode
+[DEBUG] Executing hooks for PreToolUse:ExitPlanMode
+[DEBUG] Getting matching hook commands for PreToolUse with query: ExitPlanMode
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] Executing hooks for PostToolUse:ExitPlanMode
+[DEBUG] Getting matching hook commands for PostToolUse with query: ExitPlanMode
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 19ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json.tmp.39667.1759952644069
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 1170 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json.tmp.39667.1759952644069 to /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json
+[DEBUG] File /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 22ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Executing hooks for PreToolUse:Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (2 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true with timeout 60000ms
+[DEBUG] Hook command completed with status 0: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks pre-edit --file '{}' --auto-assign-agents true --load-context true
+[DEBUG] Hook stdout: 📝 Executing pre-edit hook...
+📄 File: /home/v/repos/learning/docs/OSCP_Platform_Engineer_Study_Plan.md
+⚙️  Operation: edit
+🤖 Auto-assign agents: ENABLED
+🔄 Load context: ENABLED
+  🤖 Recommended age...
+[DEBUG] Hook stderr: [2025-10-08T19:45:13.135Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 13ms
+[DEBUG] FileHistory: Tracked file modification for /home/v/repos/learning/docs/OSCP_Platform_Engineer_Study_Plan.md
+[DEBUG] Writing to temp file: /home/v/repos/learning/docs/OSCP_Platform_Engineer_Study_Plan.md.tmp.39667.1759952713228
+[DEBUG] Temp file written successfully, size: 10361 bytes
+[DEBUG] Renaming /home/v/repos/learning/docs/OSCP_Platform_Engineer_Study_Plan.md.tmp.39667.1759952713228 to /home/v/repos/learning/docs/OSCP_Platform_Engineer_Study_Plan.md
+[DEBUG] File /home/v/repos/learning/docs/OSCP_Platform_Engineer_Study_Plan.md written atomically
+[DEBUG] Executing hooks for PostToolUse:Write
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "Write" (2 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true with timeout 60000ms
+[DEBUG] Hook command completed with status 0: cat | jq -r '.tool_input.file_path // .tool_input.path // empty' | tr '\n' '\0' | xargs -0 -I {} npx claude-flow@alpha hooks post-edit --file '{}' --format true --update-memory true
+[DEBUG] Hook stdout: 📝 Executing post-edit hook...
+📄 File: /home/v/repos/learning/docs/OSCP_Platform_Engineer_Study_Plan.md
+🎨 Auto-format: ENABLED
+🧠 Memory update: ENABLED
+  ⚠️  No formatter available for .md
+  🧠 Edi...
+[DEBUG] Hook stderr: [2025-10-08T19:45:14.114Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 22ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json.tmp.39667.1759952721231
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json.tmp.39667.1759952721231 to /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json
+[DEBUG] File /home/v/.claude/todos/cbf1be90-2514-41da-8fc8-9812096e6443-agent-cbf1be90-2514-41da-8fc8-9812096e6443.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 4 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 20ms
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:workflow, /flow-nexus:challenges, /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759952734350
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37853 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759952734350 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 2 hook matchers in settings
+[DEBUG] Matched 1 unique hooks for query "no match query" (2 before deduplication)
+[DEBUG] Found 1 hook commands to execute
+[DEBUG] Executing hook command: npx claude-flow@alpha hooks session-end --generate-summary true --persist-state true --export-metrics true with timeout 60000ms
+[DEBUG] Hook command completed with status 0: npx claude-flow@alpha hooks session-end --generate-summary true --persist-state true --export-metrics true
+[DEBUG] Hook stdout: 🔚 Executing session-end hook...
+📊 Summary generation: ENABLED
+💾 State persistence: ENABLED
+📈 Metrics export: ENABLED
+  💾 Full session state persisted
+  📈 Session metrics exported
+
+📊 SESSION SUM...
+[DEBUG] Hook stderr: [2025-10-08T19:45:35.241Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[DEBUG] Hook output does not start with {, treating as plain text
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.39667.1759952735307
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37853 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.39667.1759952735307 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically

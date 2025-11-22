@@ -1,0 +1,82 @@
+# Continuous Improvement Process
+
+## Table of Contents
+
+- [Relevant Legislation](#relevant-legislation)
+- [Post-Event Review Process](#post-event-review-process)
+- [Risk Assessment Updates](#risk-assessment-updates)
+- [Knowledge Management](#knowledge-management)
+- [External Learning](#external-learning)
+
+## Relevant Legislation
+
+- **BC**: *Societies Act* (SBC 2015, c. 18) - board duties and governance standards
+- **Federal**: *Canada Not-for-profit Corporations Act* (S.C. 2009, c. 23) - continuous improvement obligations
+- **BC**: *Workers Compensation Act* (RSBC 1996, c. 492) - ongoing safety improvement requirements
+- **BC**: *Occupational Health and Safety Regulation* (BC Reg 296/97) - continuous safety monitoring
+- **Federal**: *Canadian Standards Association* (CSA) - quality management standards (referenced)
+
+## Post-Event Review Process
+
+#### Immediate Debrief (Within 48 Hours)
+
+- **Participants**: Event team, key volunteers, venue representatives. Schedule 60-90 minute meeting within 48 hours while details are fresh
+- **Focus Areas**: Safety incidents (document all injuries/near-misses with immediate causes), operational challenges (vendor delays, crowd flow bottlenecks, communication gaps), near-misses (situations that could have caused harm but didn't)
+- **Documentation**: Action items assigned to specific individuals with due dates, lessons learned categorized by risk type, improvement opportunities prioritized by impact and feasibility
+- **Timeline**: Separate immediate actions (implement within 7 days, e.g., repair damaged flooring) from longer-term improvements (update training curriculum before next event season)
+
+#### Comprehensive Review (Within 2 Weeks)
+
+- **Stakeholder Input**: Collect feedback via post-event surveys (participants), performance debriefs (vendors), impact assessments (community partners). Aim for 30%+ response rate from participants
+- **Data Analysis**: Review all incident reports for patterns, compare actual vs. budgeted costs, analyze satisfaction survey results (target: 85%+ satisfied with safety measures)
+- **Root Cause Analysis**: Use 5 Whys method or fishbone diagrams to investigate incidents beyond immediate causes. Example: Trip hazard → Why? → Uneven flooring → Why? → Temporary ramp not secured → Why? → Setup checklist incomplete → Why? → Volunteer training insufficient
+- **Recommendation Development**: Create specific, actionable improvements with owners and deadlines. Example: "Event Coordinator to revise setup checklist by [date], include ramp securing procedure, train all volunteers by [date]"
+
+## Risk Assessment Updates
+
+#### Quarterly Reviews
+
+- **Risk Register Updates**: New risks, changed ratings, completed mitigations
+- **Control Effectiveness**: Assessment of current mitigation measures
+- **Emerging Risks**: Industry trends, regulatory changes, environmental factors
+- **Stakeholder Feedback**: Input from board, staff, volunteers, participants
+
+#### Annual Comprehensive Review
+
+- **Complete Risk Assessment**: Full review of all risk categories
+- **Insurance Program Evaluation**: Coverage adequacy, cost-effectiveness
+- **Policy and Procedure Updates**: Alignment with best practices
+- **Training Program Assessment**: Effectiveness and completion rates
+- **External Benchmarking**: Comparison with similar organizations
+
+## Knowledge Management
+
+#### Lessons Learned Database
+
+- **Incident Analysis**: Maintain searchable database (SharePoint, Google Drive, or specialized software) with root causes, contributing factors, prevention strategies. Tag by incident type, event type, season for easy retrieval. Example entry: "Fall 2024 outdoor festival - weather cancellation - root cause: inadequate weather monitoring - prevention: implement hourly weather checks starting 48 hours pre-event"
+- **Best Practices**: Document successful risk mitigation examples with measurable outcomes. Example: "Implementing wristband system for minors reduced unauthorized alcohol access incidents from 3 per event to 0 over 6-month period"
+- **Vendor Performance**: Track historical data including on-time delivery rate, incident involvement, insurance compliance, participant feedback scores. Flag vendors with 2+ incidents or compliance lapses for enhanced monitoring or replacement
+- **Training Materials**: Update content within 30 days of incidents revealing knowledge gaps. Archive previous versions with date stamps to track evolution
+
+#### Organizational Memory
+
+- **Staff Transition Planning**: Knowledge transfer procedures
+- **Documentation Standards**: Consistent recording and retrieval systems
+- **Institutional Knowledge**: Capturing expertise from experienced personnel
+- **Succession Planning**: Ensuring continuity of risk management capabilities
+
+## External Learning
+
+#### Industry Engagement
+
+- **Professional Associations**: Join BC Non-Profit Housing Association, Imagine Canada, or sector-specific groups. Attend quarterly meetings to share challenges and solutions with peers facing similar risks
+- **Conference Participation**: Attend annual conferences such as Canadian Society of Association Executives (CSAE), Volunteer Canada events, or regional safety conferences. Budget $500-1,500 per attendee including registration and travel
+- **Peer Networking**: Establish informal network of 3-5 similar organizations for quarterly calls or meetings to discuss emerging risks, vendor recommendations, insurance strategies. Share de-identified incident data for benchmarking
+- **Vendor Relationships**: Schedule annual meetings with insurance broker to review market trends, emerging coverage options, loss prevention recommendations. Request safety consultant reviews every 2-3 years from providers offering free assessments
+
+#### Regulatory Monitoring
+
+- **Law and Regulation Changes**: Subscribe to WorkSafeBC bulletins, BC Privacy Commissioner updates, and Canada Revenue Agency charity newsletters. Assign compliance officer to review monthly and flag changes requiring policy updates. Recent example: PIPA amendments affecting data breach notification timelines
+- **Industry Standards**: Monitor updates to CSA standards, ISO 31000 risk management framework, Insurance Bureau of Canada guidance. Review annually for applicable changes to organizational practices
+- **Technology Developments**: Evaluate new incident reporting apps, risk register software, training platforms. Pilot test with small user group before full implementation. Current trends: mobile-first incident reporting, automated insurance certificate tracking
+- **Emerging Threats**: Quarterly environmental scan for cybersecurity threats (ransomware targeting non-profits), social media risks (viral negative content), climate change impacts (extreme weather frequency increasing event cancellations). Adjust risk register and mitigation strategies accordingly

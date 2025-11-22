@@ -1,0 +1,449 @@
+[DEBUG] Watching for changes in setting files /home/v/.claude/settings.json, /home/v/repos/learning/.claude/settings.json, /home/v/repos/learning/.claude/settings.local.json...
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] MCP server "ruv-swarm": Starting connection with timeout of 30000ms
+[ERROR] MCP server "ruv-swarm" Server stderr: [ed51fac8-2df8-43b4-a93d-35d4094096ec] [INFO] ruv-swarm MCP server starting in stdio mode (NO TIMEOUT VERSION) {
+  protocol: 'stdio',
+  sessionId: 'ed51fac8-2df8-43b4-a93d-35d4094096ec',
+  nodeVersion: 'v24.9.0',
+  platform: 'linux',
+  arch: 'x64'
+}
+[ERROR] MCP server "ruv-swarm" Server stderr: [ed51fac8-2df8-43b4-a93d-35d4094096ec] [INFO] Connection established {
+  sessionId: 'ed51fac8-2df8-43b4-a93d-35d4094096ec',
+  event: 'established',
+  protocol: 'stdio',
+  transport: 'stdin/stdout',
+  timestamp: '2025-10-08T06:27:21.696Z'
+}
+[DEBUG] MCP server "ruv-swarm": Successfully connected to stdio server in 452ms
+[DEBUG] MCP server "ruv-swarm": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"ruv-swarm-no-timeout","version":"1.0.20"}}
+[DEBUG] MCP server "claude-flow": Starting connection with timeout of 30000ms
+[ERROR] MCP server "ruv-swarm" Server stderr: [ed51fac8-2df8-43b4-a93d-35d4094096ec] [INFO] MCP server running with NO TIMEOUT MECHANISMS {
+  connectionStatus: 'INFINITE_RUNTIME',
+  timeoutStatus: 'DISABLED',
+  connectionMode: 'INFINITE'
+}
+[DEBUG] MCP server "ruv-swarm": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "ruv-swarm": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+[ERROR] MCP server "claude-flow" Server stderr: [2025-10-08T06:27:22.753Z] INFO [claude-flow-mcp] (session-cf-1759904842753-7gdo) Claude-Flow MCP server starting in stdio mode
+[ERROR] MCP server "claude-flow" Server stderr: {
+  arch: 'x64',
+  mode: 'mcp-stdio',
+  nodeVersion: 'v24.9.0',
+  pid: 57770,
+  platform: 'linux',
+  protocol: 'stdio',
+  sessionId: 'session-cf-1759904842753-7gdo',
+  version: '2.5.0-alpha.131'
+}
+[2025-10-08T06:27:22.757Z] INFO [claude-flow-mcp] (session-cf-1759904842753-7gdo) 🔌 Connection established: session-cf-1759904842753-7gdo
+[DEBUG] MCP server "claude-flow": Successfully connected to stdio server in 889ms
+[DEBUG] MCP server "claude-flow": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"claude-flow","version":"2.5.0-alpha.131"}}
+[DEBUG] MCP server "flow-nexus": Starting connection with timeout of 30000ms
+[ERROR] MCP server "claude-flow" Server stderr: [2025-10-08T06:27:22.761Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[2025-10-08T06:27:22.761Z] INFO [fallback-store] Successfully initialized SQLite store
+[2025-10-08T06:27:22.761Z] INFO [claude-flow-mcp] (session-cf-1759904842753-7gdo) Shared memory store initialized (same as npx)
+[2025-10-08T06:27:22.761Z] INFO [claude-flow-mcp] (session-cf-1759904842753-7gdo) Using SQLite storage
+[DEBUG] MCP server "claude-flow": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "claude-flow": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+[DEBUG] MCP server "flow-nexus": Successfully connected to stdio server in 1131ms
+[DEBUG] MCP server "flow-nexus": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"Flow Nexus Complete","version":"2.0.0"}}
+[DEBUG] MCP server "agentic-payments": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token 'E', "E2B Templa"... is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'base',   "... is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'react',  "... is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'vanilla', 'node'," is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'nodejs'" is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ']', "]" is not valid JSON
+[ERROR] MCP server "agentic-payments" Server stderr: [MCP] Starting Agentic Payments MCP Server...
+[ERROR] MCP server "agentic-payments" Server stderr: [MCP] Starting stdio transport...
+[ERROR] MCP server "agentic-payments" Server stderr: [MCP] Agentic Payments MCP server running on stdio
+[MCP] Available tools: 10
+[DEBUG] MCP server "agentic-payments": Successfully connected to stdio server in 1013ms
+[DEBUG] MCP server "agentic-payments": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"agentic-payments","version":"0.1.0"}}

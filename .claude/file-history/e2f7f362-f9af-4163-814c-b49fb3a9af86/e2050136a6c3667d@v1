@@ -1,0 +1,632 @@
+# Risk Management Framework for BC Non-Profit Events
+
+## Executive Summary
+
+This comprehensive risk management framework provides British Columbia non-profit organizations with systematic processes for identifying, assessing, and mitigating risks associated with social events. The framework focuses on insurance requirements and incident management to protect organizations from financial losses, legal liability, and reputational damage.
+
+---
+
+## Table of Contents
+
+1. [Risk Identification & Assessment Framework](#1-risk-identification--assessment-framework)
+2. [Insurance Requirements & Coverage](#2-insurance-requirements--coverage)
+3. [Incident Response Procedures](#3-incident-response-procedures)
+4. [Risk Mitigation Strategies](#4-risk-mitigation-strategies)
+5. [Documentation & Reporting Protocols](#5-documentation--reporting-protocols)
+6. [Key Performance Indicators](#6-key-performance-indicators)
+7. [Continuous Improvement Process](#7-continuous-improvement-process)
+8. [Implementation Recommendations](#8-implementation-recommendations)
+
+---
+
+## 1. Risk Identification & Assessment Framework
+
+### Event-Specific Risk Categories
+
+#### Physical/Safety Risks
+- Slip, trip, and fall hazards
+- Food safety and allergic reactions
+- Alcohol service liability
+- Crowd control and venue capacity management
+- Fire safety and emergency evacuation
+- Weather-related risks (outdoor events)
+- Equipment and staging safety
+- Vehicle and transportation risks
+
+#### Financial Risks
+- Event cancellation losses
+- Vendor and supplier defaults
+- Theft, fraud, or embezzlement
+- Property damage and loss
+- Budget overruns and cost escalation
+- Contractual disputes and breaches
+- Payment processing failures
+
+#### Liability Risks
+- Participant injuries and accidents
+- Third-party property damage
+- Professional liability (advice/services provided)
+- Directors & Officers liability
+- Volunteer-related incidents
+- Vehicle use and transportation liability
+- Sexual misconduct and harassment allegations
+- Discrimination and human rights complaints
+
+#### Reputational Risks
+- Negative publicity and media coverage
+- Social media incidents and viral content
+- Discrimination and harassment claims
+- Data breaches and privacy violations
+- Inappropriate conduct by attendees/volunteers
+- Association with controversial speakers/sponsors
+
+### Risk Assessment Matrix
+
+| Likelihood | Description | Score |
+|------------|-------------|-------|
+| Rare | May occur only in exceptional circumstances | 1 |
+| Unlikely | Could occur at some time | 2 |
+| Possible | Might occur at some time | 3 |
+| Likely | Will probably occur in most circumstances | 4 |
+| Almost Certain | Expected to occur in most circumstances | 5 |
+
+| Impact | Description | Score |
+|--------|-------------|-------|
+| Negligible | No injuries, minimal financial impact (<$1,000) | 1 |
+| Minor | First aid treatment, low financial impact ($1,000-$5,000) | 2 |
+| Moderate | Medical treatment required, moderate impact ($5,000-$25,000) | 3 |
+| Major | Extensive injuries, significant impact ($25,000-$100,000) | 4 |
+| Catastrophic | Death, extreme impact (>$100,000) | 5 |
+
+### Risk Rating Calculation
+**Risk Rating = Likelihood × Impact**
+
+### Priority Levels
+- **Critical (20-25)**: Immediate action required
+- **High (15-19)**: Senior management attention needed
+- **Medium (10-14)**: Management responsibility specified
+- **Low (5-9)**: Manage by routine procedures
+
+---
+
+## 2. Insurance Requirements & Coverage
+
+### Essential Insurance Policies
+
+#### Commercial General Liability (CGL)
+- **Minimum Coverage**: $2-5 million per occurrence
+- **Components**:
+  - Bodily injury and property damage
+  - Products and completed operations
+  - Personal and advertising injury
+  - Tenant's legal liability
+  - Non-owned automobile coverage
+- **Key Considerations**: Ensure coverage includes volunteers as additional insureds
+
+#### Directors & Officers (D&O) Liability
+- **Coverage Areas**:
+  - Protection for board decision-making
+  - Employment practices liability
+  - Wrongful acts coverage
+  - Defense costs and legal expenses
+- **Recommended Limits**: $1-3 million depending on organization size
+
+#### Event Cancellation Insurance
+- **Covered Perils**:
+  - Weather-related cancellations
+  - Venue unavailability
+  - Key person illness or death
+  - Reduced attendance due to covered causes
+- **Coverage Types**:
+  - Adverse weather
+  - Non-appearance
+  - Cancellation/abandonment
+  - Additional expenses
+
+#### Property Insurance
+- **Coverage Areas**:
+  - Equipment and supplies
+  - Rented or borrowed equipment
+  - Fine arts and collectibles (if applicable)
+  - Cyber liability for data breaches
+- **Considerations**: Include off-premises coverage for event locations
+
+#### Special Event Liability
+- **Specific Coverages**:
+  - Host liquor liability
+  - Additional insured endorsements
+  - Participant accident insurance
+  - Prize indemnity (contests/raffles)
+  - Volunteer accident coverage
+
+#### Professional Liability
+- **When Required**: If providing advice, counseling, or professional services
+- **Coverage**: Errors and omissions in professional services
+
+#### Volunteer Accident Insurance
+- **Benefits**:
+  - Medical expenses
+  - Accidental death & dismemberment
+  - Disability benefits
+  - Coverage during volunteer activities
+
+### Insurance Documentation Requirements
+
+#### Certificate of Insurance (COI) Requirements
+- All vendors and contractors must provide COI
+- Organization named as additional insured
+- Minimum $2 million liability coverage
+- 30-day notice of cancellation clause
+- Waiver of subrogation in favor of organization
+
+#### Additional Protections
+- Hold harmless agreements with vendors
+- Indemnification clauses in contracts
+- Primary and non-contributory insurance language
+- Cross-liability coverage between insureds
+
+---
+
+## 3. Incident Response Procedures
+
+### Immediate Response Protocol (First 30 Minutes)
+
+#### 1. Ensure Safety (Priority #1)
+- Secure the incident scene
+- Provide immediate first aid or call 911
+- Evacuate area if necessary
+- Prevent additional injuries or damage
+- Control crowds and maintain order
+
+#### 2. Document Everything
+- **Time and Date**: Precise incident timing
+- **Location**: Specific area within venue
+- **Environmental Conditions**: Weather, lighting, surface conditions
+- **Involved Parties**: Names, contact information, role (participant/volunteer/vendor)
+- **Witnesses**: Contact information and initial statements
+- **Photographic Evidence**: Scene, equipment, conditions
+- **Sequence of Events**: Chronological description
+
+#### 3. Notify Key Personnel
+- **Immediate Notification**:
+  - On-site event manager
+  - Executive Director
+  - Board Chair (for serious incidents)
+- **Within 2 Hours**:
+  - Insurance broker/carrier
+  - Legal counsel (for significant incidents)
+  - Communications/PR lead
+
+### Incident Classification System
+
+#### Level 1 (Minor)
+- **Characteristics**: First aid treatment only, minor property damage (<$1,000)
+- **Response**: On-site documentation, basic incident report
+- **Notification**: Event manager, basic incident log
+
+#### Level 2 (Moderate)
+- **Characteristics**: Medical treatment required, property damage ($1,000-$10,000)
+- **Response**: Detailed investigation, witness statements
+- **Notification**: Executive Director, insurance broker notification
+
+#### Level 3 (Major)
+- **Characteristics**: Hospitalization required, significant damage ($10,000+), potential media attention
+- **Response**: Comprehensive investigation, external expert involvement
+- **Notification**: Board Chair, legal counsel, insurance claim initiation
+
+#### Level 4 (Critical)
+- **Characteristics**: Fatality, multiple serious injuries, criminal investigation required
+- **Response**: Full incident command activation, external agency coordination
+- **Notification**: All senior leadership, emergency management, media response team
+
+### Post-Incident Actions (24-48 Hours)
+
+#### Investigation and Documentation
+- Complete comprehensive incident report
+- Collect detailed witness statements
+- Preserve all physical evidence
+- Take additional photographs
+- Secure video surveillance footage
+- Document all communications
+
+#### Regulatory and Legal Compliance
+- Notify WorkSafeBC (if workplace incident)
+- File required government reports
+- Initiate insurance claim process
+- Engage legal counsel if necessary
+- Coordinate with law enforcement
+
+#### Communication Management
+- Prepare internal communications
+- Draft external statements (if needed)
+- Manage media inquiries
+- Update stakeholders and participants
+- Document all communications
+
+---
+
+## 4. Risk Mitigation Strategies
+
+### Pre-Event Controls
+
+#### Vendor Management
+- **Insurance Requirements**: Certificate of Insurance with adequate limits
+- **Contractual Protections**: Written contracts with indemnification clauses
+- **Due Diligence**: License verification, reference checks, financial stability review
+- **Performance Monitoring**: Regular check-ins, quality assessments
+- **Backup Plans**: Secondary vendor identification
+
+#### Venue Safety Assessment
+- **Site Inspections**: Comprehensive walkthrough with safety checklist
+- **Emergency Planning**: Exit routes, emergency procedures, evacuation plans
+- **Capacity Management**: Confirmed occupancy limits, crowd control measures
+- **Accessibility Compliance**: ADA requirements, barrier-free access
+- **Security Arrangements**: Professional security if needed, access control
+
+#### Participant Management
+- **Registration Process**: Emergency contact information, medical disclosures
+- **Legal Documentation**: Liability waivers, photo/media releases
+- **Communication**: Code of conduct, safety information, emergency procedures
+- **Special Needs**: Accessibility accommodations, dietary restrictions
+- **Age-Specific Requirements**: Enhanced protections for minors
+
+#### Volunteer Screening and Management
+- **Background Checks**: Criminal record checks for vulnerable population work
+- **Reference Verification**: Employment and volunteer references
+- **Training Programs**: Role-specific training, safety orientation
+- **Supervision Structure**: Clear reporting relationships, oversight procedures
+- **Documentation**: Training records, performance evaluations
+
+### During-Event Controls
+
+#### Safety Management
+- **Personnel**: Trained safety officers on-site
+- **Medical Support**: First aid stations, medical personnel
+- **Environmental Monitoring**: Weather conditions, structural integrity
+- **Crowd Control**: Barriers, signage, flow management
+- **Communication Systems**: Radio communication, emergency notifications
+- **Regular Inspections**: Ongoing safety walks, hazard identification
+
+#### Alcohol Service Management (If Applicable)
+- **Licensing**: Proper permits and licensed servers
+- **Service Controls**: ID checking, drink limits, food availability
+- **Monitoring**: Intoxication assessment, intervention procedures
+- **Transportation**: Alternative transportation options
+- **Timing**: Appropriate service hours and cut-off times
+
+#### Financial Controls
+- **Authorization**: Dual approval for expenditures over $500
+- **Cash Handling**: Secure procedures, regular reconciliation
+- **Payment Processing**: Electronic payments preferred, PCI compliance
+- **Segregation of Duties**: Multiple people involved in financial processes
+- **Documentation**: Audit trail maintenance, receipt retention
+
+### Post-Event Controls
+
+#### Financial Reconciliation
+- Complete expense reconciliation
+- Vendor payment processing
+- Revenue accounting and deposit
+- Budget variance analysis
+- Financial reporting to board
+
+#### Equipment and Property
+- Inventory return and condition assessment
+- Damage documentation and claims
+- Cleanup and restoration verification
+- Final venue walkthrough
+- Security system deactivation
+
+---
+
+## 5. Documentation & Reporting Protocols
+
+### Risk Register
+
+#### Required Elements
+- **Risk ID**: Unique identifier for tracking
+- **Risk Description**: Clear, specific description
+- **Risk Category**: Classification (financial, safety, etc.)
+- **Likelihood Rating**: Probability assessment (1-5)
+- **Impact Rating**: Consequence assessment (1-5)
+- **Risk Score**: Calculated rating (Likelihood × Impact)
+- **Current Controls**: Existing mitigation measures
+- **Residual Risk**: Risk level after controls
+- **Action Plans**: Additional mitigation strategies
+- **Owner**: Responsible person/department
+- **Review Date**: Regular assessment schedule
+- **Status**: Current implementation status
+
+### Incident Report Form
+
+#### Essential Information
+- **Basic Details**: Date, time, location, weather conditions
+- **Injured Party Information**: Name, address, phone, email, age, gender
+- **Injury Details**: Nature of injury, body parts affected, severity
+- **Medical Treatment**: First aid provided, medical facility, treatment received
+- **Incident Description**: Detailed sequence of events
+- **Contributing Factors**: Environmental conditions, equipment involved
+- **Witnesses**: Names, contact information, statements
+- **Photos/Evidence**: Visual documentation attached
+- **Immediate Actions**: Response taken, notifications made
+- **Supervisor Information**: Name, signature, date
+- **Follow-up Required**: Additional actions needed
+
+### Event Safety Plan Template
+
+#### Emergency Contact Information
+- Event coordinator contact details
+- Local emergency services (911, police, fire, EMS)
+- Poison control center
+- Venue management contacts
+- Insurance broker emergency line
+- Organization leadership contacts
+
+#### Emergency Procedures
+- **Medical Emergency Response**: Assessment, first aid, EMS activation
+- **Fire Emergency**: Detection, alarm, evacuation, fire department
+- **Severe Weather Protocol**: Monitoring, warnings, shelter procedures
+- **Evacuation Procedures**: Routes, assembly points, headcount
+- **Communication Plan**: Public address, social media, media relations
+- **Incident Command**: Chain of command, decision-making authority
+
+### Insurance Claim Documentation
+
+#### Initial Claim Filing (Within 24 Hours)
+- Formal notice to insurance carrier
+- Basic incident details and preliminary damage assessment
+- Contact information for all parties
+- Initial photographs and evidence
+- Police report number (if applicable)
+
+#### Comprehensive Documentation Package
+- **Detailed Incident Report**: Complete investigation findings
+- **Witness Statements**: Signed, dated statements from all witnesses
+- **Medical Records**: Treatment records, hospital reports, doctor statements
+- **Photographs**: Scene, damage, evidence, before/after comparisons
+- **Repair Estimates**: Professional assessments from qualified contractors
+- **Financial Records**: Invoices, receipts, proof of costs
+- **Expert Reports**: Engineering, medical, or other professional opinions
+
+### Record Retention Requirements
+
+#### Mandatory Retention Periods
+- **Incident Reports**: 7 years minimum (longer if litigation pending)
+- **Insurance Policies**: Permanent retention
+- **Liability Waivers**: 2 years post-event (7 years if minors involved)
+- **Financial Records**: 7 years per CRA requirements
+- **Board Minutes**: Permanent retention (especially risk-related decisions)
+- **Vendor Contracts**: 7 years post-completion
+- **Training Records**: Duration of employment plus 2 years
+- **Safety Inspections**: 5 years
+
+#### Storage and Access
+- **Physical Storage**: Secure, fireproof, flood-resistant location
+- **Electronic Storage**: Regular backups, password protection, access controls
+- **Access Procedures**: Authorized personnel only, access logging
+- **Confidentiality**: Privacy protection for personal information
+- **Destruction Procedures**: Secure disposal when retention period expires
+
+---
+
+## 6. Key Performance Indicators (KPIs)
+
+### Risk Management Metrics
+
+#### Frequency Metrics
+- **Incident Rate**: Number of incidents per event or per 1,000 participants
+- **Near-Miss Reporting Rate**: Near-miss reports per event
+- **Severity Rate**: Lost time incidents per total incidents
+- **Repeat Incident Rate**: Same-type incidents across events
+
+#### Response and Resolution Metrics
+- **Response Time**: Time from incident to initial response
+- **Reporting Time**: Time from incident to formal report completion
+- **Claim Resolution Time**: Insurance claim processing duration
+- **Corrective Action Closure**: Time to implement preventive measures
+
+#### Financial Metrics
+- **Insurance Cost per Event**: Premium costs relative to event size/revenue
+- **Claim Ratio**: Claims paid versus premiums paid
+- **Cost per Incident**: Average financial impact per incident
+- **Risk Mitigation ROI**: Cost of prevention versus cost of incidents
+
+#### Compliance Metrics
+- **Risk Assessment Completion**: Percentage of events with completed assessments
+- **Training Completion**: Percentage of staff/volunteers trained
+- **Documentation Completeness**: Quality of incident documentation
+- **Vendor Compliance**: Percentage of vendors meeting insurance requirements
+
+### Performance Targets
+
+#### Benchmark Standards
+- **Zero tolerance** for preventable serious injuries
+- **<2%** incident rate for minor injuries
+- **100%** compliance with insurance requirements
+- **<24 hours** for incident report completion
+- **90%+** participant satisfaction with safety measures
+- **<5%** annual increase in insurance premiums
+
+### Monthly/Quarterly Reviews
+
+#### Trending Analysis
+- Incident type frequency and patterns
+- Seasonal or event-type correlations
+- Cost trend analysis
+- Vendor performance patterns
+- Training effectiveness assessment
+
+#### Action Plan Development
+- Priority risk mitigation initiatives
+- Process improvement recommendations
+- Training program adjustments
+- Insurance program modifications
+- Vendor relationship management
+
+---
+
+## 7. Continuous Improvement Process
+
+### Post-Event Review Process
+
+#### Immediate Debrief (Within 48 Hours)
+- **Participants**: Event team, key volunteers, venue representatives
+- **Focus Areas**: Safety incidents, operational challenges, near-misses
+- **Documentation**: Action items, lessons learned, improvement opportunities
+- **Timeline**: Immediate actions versus longer-term improvements
+
+#### Comprehensive Review (Within 2 Weeks)
+- **Stakeholder Input**: Participants, vendors, community partners
+- **Data Analysis**: Incident reports, financial performance, satisfaction surveys
+- **Root Cause Analysis**: Systematic investigation of any incidents
+- **Recommendation Development**: Specific, actionable improvements
+
+### Risk Assessment Updates
+
+#### Quarterly Reviews
+- **Risk Register Updates**: New risks, changed ratings, completed mitigations
+- **Control Effectiveness**: Assessment of current mitigation measures
+- **Emerging Risks**: Industry trends, regulatory changes, environmental factors
+- **Stakeholder Feedback**: Input from board, staff, volunteers, participants
+
+#### Annual Comprehensive Review
+- **Complete Risk Assessment**: Full review of all risk categories
+- **Insurance Program Evaluation**: Coverage adequacy, cost-effectiveness
+- **Policy and Procedure Updates**: Alignment with best practices
+- **Training Program Assessment**: Effectiveness and completion rates
+- **External Benchmarking**: Comparison with similar organizations
+
+### Knowledge Management
+
+#### Lessons Learned Database
+- **Incident Analysis**: Root causes, contributing factors, prevention strategies
+- **Best Practices**: Successful risk mitigation examples
+- **Vendor Performance**: Historical performance data and recommendations
+- **Training Materials**: Updated content based on experience
+
+#### Organizational Memory
+- **Staff Transition Planning**: Knowledge transfer procedures
+- **Documentation Standards**: Consistent recording and retrieval systems
+- **Institutional Knowledge**: Capturing expertise from experienced personnel
+- **Succession Planning**: Ensuring continuity of risk management capabilities
+
+### External Learning
+
+#### Industry Engagement
+- **Professional Associations**: Non-profit risk management groups
+- **Conference Participation**: Learning from sector best practices
+- **Peer Networking**: Information sharing with similar organizations
+- **Vendor Relationships**: Leveraging expertise from insurance and safety providers
+
+#### Regulatory Monitoring
+- **Law and Regulation Changes**: Privacy, safety, insurance requirements
+- **Industry Standards**: Updates to best practices and guidelines
+- **Technology Developments**: New tools for risk management
+- **Emerging Threats**: Cybersecurity, social media, climate change impacts
+
+---
+
+## 8. Implementation Recommendations
+
+### Phase 1: Foundation Building (Months 1-3)
+
+#### Immediate Actions
+1. **Conduct baseline risk assessment** for upcoming events using the framework
+2. **Review current insurance coverage** against requirements in Section 2
+3. **Develop incident response team** with defined roles and responsibilities
+4. **Create essential forms**: incident reports, vendor agreements, waivers
+5. **Establish relationships** with insurance broker, legal counsel, emergency services
+
+#### Quick Wins
+- Implement basic documentation templates
+- Train key staff on incident response procedures
+- Update vendor contract requirements
+- Establish emergency contact protocols
+- Create basic risk register
+
+### Phase 2: Process Development (Months 4-6)
+
+#### System Implementation
+1. **Formalize risk management committee** with board oversight
+2. **Develop comprehensive policies and procedures**
+3. **Implement training programs** for staff and volunteers
+4. **Establish vendor management protocols**
+5. **Create measurement and monitoring systems**
+
+#### Capability Building
+- Advanced incident investigation training
+- Risk assessment methodology training
+- Insurance program optimization
+- Emergency response drill execution
+- Documentation system implementation
+
+### Phase 3: Maturation and Optimization (Months 7-12)
+
+#### Advanced Implementation
+1. **Implement performance measurement systems**
+2. **Conduct annual insurance program review**
+3. **Establish continuous improvement processes**
+4. **Develop crisis communication capabilities**
+5. **Create succession planning for risk management roles**
+
+#### Integration and Refinement
+- Technology integration for efficiency
+- Stakeholder feedback incorporation
+- Benchmark against industry standards
+- External audit consideration
+- Knowledge management system development
+
+### Critical Success Factors
+
+#### Leadership Commitment
+- Board-level oversight and support
+- Adequate resource allocation
+- Clear accountability assignment
+- Regular reporting and review
+- Integration with strategic planning
+
+#### Cultural Development
+- Safety-first organizational culture
+- Open reporting of near-misses and concerns
+- Continuous learning mindset
+- Proactive rather than reactive approach
+- Stakeholder engagement and communication
+
+#### Resource Requirements
+- **Staffing**: Designated risk management coordinator
+- **Training**: Initial and ongoing education programs
+- **Technology**: Documentation and tracking systems
+- **Professional Services**: Insurance broker, legal counsel, safety consultants
+- **Budget**: Insurance premiums, training costs, system implementation
+
+### Monitoring and Evaluation
+
+#### Regular Assessments
+- Monthly incident review meetings
+- Quarterly risk register updates
+- Annual comprehensive program review
+- External audit every 2-3 years
+- Continuous stakeholder feedback collection
+
+#### Adjustment and Improvement
+- Policy and procedure updates based on experience
+- Training program modifications
+- Insurance program optimization
+- Vendor relationship management
+- Emergency response plan refinements
+
+---
+
+## Conclusion
+
+This risk management framework provides BC non-profit organizations with a comprehensive approach to identifying, assessing, and mitigating risks associated with social events. Proper implementation will help protect organizations from financial losses, legal liability, and reputational damage while ensuring appropriate insurance coverage and effective incident response capabilities.
+
+Success requires leadership commitment, adequate resources, and a culture of continuous improvement. Regular review and updates ensure the framework remains effective as risks evolve and organizational capabilities mature.
+
+For additional support in implementing this framework, consider engaging qualified risk management professionals, insurance brokers, and legal counsel familiar with BC non-profit requirements.
+
+---
+
+*Document Version: 1.0*
+*Last Updated: November 2024*
+*Next Review: November 2025*

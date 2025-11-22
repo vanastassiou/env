@@ -1,0 +1,266 @@
+2025-11-20T21:58:54.731Z [DEBUG] Watching for changes in setting files /home/v/.claude/settings.json, /home/v/repos/learning/.claude/settings.json, /home/v/repos/learning/.claude/settings.local.json...
+2025-11-20T21:58:54.751Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-11-20T21:58:54.751Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-11-20T21:58:54.752Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-11-20T21:58:54.752Z [DEBUG] [LSP SERVER MANAGER] initialize() called
+2025-11-20T21:58:54.752Z [DEBUG] [LSP SERVER MANAGER] Calling getAllLspServers()
+2025-11-20T21:58:54.788Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-11-20T21:58:54.835Z [DEBUG] Total LSP servers loaded: 0
+2025-11-20T21:58:54.862Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2025-11-20T21:58:54.863Z [DEBUG] LSP manager initialized with 0 servers
+2025-11-20T21:58:54.877Z [DEBUG] MCP server "ruv-swarm": Starting connection with timeout of 30000ms
+2025-11-20T21:58:54.884Z [DEBUG] LSP server manager initialized successfully
+2025-11-20T21:58:54.884Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2025-11-20T21:58:54.958Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.32203.1763675934958
+2025-11-20T21:58:54.958Z [DEBUG] Preserving file permissions: 100644
+2025-11-20T21:58:54.966Z [DEBUG] Temp file written successfully, size: 46072 bytes
+2025-11-20T21:58:54.967Z [DEBUG] Applied original permissions to temp file
+2025-11-20T21:58:54.967Z [DEBUG] Renaming /home/v/.claude.json.tmp.32203.1763675934958 to /home/v/.claude.json
+2025-11-20T21:58:54.967Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-20T21:58:55.149Z [ERROR] MCP server "ruv-swarm" Server stderr: [6d44c197-25b3-4ff7-a7ac-841b6173f5d0] [INFO] ruv-swarm MCP server starting in stdio mode (NO TIMEOUT VERSION) {
+  protocol: 'stdio',
+  sessionId: '6d44c197-25b3-4ff7-a7ac-841b6173f5d0',
+  nodeVersion: 'v24.9.0',
+  platform: 'linux',
+  arch: 'x64'
+}
+2025-11-20T21:58:55.149Z [ERROR] MCP server "ruv-swarm" Server stderr: [6d44c197-25b3-4ff7-a7ac-841b6173f5d0] [INFO] Connection established {
+  sessionId: '6d44c197-25b3-4ff7-a7ac-841b6173f5d0',
+  event: 'established',
+  protocol: 'stdio',
+  transport: 'stdin/stdout',
+  timestamp: '2025-11-20T21:58:55.149Z'
+}
+2025-11-20T21:58:55.319Z [DEBUG] MCP server "ruv-swarm": Successfully connected to stdio server in 455ms
+2025-11-20T21:58:55.319Z [DEBUG] MCP server "ruv-swarm": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"ruv-swarm-no-timeout","version":"1.0.20"}}
+2025-11-20T21:58:55.326Z [DEBUG] MCP server "claude-flow": Starting connection with timeout of 30000ms
+2025-11-20T21:58:55.332Z [ERROR] MCP server "ruv-swarm" Server stderr: [6d44c197-25b3-4ff7-a7ac-841b6173f5d0] [INFO] MCP server running with NO TIMEOUT MECHANISMS {
+  connectionStatus: 'INFINITE_RUNTIME',
+  timeoutStatus: 'DISABLED',
+  connectionMode: 'INFINITE'
+}
+2025-11-20T21:58:55.332Z [DEBUG] MCP server "ruv-swarm": STDIO connection dropped after 0s uptime
+2025-11-20T21:58:55.333Z [DEBUG] MCP server "ruv-swarm": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+2025-11-20T21:58:56.221Z [ERROR] MCP server "claude-flow" Server stderr: npm warn exec The following package was not found and will be installed: claude-flow@2.7.35
+2025-11-20T21:59:01.205Z [ERROR] MCP server "claude-flow" Server stderr: npm error code ENOTEMPTY
+2025-11-20T21:59:01.206Z [ERROR] MCP server "claude-flow" Server stderr: npm error syscall rename
+npm error path /home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv
+npm error dest /home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh
+npm error errno -39
+npm error ENOTEMPTY: directory not empty, rename '/home/v/.npm/_npx/7cfa166e65244432/node_modules/ajv' -> '/home/v/.npm/_npx/7cfa166e65244432/node_modules/.ajv-rEojUHGh'
+2025-11-20T21:59:01.207Z [ERROR] MCP server "claude-flow" Server stderr: npm error A complete log of this run can be found in: /home/v/.npm/_logs/2025-11-20T21_58_55_372Z-debug-0.log
+2025-11-20T21:59:01.247Z [DEBUG] MCP server "claude-flow": Connection failed after 5923ms: MCP error -32000: Connection closed
+2025-11-20T21:59:01.247Z [ERROR] MCP server "claude-flow" Connection failed: MCP error -32000: Connection closed
+2025-11-20T21:59:01.249Z [DEBUG] MCP server "flow-nexus": Starting connection with timeout of 30000ms
+2025-11-20T21:59:02.277Z [DEBUG] MCP server "flow-nexus": Successfully connected to stdio server in 1029ms
+2025-11-20T21:59:02.278Z [DEBUG] MCP server "flow-nexus": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"Flow Nexus Complete","version":"2.0.0"}}
+2025-11-20T21:59:02.279Z [DEBUG] MCP server "agentic-payments": Starting connection with timeout of 30000ms
+2025-11-20T21:59:02.424Z [DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+2025-11-20T21:59:02.425Z [DEBUG] MCP server "flow-nexus": Connection error: Unexpected token 'E', "E2B Templa"... is not valid JSON
+2025-11-20T21:59:02.429Z [DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+2025-11-20T21:59:02.429Z [DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'base',   "... is not valid JSON
+2025-11-20T21:59:02.429Z [DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+2025-11-20T21:59:02.429Z [DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'react',  "... is not valid JSON
+2025-11-20T21:59:02.429Z [DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+2025-11-20T21:59:02.430Z [DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'vanilla', 'node'," is not valid JSON
+2025-11-20T21:59:02.430Z [DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+2025-11-20T21:59:02.430Z [DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'nodejs'" is not valid JSON
+2025-11-20T21:59:02.430Z [DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+2025-11-20T21:59:02.431Z [DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ']', "]" is not valid JSON
+2025-11-20T21:59:03.147Z [ERROR] MCP server "agentic-payments" Server stderr: npm warn exec The following package was not found and will be installed: agentic-payments@0.1.13
+2025-11-20T21:59:03.648Z [ERROR] MCP server "agentic-payments" Server stderr: [MCP] Starting Agentic Payments MCP Server...
+2025-11-20T21:59:03.651Z [ERROR] MCP server "agentic-payments" Server stderr: [MCP] Starting stdio transport...
+2025-11-20T21:59:03.652Z [ERROR] MCP server "agentic-payments" Server stderr: [MCP] Agentic Payments MCP server running on stdio
+[MCP] Available tools: 10
+2025-11-20T21:59:03.656Z [DEBUG] MCP server "agentic-payments": Successfully connected to stdio server in 1378ms
+2025-11-20T21:59:03.656Z [DEBUG] MCP server "agentic-payments": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"agentic-payments","version":"0.1.0"}}

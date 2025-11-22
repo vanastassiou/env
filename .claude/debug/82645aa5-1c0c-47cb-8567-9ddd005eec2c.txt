@@ -1,0 +1,814 @@
+[DEBUG] Watching for changes in setting files /home/v/.claude/settings.json, /home/v/repos/learning/.claude/settings.json, /home/v/repos/learning/.claude/settings.local.json...
+[DEBUG] Applying permission update: Adding 20 allow rule(s) to destination 'userSettings': ["Bash(npx claude-flow:*)","Bash(npm run lint)","Bash(npm run test:*)","Bash(npm test:*)","Bash(git status)","Bash(git diff:*)","Bash(git log:*)","Bash(git add:*)","Bash(git commit:*)","Bash(git push)","Bash(git config:*)","Bash(git tag:*)","Bash(git branch:*)","Bash(git checkout:*)","Bash(git stash:*)","Bash(jq:*)","Bash(node:*)","Bash(which:*)","Bash(pwd)","Bash(ls:*)"]
+[DEBUG] Applying permission update: Adding 1 deny rule(s) to destination 'userSettings': ["Bash(rm -rf /)"]
+[DEBUG] Applying permission update: Adding 20 allow rule(s) to destination 'projectSettings': ["Bash(npx claude-flow:*)","Bash(npm run lint)","Bash(npm run test:*)","Bash(npm test:*)","Bash(git status)","Bash(git diff:*)","Bash(git log:*)","Bash(git add:*)","Bash(git commit:*)","Bash(git push)","Bash(git config:*)","Bash(git tag:*)","Bash(git branch:*)","Bash(git checkout:*)","Bash(git stash:*)","Bash(jq:*)","Bash(node:*)","Bash(which:*)","Bash(pwd)","Bash(ls:*)"]
+[DEBUG] Applying permission update: Adding 1 deny rule(s) to destination 'projectSettings': ["Bash(rm -rf /)"]
+[DEBUG] Applying permission update: Adding 5 allow rule(s) to destination 'localSettings': ["mcp__ruv-swarm","mcp__claude-flow@alpha","mcp__flow-nexus","WebSearch","WebFetch(domain:www.cosmicpython.com)"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Creating shell snapshot for bash (/bin/bash)
+[DEBUG] Looking for shell config file: /home/v/.bashrc
+[DEBUG] Snapshots directory: /home/v/.claude/shell-snapshots
+[DEBUG] Creating snapshot at: /home/v/.claude/shell-snapshots/snapshot-bash-1759935813692-133ca4.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: /home/v/.claude/todos/82645aa5-1c0c-47cb-8567-9ddd005eec2c-agent-82645aa5-1c0c-47cb-8567-9ddd005eec2c.json.tmp.2377.1759935813697
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming /home/v/.claude/todos/82645aa5-1c0c-47cb-8567-9ddd005eec2c-agent-82645aa5-1c0c-47cb-8567-9ddd005eec2c.json.tmp.2377.1759935813697 to /home/v/.claude/todos/82645aa5-1c0c-47cb-8567-9ddd005eec2c-agent-82645aa5-1c0c-47cb-8567-9ddd005eec2c.json
+[DEBUG] File /home/v/.claude/todos/82645aa5-1c0c-47cb-8567-9ddd005eec2c-agent-82645aa5-1c0c-47cb-8567-9ddd005eec2c.json written atomically
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+[DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/home/v/.claude/skills, project=/home/v/repos/learning/.claude/skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Shell snapshot created successfully (4765 bytes)
+[DEBUG] Summarizing last 2 of 85 messages (~79571 tokens)
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.2377.1759935813917
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 36948 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.2377.1759935813917 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Failed to fetch Grove notice config: AxiosError: Request failed with status code 401
+[DEBUG] MCP server "claude-flow@alpha": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ruv-swarm": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "flow-nexus": Starting connection with timeout of 30000ms
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.2377.1759935814108
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 36948 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.2377.1759935814108 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Executing hooks for SessionStart:startup
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.2377.1759935814191
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 36843 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.2377.1759935814191 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.2377.1759935814197
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 36843 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.2377.1759935814197 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: npm-global, using native: false
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=undefined
+[DEBUG] Skipping plugin installations - ENABLE_PLUGINS not set
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.2377.1759935814481
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 36948 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.2377.1759935814481 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[ERROR] AxiosError: AxiosError: Request failed with status code 401
+    at pN (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:713:1075)
+    at IncomingMessage.<anonymous> (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:714:9910)
+    at IncomingMessage.emit (node:events:520:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at cQ1.request (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:716:2078)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async lIA (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:877:25947)
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.2377.1759935814772
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 36948 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.2377.1759935814772 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[ERROR] MCP server "ruv-swarm" Server stderr: [68a76c34-1f4a-4a28-b787-25fb6af29728] [INFO] ruv-swarm MCP server starting in stdio mode (NO TIMEOUT VERSION) {
+  protocol: 'stdio',
+  sessionId: '68a76c34-1f4a-4a28-b787-25fb6af29728',
+  nodeVersion: 'v24.9.0',
+  platform: 'linux',
+  arch: 'x64'
+}
+[68a76c34-1f4a-4a28-b787-25fb6af29728] [INFO] Connection established {
+  sessionId: '68a76c34-1f4a-4a28-b787-25fb6af29728',
+  event: 'established',
+  protocol: 'stdio',
+  transport: 'stdin/stdout',
+  timestamp: '2025-10-08T15:03:35.023Z'
+}
+[68a76c34-1f4a-4a28-b787-25fb6af29728] [INFO] MCP server running with NO TIMEOUT MECHANISMS {
+  connectionStatus: 'INFINITE_RUNTIME',
+  timeoutStatus: 'DISABLED',
+  connectionMode: 'INFINITE'
+}
+[DEBUG] MCP server "ruv-swarm": Successfully connected to stdio server in 1294ms
+[DEBUG] MCP server "ruv-swarm": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"ruv-swarm-no-timeout","version":"1.0.20"}}
+[DEBUG] MCP server "ruv-swarm": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "ruv-swarm": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.2377.1759935815423
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37026 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.2377.1759935815423 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[ERROR] MCP server "claude-flow@alpha" Server stderr: [2025-10-08T15:03:35.955Z] INFO [claude-flow-mcp] (session-cf-1759935815954-9lef) Claude-Flow MCP server starting in stdio mode
+[ERROR] MCP server "claude-flow@alpha" Server stderr: {
+  arch: 'x64',
+  mode: 'mcp-stdio',
+  nodeVersion: 'v24.9.0',
+  pid: 3383,
+  platform: 'linux',
+  protocol: 'stdio',
+  sessionId: 'session-cf-1759935815954-9lef',
+  version: '2.5.0-alpha.131'
+}
+[ERROR] MCP server "claude-flow@alpha" Server stderr: [2025-10-08T15:03:35.958Z] INFO [claude-flow-mcp] (session-cf-1759935815954-9lef) 🔌 Connection established: session-cf-1759935815954-9lef
+[DEBUG] MCP server "claude-flow@alpha": Successfully connected to stdio server in 1882ms
+[DEBUG] MCP server "claude-flow@alpha": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"claude-flow","version":"2.5.0-alpha.131"}}
+[ERROR] MCP server "claude-flow@alpha" Server stderr: [2025-10-08T15:03:35.984Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[2025-10-08T15:03:35.985Z] INFO [fallback-store] Successfully initialized SQLite store
+[2025-10-08T15:03:35.985Z] INFO [claude-flow-mcp] (session-cf-1759935815954-9lef) Shared memory store initialized (same as npx)
+[2025-10-08T15:03:35.985Z] INFO [claude-flow-mcp] (session-cf-1759935815954-9lef) Using SQLite storage
+[DEBUG] MCP server "claude-flow@alpha": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "claude-flow@alpha": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+[DEBUG] MCP server "flow-nexus": Successfully connected to stdio server in 2202ms
+[DEBUG] MCP server "flow-nexus": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"Flow Nexus Complete","version":"2.0.0"}}
+[DEBUG] MCP server "agentic-payments": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "claude-flow": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ide": Starting connection with timeout of 30000ms
+[DEBUG] MCP server "ide": Successfully connected to ws-ide server in 16ms
+[DEBUG] MCP server "ide": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"Claude Code Cursor MCP","version":"2.0.10"}}
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token 'E', "E2B Templa"... is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'base',   "... is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'react',  "... is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'vanilla', 'node'," is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ''', "  'nodejs'" is not valid JSON
+[DEBUG] MCP server "flow-nexus": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "flow-nexus": Connection error: Unexpected token ']', "]" is not valid JSON
+[DEBUG] Summarizing last 5 of 520 messages (~0 tokens)
+[ERROR] MCP server "claude-flow" Server stderr: [2025-10-08T15:03:37.207Z] INFO [claude-flow-mcp] (session-cf-1759935817207-rt08) Claude-Flow MCP server starting in stdio mode
+[ERROR] MCP server "claude-flow" Server stderr: {
+  arch: 'x64',
+  mode: 'mcp-stdio',
+  nodeVersion: 'v24.9.0',
+  pid: 3480,
+  platform: 'linux',
+  protocol: 'stdio',
+  sessionId: 'session-cf-1759935817207-rt08',
+  version: '2.5.0-alpha.131'
+}
+[ERROR] MCP server "claude-flow" Server stderr: [2025-10-08T15:03:37.212Z] INFO [claude-flow-mcp] (session-cf-1759935817207-rt08) 🔌 Connection established: session-cf-1759935817207-rt08
+[DEBUG] MCP server "claude-flow": Successfully connected to stdio server in 894ms
+[DEBUG] MCP server "claude-flow": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":true,"serverVersion":{"name":"claude-flow","version":"2.5.0-alpha.131"}}
+[ERROR] MCP server "claude-flow" Server stderr: [2025-10-08T15:03:37.214Z] INFO [memory-store] Initialized SQLite at: /home/v/repos/learning/.swarm/memory.db
+[ERROR] MCP server "claude-flow" Server stderr: [2025-10-08T15:03:37.214Z] INFO [fallback-store] Successfully initialized SQLite store
+[2025-10-08T15:03:37.215Z] INFO [claude-flow-mcp] (session-cf-1759935817207-rt08) Shared memory store initialized (same as npx)
+[2025-10-08T15:03:37.215Z] INFO [claude-flow-mcp] (session-cf-1759935817207-rt08) Using SQLite storage
+[DEBUG] MCP server "claude-flow": STDIO connection dropped after 0s uptime
+[DEBUG] MCP server "claude-flow": Connection error: [
+  {
+    "code": "invalid_union",
+    "unionErrors": [
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_type",
+            "expected": "string",
+            "received": "undefined",
+            "path": [
+              "method"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          },
+          {
+            "code": "invalid_type",
+            "expected": "object",
+            "received": "undefined",
+            "path": [
+              "result"
+            ],
+            "message": "Required"
+          },
+          {
+            "code": "unrecognized_keys",
+            "keys": [
+              "error"
+            ],
+            "path": [],
+            "message": "Unrecognized key(s) in object: 'error'"
+          }
+        ],
+        "name": "ZodError"
+      },
+      {
+        "issues": [
+          {
+            "code": "invalid_union",
+            "unionErrors": [
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "string",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              },
+              {
+                "issues": [
+                  {
+                    "code": "invalid_type",
+                    "expected": "number",
+                    "received": "undefined",
+                    "path": [
+                      "id"
+                    ],
+                    "message": "Required"
+                  }
+                ],
+                "name": "ZodError"
+              }
+            ],
+            "path": [
+              "id"
+            ],
+            "message": "Invalid input"
+          }
+        ],
+        "name": "ZodError"
+      }
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]
+[ERROR] MCP server "agentic-payments" Server stderr: [MCP] Starting Agentic Payments MCP Server...
+[ERROR] MCP server "agentic-payments" Server stderr: [MCP] Starting stdio transport...
+[ERROR] MCP server "agentic-payments" Server stderr: [MCP] Agentic Payments MCP server running on stdio
+[ERROR] MCP server "agentic-payments" Server stderr: [MCP] Available tools: 10
+[DEBUG] MCP server "agentic-payments": Successfully connected to stdio server in 1140ms
+[DEBUG] MCP server "agentic-payments": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"agentic-payments","version":"0.1.0"}}
+[DEBUG] Summarizing all 4 messages (~78515 tokens)
+[ERROR] MCP server "ruv-swarm" Server stderr: (node:2882) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2882) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:2882) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[ERROR] MCP server "ruv-swarm" Server stderr: (node:2882) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[ERROR] MCP server "ruv-swarm" Server stderr: (node:2882) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:2882) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[ERROR] MCP server "ruv-swarm" Server stderr: (node:2882) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[ERROR] MCP server "ruv-swarm" Server stderr: (node:2882) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(node:2882) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Worker]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+[DEBUG] Detected deletion of /home/v/repos/learning/.claude/settings.json
+[DEBUG] Replacing all allow rules for destination 'userSettings' with 20 rule(s): ["Bash(npx claude-flow:*)","Bash(npm run lint)","Bash(npm run test:*)","Bash(npm test:*)","Bash(git status)","Bash(git diff:*)","Bash(git log:*)","Bash(git add:*)","Bash(git commit:*)","Bash(git push)","Bash(git config:*)","Bash(git tag:*)","Bash(git branch:*)","Bash(git checkout:*)","Bash(git stash:*)","Bash(jq:*)","Bash(node:*)","Bash(which:*)","Bash(pwd)","Bash(ls:*)"]
+[DEBUG] Replacing all deny rules for destination 'userSettings' with 1 rule(s): ["Bash(rm -rf /)"]
+[DEBUG] Replacing all allow rules for destination 'localSettings' with 5 rule(s): ["mcp__ruv-swarm","mcp__claude-flow@alpha","mcp__flow-nexus","WebSearch","WebFetch(domain:www.cosmicpython.com)"]
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: /home/v/.claude/shell-snapshots/snapshot-bash-1759935813692-133ca4.sh
+[DEBUG] MCP server "ruv-swarm": Sending SIGINT to MCP server process
+[DEBUG] MCP server "claude-flow@alpha": Sending SIGINT to MCP server process
+[DEBUG] MCP server "flow-nexus": Sending SIGINT to MCP server process
+[DEBUG] MCP server "claude-flow": Sending SIGINT to MCP server process
+[DEBUG] MCP server "agentic-payments": Sending SIGINT to MCP server process
+[DEBUG] FileHistory: Added snapshot for 4582bb72-0645-4820-a63e-a4dd60183743, tracking 0 files
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.2377.1759951870849
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37108 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.2377.1759951870849 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically
+[DEBUG] MCP server "ruv-swarm": SIGINT failed, sending SIGTERM to MCP server process
+[DEBUG] MCP server "claude-flow@alpha": SIGINT failed, sending SIGTERM to MCP server process
+[DEBUG] MCP server "flow-nexus": SIGINT failed, sending SIGTERM to MCP server process
+[DEBUG] MCP server "claude-flow": SIGINT failed, sending SIGTERM to MCP server process
+[DEBUG] MCP server "agentic-payments": SIGINT failed, sending SIGTERM to MCP server process
+[ERROR] MCP server "claude-flow" Server stderr: [2025-10-08T19:31:11.007Z] INFO [claude-flow-mcp] (session-cf-1759935817207-rt08) 🔌 Connection closed: session-cf-1759935817207-rt08
+[ERROR] MCP server "claude-flow" Server stderr: [2025-10-08T19:31:11.008Z] INFO [claude-flow-mcp] (session-cf-1759935817207-rt08) MCP: stdin closed, shutting down...
+[ERROR] MCP server "claude-flow" Server stderr: Warning: Detected unsettled top-level await at file:///home/v/.npm/_npx/7cfa166e65244432/node_modules/claude-flow/src/cli/simple-cli.js:3428
+  await main();
+  ^
+[DEBUG] MCP server "claude-flow": MCP server process exited cleanly
+[DEBUG] MCP server "agentic-payments": MCP server process exited cleanly
+[ERROR] MCP server "ruv-swarm" Server stderr: [68a76c34-1f4a-4a28-b787-25fb6af29728] [INFO] Connection closed {
+  sessionId: '68a76c34-1f4a-4a28-b787-25fb6af29728',
+  event: 'closed',
+  messagesProcessed: 4,
+  uptime: 15596.930193518
+}
+[ERROR] MCP server "ruv-swarm" Server stderr: [68a76c34-1f4a-4a28-b787-25fb6af29728] [INFO] MCP: stdin closed, shutting down...
+[DEBUG] MCP server "ruv-swarm": STDIO connection dropped after 16055s uptime
+[DEBUG] MCP server "ruv-swarm": Connection error: Unexpected token '�', "🧹 Cleanin"... is not valid JSON
+[ERROR] MCP server "claude-flow@alpha" Server stderr: [2025-10-08T19:31:11.097Z] INFO [claude-flow-mcp] (session-cf-1759935815954-9lef) 🔌 Connection closed: session-cf-1759935815954-9lef
+[2025-10-08T19:31:11.098Z] INFO [claude-flow-mcp] (session-cf-1759935815954-9lef) MCP: stdin closed, shutting down...
+[ERROR] MCP server "claude-flow@alpha" Server stderr: Warning: Detected unsettled top-level await at file:///home/v/.npm/_npx/7cfa166e65244432/node_modules/claude-flow/src/cli/simple-cli.js:3428
+  await main();
+  ^
+[DEBUG] MCP server "ruv-swarm": MCP server process exited cleanly
+[DEBUG] MCP server "claude-flow@alpha": MCP server process exited cleanly
+[DEBUG] MCP server "flow-nexus": MCP server process exited cleanly
+[DEBUG] Writing to temp file: /home/v/.claude.json.tmp.2377.1759951871119
+[DEBUG] Preserving file permissions: 100644
+[DEBUG] Temp file written successfully, size: 37507 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming /home/v/.claude.json.tmp.2377.1759951871119 to /home/v/.claude.json
+[DEBUG] File /home/v/.claude.json written atomically

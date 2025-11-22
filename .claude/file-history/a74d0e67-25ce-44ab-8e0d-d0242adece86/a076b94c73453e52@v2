@@ -1,0 +1,105 @@
+#!/bin/bash
+# Global Post-Write Hook: Automatically review documentation files with editor-anti-llm
+# This hook triggers after any file write operation in any Claude project
+
+set -e
+
+FILE_PATH="$1"
+CONFIG_FILE="$HOME/.claude/hooks/documentation.config.json"
+
+# Check if config exists
+if [ ! -f "$CONFIG_FILE" ]; then
+  exit 0
+fi
+
+# Check if auto-review is enabled
+ENABLED=$(jq -r '.["auto-review"].enabled' "$CONFIG_FILE" 2>/dev/null || echo "false")
+if [ "$ENABLED" != "true" ]; then
+  exit 0
+fi
+
+# Function to check if file matches patterns
+matches_pattern() {
+  local file="$1"
+  local patterns=$(jq -r '.["auto-review"].patterns[]' "$CONFIG_FILE" 2>/dev/null)
+  local excludes=$(jq -r '.["auto-review"].exclude[]' "$CONFIG_FILE" 2>/dev/null)
+
+  # Check excludes first
+  while IFS= read -r exclude; do
+    if [[ "$file" == $exclude ]]; then
+      return 1
+    fi
+  done <<< "$excludes"
+
+  # Check if matches any pattern
+  while IFS= read -r pattern; do
+    if [[ "$file" == $pattern ]]; then
+      return 0
+    fi
+  done <<< "$patterns"
+
+  return 1
+}
+
+# Check if file matches documentation patterns
+if ! matches_pattern "$FILE_PATH"; then
+  exit 0
+fi
+
+# Determine configuration for this file
+get_config_for_file() {
+  local file="$1"
+
+  # Check for specific overrides
+  if [[ "$file" == "README.md" ]]; then
+    echo "README.md"
+  elif [[ "$file" == docs/api/* ]]; then
+    echo "docs/api/**"
+  elif [[ "$file" == docs/guides/* ]]; then
+    echo "docs/guides/**"
+  else
+    echo "default"
+  fi
+}
+
+CONFIG_KEY=$(get_config_for_file "$FILE_PATH")
+MODE=$(jq -r ".\"auto-review\".config.overrides[\"$CONFIG_KEY\"].mode // .\"auto-review\".config.default.mode" "$CONFIG_FILE")
+AUDIENCE=$(jq -r ".\"auto-review\".config.overrides[\"$CONFIG_KEY\"].audience // .\"auto-review\".config.default.audience" "$CONFIG_FILE")
+AUTO_APPLY=$(jq -r ".\"auto-review\".config.overrides[\"$CONFIG_KEY\"].autoApply // .\"auto-review\".config.default.autoApply" "$CONFIG_FILE")
+
+# Notify user
+VERBOSE=$(jq -r '.["auto-review"].notifications.verbose' "$CONFIG_FILE" 2>/dev/null || echo "false")
+if [ "$VERBOSE" = "true" ]; then
+  echo "📝 Auto-reviewing documentation: $FILE_PATH"
+  echo "   Mode: $MODE | Audience: $AUDIENCE"
+fi
+
+# Run editor-anti-llm agent via Claude Code Task tool
+# Note: This is a placeholder for the actual implementation
+# In practice, this would integrate with Claude Code's agent system
+
+# For now, we'll use npx claude-flow if available
+if command -v npx &> /dev/null && npx claude-flow --version &> /dev/null 2>&1; then
+  if [ "$AUTO_APPLY" = "true" ]; then
+    npx claude-flow agent run editor-anti-llm \
+      --file "$FILE_PATH" \
+      --mode "$MODE" \
+      --audience "$AUDIENCE" \
+      --auto-apply \
+      2>/dev/null || true
+  else
+    npx claude-flow agent run editor-anti-llm \
+      --file "$FILE_PATH" \
+      --mode "$MODE" \
+      --audience "$AUDIENCE" \
+      --review-only \
+      2>/dev/null || true
+  fi
+fi
+
+# Store metadata about the review
+REVIEW_LOG="$HOME/.claude/logs/reviews.log"
+mkdir -p "$(dirname "$REVIEW_LOG")"
+echo "$(date -Iseconds) | $FILE_PATH | $MODE | $AUDIENCE" >> "$REVIEW_LOG"
+
+exit 0

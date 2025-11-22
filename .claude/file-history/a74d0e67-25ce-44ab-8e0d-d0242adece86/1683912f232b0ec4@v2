@@ -1,0 +1,162 @@
+{
+  "documentation-chain": {
+    "description": "Global automatic documentation generation and review chain",
+    "version": "1.0.0",
+    "scope": "global",
+    "agents": {
+      "api-docs": {
+        "description": "Expert agent for creating OpenAPI/Swagger documentation",
+        "auto-chain": {
+          "after": "editor-anti-llm",
+          "config": {
+            "mode": "strict",
+            "audience": "developer",
+            "rules": {
+              "requireErrorExamples": true,
+              "validateCodeExamples": true,
+              "includeVersionNumbers": true
+            }
+          }
+        }
+      },
+      "base-template-generator": {
+        "description": "Creates foundational templates and boilerplate",
+        "auto-chain": {
+          "after": "editor-anti-llm",
+          "config": {
+            "mode": "strict",
+            "audience": "developer",
+            "rules": {
+              "requireSpecificExamples": true,
+              "noTemplateBoilerplate": true
+            }
+          }
+        }
+      },
+      "documenter": {
+        "description": "General documentation creation agent",
+        "auto-chain": {
+          "after": "editor-anti-llm",
+          "config": {
+            "mode": "strict",
+            "audience": "mixed",
+            "rules": {
+              "defineTermsOnFirstUse": true,
+              "minimumInfoDensity": 0.6
+            }
+          }
+        }
+      }
+    },
+    "workflows": {
+      "api-documentation": {
+        "description": "Complete API documentation workflow",
+        "steps": [
+          {
+            "agent": "code-analyzer",
+            "task": "Analyze API endpoints and extract signatures"
+          },
+          {
+            "agent": "api-docs",
+            "task": "Generate OpenAPI documentation with examples"
+          },
+          {
+            "agent": "editor-anti-llm",
+            "task": "Review and improve documentation quality",
+            "automatic": true
+          },
+          {
+            "agent": "tester",
+            "task": "Validate all code examples work correctly"
+          }
+        ]
+      },
+      "readme-generation": {
+        "description": "README file creation workflow",
+        "steps": [
+          {
+            "agent": "researcher",
+            "task": "Analyze project structure and dependencies"
+          },
+          {
+            "agent": "base-template-generator",
+            "task": "Create README with installation and usage"
+          },
+          {
+            "agent": "editor-anti-llm",
+            "task": "Remove template boilerplate and AI patterns",
+            "automatic": true,
+            "config": {
+              "audience": "enduser"
+            }
+          },
+          {
+            "agent": "reviewer",
+            "task": "Final quality check"
+          }
+        ]
+      },
+      "user-guide": {
+        "description": "User guide documentation workflow",
+        "steps": [
+          {
+            "agent": "planner",
+            "task": "Outline guide structure and sections"
+          },
+          {
+            "agent": "documenter",
+            "task": "Write guide content with examples"
+          },
+          {
+            "agent": "editor-anti-llm",
+            "task": "Ensure clarity and remove jargon",
+            "automatic": true,
+            "config": {
+              "audience": "enduser",
+              "rules": {
+                "noJargon": true,
+                "defineTermsOnFirstUse": true
+              }
+            }
+          }
+        ]
+      }
+    },
+    "special-cases": {
+      "legal-documentation": {
+        "description": "Legal documents require manual approval",
+        "agents": ["documenter"],
+        "auto-chain": {
+          "after": "editor-anti-llm",
+          "config": {
+            "mode": "review-only",
+            "autoApply": false,
+            "requireApproval": true
+          }
+        }
+      },
+      "external-documentation": {
+        "description": "Public-facing documentation gets extra review",
+        "agents": ["documenter", "api-docs"],
+        "auto-chain": {
+          "after": ["editor-anti-llm", "reviewer"],
+          "config": {
+            "mode": "strict",
+            "multipleReviews": true
+          }
+        }
+      }
+    },
+    "integration": {
+      "hooks": {
+        "enabled": true,
+        "hookPath": "~/.claude/hooks"
+      },
+      "git": {
+        "preCommit": true,
+        "prValidation": true
+      },
+      "scope": "global"
+    }
+  }
+}

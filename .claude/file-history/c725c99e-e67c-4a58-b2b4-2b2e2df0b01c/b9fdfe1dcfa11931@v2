@@ -1,0 +1,5 @@
+# PDF to Markdown Converter Dependencies
+
+# PyMuPDF - High-performance PDF processing library
+# Provides excellent text extraction with formatting information
+pymupdf>=1.23.0

@@ -1,0 +1,486 @@
+2025-11-21T07:51:03.076Z [DEBUG] Getting matching hook commands for SessionStart with query: clear
+2025-11-21T07:51:03.076Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T07:51:03.076Z [DEBUG] Matched 0 unique hooks for query "clear" (0 before deduplication)
+2025-11-21T07:51:03.087Z [DEBUG] FileHistory: Added snapshot for d94a7f25-837a-476b-b87a-c5bce43c8776, tracking 0 files
+2025-11-21T07:51:03.094Z [DEBUG] Rendering user message with 1 content blocks
+2025-11-21T07:51:03.094Z [DEBUG] Block 0: <command-name>/clear</command-name>
+            <command-message>clear</command-message>
+           ...
+2025-11-21T07:51:03.095Z [DEBUG] UserCommandMessage rendering: "clear" (args: "none")
+2025-11-21T07:51:03.095Z [DEBUG] isSkillFormat: false, prefix: "/"
+2025-11-21T07:51:03.361Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T07:51:03.361Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T07:51:04.661Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763711464661
+2025-11-21T07:51:04.662Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T07:51:04.674Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T07:51:04.674Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:51:04.674Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763711464661 to /home/v/.claude.json
+2025-11-21T07:51:04.675Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T07:51:35.452Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T07:51:35.454Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T07:51:35.454Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T07:51:35.457Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T07:51:35.457Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T07:51:35.465Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 13ms
+2025-11-21T07:51:35.477Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-21T07:51:35.478Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T07:51:35.478Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-21T07:51:35.478Z [DEBUG] FileHistory: Making snapshot for message df68e23b-28c7-4381-8eec-b53e85b13726
+2025-11-21T07:51:35.478Z [DEBUG] FileHistory: Added snapshot for df68e23b-28c7-4381-8eec-b53e85b13726, tracking 0 files
+2025-11-21T07:51:35.496Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-21T07:51:35.549Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 53ms
+2025-11-21T07:51:35.562Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T07:51:35.562Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T07:51:36.302Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:51:38.253Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:51:44.740Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-21T07:51:44.743Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-21T07:51:44.743Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:51:44.743Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T07:51:44.755Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763711504755
+2025-11-21T07:51:44.762Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T07:51:44.762Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763711504755 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json
+2025-11-21T07:51:44.762Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json written atomically
+2025-11-21T07:51:44.762Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763711504762
+2025-11-21T07:51:44.765Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T07:51:44.765Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763711504762 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json
+2025-11-21T07:51:44.765Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json written atomically
+2025-11-21T07:51:44.766Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763711504766
+2025-11-21T07:51:44.770Z [DEBUG] Temp file written successfully, size: 1137 bytes
+2025-11-21T07:51:44.770Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763711504766 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json
+2025-11-21T07:51:44.770Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json written atomically
+2025-11-21T07:51:44.795Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-21T07:51:44.795Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:51:44.795Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T07:51:44.838Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T07:51:44.841Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T07:51:44.845Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T07:51:44.848Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T07:51:44.848Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:51:44.849Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:51:44.849Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T07:51:44.849Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:51:44.849Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:51:44.849Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T07:51:44.849Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:51:44.849Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:51:45.942Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:51:46.906Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:51:47.508Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:51:57.032Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T07:51:57.032Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:51:57.032Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:51:59.139Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T07:51:59.139Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:51:59.139Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:52:00.706Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T07:52:00.706Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:00.706Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:52:00.931Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T07:52:00.933Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T07:52:00.933Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T07:52:00.939Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T07:52:00.939Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T07:52:00.967Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 36ms
+2025-11-21T07:52:00.984Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T07:52:00.984Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T07:52:02.908Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:52:08.712Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-21T07:52:08.716Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-21T07:52:08.716Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:08.716Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T07:52:08.732Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763711528732
+2025-11-21T07:52:08.732Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T07:52:08.736Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T07:52:08.736Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:52:08.736Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763711528732 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json
+2025-11-21T07:52:08.737Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json written atomically
+2025-11-21T07:52:08.737Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763711528737
+2025-11-21T07:52:08.737Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T07:52:08.741Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T07:52:08.741Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:52:08.741Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763711528737 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json
+2025-11-21T07:52:08.741Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json written atomically
+2025-11-21T07:52:08.741Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763711528741
+2025-11-21T07:52:08.741Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T07:52:08.746Z [DEBUG] Temp file written successfully, size: 1141 bytes
+2025-11-21T07:52:08.746Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:52:08.746Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763711528741 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json
+2025-11-21T07:52:08.747Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json written atomically
+2025-11-21T07:52:08.760Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-21T07:52:08.760Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:08.760Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T07:52:08.801Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T07:52:08.805Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T07:52:08.809Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T07:52:08.819Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T07:52:08.819Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:08.819Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:52:08.819Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T07:52:08.819Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:08.819Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:52:08.819Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T07:52:08.819Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:08.819Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:52:09.953Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:52:10.794Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:52:10.855Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:52:25.111Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T07:52:25.111Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:25.111Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:52:25.850Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T07:52:25.850Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:25.851Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:52:30.448Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T07:52:30.449Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:30.449Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:52:30.661Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T07:52:30.663Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T07:52:30.663Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T07:52:30.670Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T07:52:30.670Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T07:52:30.695Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 34ms
+2025-11-21T07:52:30.712Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T07:52:30.712Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T07:52:33.120Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:52:38.340Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-21T07:52:38.345Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-21T07:52:38.345Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:38.345Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T07:52:38.366Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763711558366
+2025-11-21T07:52:38.366Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T07:52:38.373Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T07:52:38.373Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:52:38.374Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763711558366 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json
+2025-11-21T07:52:38.374Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json written atomically
+2025-11-21T07:52:38.374Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763711558374
+2025-11-21T07:52:38.374Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T07:52:38.378Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T07:52:38.379Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:52:38.379Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763711558374 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json
+2025-11-21T07:52:38.379Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json written atomically
+2025-11-21T07:52:38.379Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763711558379
+2025-11-21T07:52:38.379Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T07:52:38.386Z [DEBUG] Temp file written successfully, size: 1145 bytes
+2025-11-21T07:52:38.386Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:52:38.386Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763711558379 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json
+2025-11-21T07:52:38.386Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json written atomically
+2025-11-21T07:52:38.411Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-21T07:52:38.411Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:38.411Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T07:52:38.442Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T07:52:38.445Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T07:52:38.449Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T07:52:38.449Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:38.449Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:52:38.449Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T07:52:38.449Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:38.449Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:52:40.679Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:52:41.084Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:52:54.131Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T07:52:54.131Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:54.131Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:52:55.165Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T07:52:55.165Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:52:55.165Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T07:52:55.197Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T07:52:55.198Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T07:52:55.198Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T07:52:55.206Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T07:52:55.206Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T07:52:55.231Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 33ms
+2025-11-21T07:52:55.247Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T07:52:55.247Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T07:52:57.195Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:53:01.485Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-21T07:53:01.489Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-21T07:53:01.489Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:53:01.489Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T07:53:01.501Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763711581501
+2025-11-21T07:53:01.501Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T07:53:01.506Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T07:53:01.506Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:53:01.506Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763711581501 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json
+2025-11-21T07:53:01.506Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json written atomically
+2025-11-21T07:53:01.506Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763711581506
+2025-11-21T07:53:01.506Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T07:53:01.510Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T07:53:01.510Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:53:01.510Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763711581506 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json
+2025-11-21T07:53:01.510Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json written atomically
+2025-11-21T07:53:01.510Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763711581510
+2025-11-21T07:53:01.510Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T07:53:01.515Z [DEBUG] Temp file written successfully, size: 1147 bytes
+2025-11-21T07:53:01.515Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:53:01.515Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763711581510 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json
+2025-11-21T07:53:01.515Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json written atomically
+2025-11-21T07:53:01.528Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-21T07:53:01.528Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:53:01.528Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T07:53:01.554Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T07:53:01.556Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T07:53:01.556Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T07:53:01.562Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T07:53:01.562Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T07:53:01.584Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 30ms
+2025-11-21T07:53:01.601Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T07:53:01.601Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T07:53:03.524Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:53:33.242Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-21T07:53:33.246Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-21T07:53:33.246Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:53:33.246Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T07:53:33.260Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763711613260
+2025-11-21T07:53:33.260Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T07:53:33.264Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T07:53:33.264Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:53:33.264Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763711613260 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json
+2025-11-21T07:53:33.264Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json written atomically
+2025-11-21T07:53:33.264Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763711613264
+2025-11-21T07:53:33.264Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T07:53:33.268Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T07:53:33.268Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:53:33.268Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763711613264 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json
+2025-11-21T07:53:33.268Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json written atomically
+2025-11-21T07:53:33.268Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763711613268
+2025-11-21T07:53:33.268Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T07:53:33.272Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T07:53:33.272Z [DEBUG] Applied original permissions to temp file
+2025-11-21T07:53:33.272Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763711613268 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json
+2025-11-21T07:53:33.272Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json written atomically
+2025-11-21T07:53:33.279Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-21T07:53:33.279Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T07:53:33.279Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T07:53:33.300Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T07:53:33.301Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T07:53:33.301Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T07:53:33.305Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T07:53:33.305Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T07:53:33.327Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 27ms
+2025-11-21T07:53:33.340Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T07:53:33.341Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T07:53:35.169Z [DEBUG] Stream started - received first chunk
+2025-11-21T07:53:35.245Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-21T07:53:35.245Z [DEBUG] Found 1 hook matchers in settings
+2025-11-21T07:53:35.245Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-21T07:53:36.386Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T07:54:36.416Z [DEBUG] Getting matching hook commands for Notification with query: idle_prompt
+2025-11-21T07:54:36.416Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T07:54:36.416Z [DEBUG] Matched 0 unique hooks for query "idle_prompt" (0 before deduplication)
+2025-11-21T08:04:15.797Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-21T08:04:15.815Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T08:04:15.816Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T08:04:15.816Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T08:04:15.820Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T08:04:15.820Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T08:04:15.830Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 15ms
+2025-11-21T08:04:15.843Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-21T08:04:15.843Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T08:04:15.843Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-21T08:04:15.844Z [DEBUG] FileHistory: Making snapshot for message 2eb20c7a-537a-406a-8f25-40a668123c57
+2025-11-21T08:04:15.844Z [DEBUG] FileHistory: Added snapshot for 2eb20c7a-537a-406a-8f25-40a668123c57, tracking 0 files
+2025-11-21T08:04:15.867Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-21T08:04:15.896Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 29ms
+2025-11-21T08:04:15.910Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T08:04:15.910Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T08:04:16.097Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T08:04:16.097Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T08:04:16.579Z [DEBUG] Stream started - received first chunk
+2025-11-21T08:04:17.357Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763712257357
+2025-11-21T08:04:17.357Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T08:04:17.371Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T08:04:17.371Z [DEBUG] Applied original permissions to temp file
+2025-11-21T08:04:17.371Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763712257357 to /home/v/.claude.json
+2025-11-21T08:04:17.371Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T08:04:19.339Z [DEBUG] Stream started - received first chunk
+2025-11-21T08:04:24.320Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-21T08:04:24.323Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-21T08:04:24.323Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:04:24.323Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T08:04:24.333Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763712264333
+2025-11-21T08:04:24.333Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T08:04:24.353Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T08:04:24.353Z [DEBUG] Applied original permissions to temp file
+2025-11-21T08:04:24.353Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763712264333 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json
+2025-11-21T08:04:24.353Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json written atomically
+2025-11-21T08:04:24.353Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763712264353
+2025-11-21T08:04:24.353Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T08:04:24.357Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T08:04:24.357Z [DEBUG] Applied original permissions to temp file
+2025-11-21T08:04:24.357Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763712264353 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json
+2025-11-21T08:04:24.357Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json written atomically
+2025-11-21T08:04:24.357Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763712264357
+2025-11-21T08:04:24.357Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T08:04:24.361Z [DEBUG] Temp file written successfully, size: 1014 bytes
+2025-11-21T08:04:24.361Z [DEBUG] Applied original permissions to temp file
+2025-11-21T08:04:24.361Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763712264357 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json
+2025-11-21T08:04:24.361Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json written atomically
+2025-11-21T08:04:24.374Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-21T08:04:24.374Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:04:24.374Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T08:04:24.417Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T08:04:24.421Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T08:04:24.426Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T08:04:24.430Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T08:04:24.430Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:04:24.430Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T08:04:24.430Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T08:04:24.430Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:04:24.430Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T08:04:24.430Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T08:04:24.430Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:04:24.430Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T08:04:25.883Z [DEBUG] Stream started - received first chunk
+2025-11-21T08:04:26.721Z [DEBUG] Stream started - received first chunk
+2025-11-21T08:04:26.779Z [DEBUG] Stream started - received first chunk
+2025-11-21T08:04:41.901Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T08:04:41.901Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:04:41.901Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T08:04:42.499Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T08:04:42.499Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:04:42.499Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T08:04:44.301Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T08:04:44.302Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:04:44.302Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T08:04:44.445Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T08:04:44.447Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T08:04:44.447Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T08:04:44.452Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T08:04:44.452Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T08:04:44.491Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 46ms
+2025-11-21T08:04:44.508Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T08:04:44.508Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T08:04:46.920Z [DEBUG] Stream started - received first chunk
+2025-11-21T08:04:50.540Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-21T08:04:50.543Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-21T08:04:50.544Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:04:50.544Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T08:04:50.556Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763712290556
+2025-11-21T08:04:50.556Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T08:04:50.561Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T08:04:50.561Z [DEBUG] Applied original permissions to temp file
+2025-11-21T08:04:50.561Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763712290556 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json
+2025-11-21T08:04:50.561Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json written atomically
+2025-11-21T08:04:50.561Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763712290561
+2025-11-21T08:04:50.561Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T08:04:50.566Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T08:04:50.566Z [DEBUG] Applied original permissions to temp file
+2025-11-21T08:04:50.566Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763712290561 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json
+2025-11-21T08:04:50.566Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json written atomically
+2025-11-21T08:04:50.566Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763712290566
+2025-11-21T08:04:50.566Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T08:04:50.570Z [DEBUG] Temp file written successfully, size: 1022 bytes
+2025-11-21T08:04:50.570Z [DEBUG] Applied original permissions to temp file
+2025-11-21T08:04:50.570Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763712290566 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json
+2025-11-21T08:04:50.570Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json written atomically
+2025-11-21T08:04:50.582Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-21T08:04:50.582Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:04:50.582Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T08:04:50.611Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T08:04:50.613Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T08:04:50.613Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T08:04:50.620Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T08:04:50.620Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T08:04:50.641Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 30ms
+2025-11-21T08:04:50.658Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T08:04:50.659Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T08:04:52.296Z [DEBUG] Stream started - received first chunk
+2025-11-21T08:05:28.333Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-21T08:05:28.338Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-21T08:05:28.339Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:05:28.339Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T08:05:28.351Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763712328351
+2025-11-21T08:05:28.351Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T08:05:28.356Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T08:05:28.356Z [DEBUG] Applied original permissions to temp file
+2025-11-21T08:05:28.356Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json.tmp.123676.1763712328351 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json
+2025-11-21T08:05:28.356Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-3d3f681e-77d7-431f-ab5d-0dcbe4da5fc0.json written atomically
+2025-11-21T08:05:28.356Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763712328356
+2025-11-21T08:05:28.356Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T08:05:28.360Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T08:05:28.360Z [DEBUG] Applied original permissions to temp file
+2025-11-21T08:05:28.360Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json.tmp.123676.1763712328356 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json
+2025-11-21T08:05:28.360Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-c725c99e-e67c-4a58-b2b4-2b2e2df0b01c.json written atomically
+2025-11-21T08:05:28.360Z [DEBUG] Writing to temp file: /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763712328360
+2025-11-21T08:05:28.360Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T08:05:28.364Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-21T08:05:28.364Z [DEBUG] Applied original permissions to temp file
+2025-11-21T08:05:28.364Z [DEBUG] Renaming /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json.tmp.123676.1763712328360 to /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json
+2025-11-21T08:05:28.364Z [DEBUG] File /home/v/.claude/todos/73df0343-3f6f-4e02-836e-c7112689ca3b-agent-73df0343-3f6f-4e02-836e-c7112689ca3b.json written atomically
+2025-11-21T08:05:28.372Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-21T08:05:28.372Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:05:28.373Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-21T08:05:28.395Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T08:05:28.396Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T08:05:28.396Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T08:05:28.400Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T08:05:28.400Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T08:05:28.426Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 31ms
+2025-11-21T08:05:28.440Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T08:05:28.440Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T08:05:30.832Z [DEBUG] Stream started - received first chunk
+2025-11-21T08:05:30.951Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-21T08:05:30.951Z [DEBUG] Found 1 hook matchers in settings
+2025-11-21T08:05:30.951Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-21T08:05:32.018Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T08:06:05.584Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-21T08:06:05.600Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T08:06:05.602Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T08:06:05.602Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T08:06:05.607Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T08:06:05.607Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T08:06:05.620Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 20ms
+2025-11-21T08:06:05.632Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-21T08:06:05.632Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T08:06:05.632Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-21T08:06:05.633Z [DEBUG] FileHistory: Making snapshot for message 239b2155-91fe-4733-b8c9-f59e661af7f6
+2025-11-21T08:06:05.633Z [DEBUG] FileHistory: Added snapshot for 239b2155-91fe-4733-b8c9-f59e661af7f6, tracking 0 files
+2025-11-21T08:06:05.658Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-21T08:06:05.695Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 37ms
+2025-11-21T08:06:05.708Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T08:06:05.708Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T08:06:05.891Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T08:06:05.891Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T08:06:06.618Z [DEBUG] Stream started - received first chunk
+2025-11-21T08:06:07.020Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763712367020
+2025-11-21T08:06:07.020Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T08:06:07.030Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T08:06:07.031Z [DEBUG] Applied original permissions to temp file
+2025-11-21T08:06:07.031Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763712367020 to /home/v/.claude.json
+2025-11-21T08:06:07.031Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T08:06:07.950Z [DEBUG] Stream started - received first chunk
+2025-11-21T08:07:40.868Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-21T08:07:40.871Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-21T08:07:40.871Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:07:40.871Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-21T08:07:41.937Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T08:07:41.946Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T08:07:41.949Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 3ms
+2025-11-21T08:07:41.951Z [DEBUG] FileHistory: Tracked file modification for /home/v/repos/learning/pro-d/gvias/docs/incident-reporting-requirements-bc-nonprofits.md
+2025-11-21T08:07:41.953Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/docs/incident-reporting-requirements-bc-nonprofits.md.tmp.123676.1763712461953
+2025-11-21T08:07:41.960Z [DEBUG] Temp file written successfully, size: 18365 bytes
+2025-11-21T08:07:41.960Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/docs/incident-reporting-requirements-bc-nonprofits.md.tmp.123676.1763712461953 to /home/v/repos/learning/pro-d/gvias/docs/incident-reporting-requirements-bc-nonprofits.md
+2025-11-21T08:07:41.961Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/docs/incident-reporting-requirements-bc-nonprofits.md written atomically
+2025-11-21T08:07:41.967Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-21T08:07:41.967Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T08:07:41.967Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-21T08:07:43.003Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T08:07:43.068Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T08:07:43.069Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T08:07:43.069Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T08:07:43.074Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T08:07:43.074Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T08:07:43.085Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 17ms
+2025-11-21T08:07:43.099Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T08:07:43.099Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T08:07:45.028Z [DEBUG] Stream started - received first chunk
+2025-11-21T08:07:51.533Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-21T08:07:51.533Z [DEBUG] Found 1 hook matchers in settings
+2025-11-21T08:07:51.533Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-21T08:07:52.611Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T03:41:10.920Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T03:41:10.920Z [DEBUG] Getting matching hook commands for SessionEnd with query: clear
+2025-11-22T03:41:10.920Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T03:41:10.920Z [DEBUG] Matched 0 unique hooks for query "clear" (0 before deduplication)
+2025-11-22T03:41:10.926Z [DEBUG] Cleared all session hooks for session 73df0343-3f6f-4e02-836e-c7112689ca3b

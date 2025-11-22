@@ -1,0 +1,75 @@
+# Key Performance Indicators (KPIs)
+
+## Table of Contents
+
+- [Relevant Legislation](#relevant-legislation)
+- [Risk Management Metrics](#risk-management-metrics)
+- [Performance Targets](#performance-targets)
+- [Monthly/Quarterly Reviews](#monthlyquarterly-reviews)
+
+## Relevant Legislation
+
+- **BC**: *Workers Compensation Act* (RSBC 1996, c. 492) - injury rate reporting requirements
+- **BC**: *Occupational Health and Safety Regulation* (BC Reg 296/97) - safety metrics
+- **Federal**: *Corporations Act* (R.S.C., 1985, c. C-44) - corporate reporting duties
+- **BC**: *Societies Act* (SBC 2015, c. 18) - board oversight and governance
+- **Federal**: *Auditor General Act* (R.S.C., 1985, c. A-17) - audit standards
+
+## Risk Management Metrics
+
+#### Frequency Metrics
+
+- **Incident Rate**: Number of incidents per event or per 1,000 participants. Calculate as: (Total incidents ÷ Total participants) × 1,000. Example: 3 incidents at event with 500 attendees = (3 ÷ 500) × 1,000 = 6 incidents per 1,000 participants
+- **Near-Miss Reporting Rate**: Reports of potential incidents that did not result in harm, per event. Target: minimum 2-5 near-miss reports per event indicates healthy safety culture
+- **Severity Rate**: Lost time incidents (requiring absence from work or event participation) per total incidents. Calculate as: (Lost time incidents ÷ Total incidents) × 100. Target: <10%
+- **Repeat Incident Rate**: Same-type incidents across events. Track incidents by category to identify patterns requiring systemic controls
+
+#### Response and Resolution Metrics
+
+- **Response Time**: Time from incident to initial response
+- **Reporting Time**: Time from incident to formal report completion
+- **Claim Resolution Time**: Insurance claim processing duration
+- **Corrective Action Closure**: Time to implement preventive measures
+
+#### Financial Metrics
+
+- **Insurance Cost per Event**: Premium costs relative to event size/revenue. Calculate as: (Annual insurance premium ÷ Number of events) or (Premium ÷ Total event revenue) × 100. Benchmark: 2-5% of event revenue
+- **Claim Ratio**: Total claims paid divided by total premiums paid (lower is better). Calculate as: (Claims paid ÷ Premiums paid) × 100. Target: <50% for favorable renewal terms
+- **Cost per Incident**: Average financial impact per incident including insurance deductibles, uninsured losses, staff time. Calculate as: Total incident costs ÷ Number of incidents
+- **Risk Mitigation ROI**: Cost of prevention versus cost of incidents. Calculate as: (Incident costs avoided ÷ Prevention costs) × 100. Example: $5,000 spent on safety training prevents $25,000 in incidents = 500% ROI
+
+#### Compliance Metrics
+
+- **Risk Assessment Completion**: Percentage of events with completed assessments
+- **Training Completion**: Percentage of staff/volunteers trained
+- **Documentation Completeness**: Quality of incident documentation
+- **Vendor Compliance**: Percentage of vendors meeting insurance requirements
+
+## Performance Targets
+
+#### Benchmark Standards (Based on BC Event Safety Coalition Guidelines)
+
+- **Zero tolerance** for preventable serious injuries (WorkSafeBC requirement)
+- **<2%** incident rate for minor injuries (industry average: 3-5% for BC non-profit events)
+- **100%** compliance with insurance requirements (board policy mandate, audit verified)
+- **<24 hours** for incident report completion (best practice standard)
+- **90%+** participant satisfaction with safety measures (measured via post-event surveys)
+- **<5%** annual increase in insurance premiums (market conditions permitting)
+
+## Monthly/Quarterly Reviews
+
+#### Trending Analysis
+
+- **Incident Type Patterns**: Identify top 3 incident types per quarter; require action plans if any type exceeds 40% of total incidents. Example: If slips/trips/falls represent 50% of incidents, mandate enhanced flooring assessments
+- **Seasonal Correlations**: Compare summer outdoor events vs. winter indoor events for weather-related incidents, attendance impacts, and cost variations
+- **Cost Trends**: Flag >15% quarter-over-quarter increases in incident costs or insurance premiums for executive review
+- **Vendor Performance**: Score vendors on incident involvement (0 incidents = 5 points), insurance compliance (full compliance = 5 points), response time to issues (within 24 hours = 5 points). Vendors scoring <10/15 require corrective action
+- **Training Effectiveness**: Correlate training completion rates with incident rates by event type. Calculate: (Incidents with trained staff ÷ Total incidents with staff involvement) × 100. Target: <30%
+
+#### Action Plan Development
+
+- **Priority Risk Mitigation Initiatives**: Address incidents with severity rate >10% or repeat occurrence >3 events. Assign owners, set completion dates within 30-60 days, track to closure
+- **Process Improvement Recommendations**: Target gaps identified in incident reports (e.g., inadequate crowd control, missing emergency exits, unclear vendor responsibilities). Document before/after metrics
+- **Training Program Adjustments**: Modify modules showing <80% assessment scores or linked to repeat incidents. Example: If food safety incidents increase, mandate enhanced FOODSAFE training
+- **Insurance Program Modifications**: Review coverage after incidents approaching policy limits, claims denied due to exclusions, or new event types requiring specialized coverage
+- **Vendor Relationship Management**: Quarterly performance reviews with vendors involved in 2+ incidents or insurance compliance lapses. Consider replacing vendors with consistent poor performance

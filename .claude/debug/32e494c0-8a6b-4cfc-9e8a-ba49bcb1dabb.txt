@@ -1,0 +1,1106 @@
+2025-11-21T06:29:15.277Z [DEBUG] Getting matching hook commands for SessionStart with query: clear
+2025-11-21T06:29:15.277Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:29:15.277Z [DEBUG] Matched 0 unique hooks for query "clear" (0 before deduplication)
+2025-11-21T06:29:15.289Z [DEBUG] FileHistory: Added snapshot for d6a598e7-1967-467a-996e-430da6485818, tracking 0 files
+2025-11-21T06:29:15.294Z [DEBUG] Rendering user message with 1 content blocks
+2025-11-21T06:29:15.294Z [DEBUG] Block 0: <command-name>/clear</command-name>
+            <command-message>clear</command-message>
+           ...
+2025-11-21T06:29:15.294Z [DEBUG] UserCommandMessage rendering: "clear" (args: "none")
+2025-11-21T06:29:15.294Z [DEBUG] isSkillFormat: false, prefix: "/"
+2025-11-21T06:29:15.568Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T06:29:15.568Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T06:29:16.903Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763706556903
+2025-11-21T06:29:16.903Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:29:16.916Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T06:29:16.917Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:29:16.917Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763706556903 to /home/v/.claude.json
+2025-11-21T06:29:16.917Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T06:29:50.221Z [DEBUG] [FileIndex] Using Fuse.js fallback for search
+2025-11-21T06:29:50.957Z [DEBUG] [FileIndex] Using Fuse.js fallback for search
+2025-11-21T06:29:51.475Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-21T06:29:51.781Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T06:29:51.781Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T06:29:52.951Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763706592951
+2025-11-21T06:29:52.951Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:29:52.962Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T06:29:52.962Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:29:52.962Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763706592951 to /home/v/.claude.json
+2025-11-21T06:29:52.962Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T06:30:00.820Z [DEBUG] [FileIndex] Using Fuse.js fallback for search
+2025-11-21T06:30:01.032Z [DEBUG] [FileIndex] Using Fuse.js fallback for search
+2025-11-21T06:30:01.318Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-21T06:30:01.618Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T06:30:01.618Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T06:30:02.599Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:30:02.600Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:30:02.600Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:30:02.604Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:30:02.604Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:30:02.614Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 15ms
+2025-11-21T06:30:02.628Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-21T06:30:02.629Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:30:02.629Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-21T06:30:02.630Z [DEBUG] FileHistory: Making snapshot for message 3d8bcf9c-3e7a-4f9b-a3e3-6f39ce779834
+2025-11-21T06:30:02.631Z [DEBUG] FileHistory: Added snapshot for 3d8bcf9c-3e7a-4f9b-a3e3-6f39ce779834, tracking 0 files
+2025-11-21T06:30:02.648Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-21T06:30:02.705Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 57ms
+2025-11-21T06:30:02.730Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:30:02.730Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:30:02.807Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763706602807
+2025-11-21T06:30:02.807Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:30:02.820Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T06:30:02.820Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:30:02.820Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763706602807 to /home/v/.claude.json
+2025-11-21T06:30:02.820Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T06:30:03.337Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:30:05.773Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:30:07.797Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-21T06:30:07.800Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-21T06:30:07.800Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:30:07.800Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-21T06:30:07.816Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-21T06:30:07.816Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:30:07.816Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-21T06:30:07.842Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:30:07.842Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:30:07.842Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:30:07.847Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:30:07.847Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:30:07.864Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 22ms
+2025-11-21T06:30:07.877Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:30:07.877Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:30:10.960Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:31:16.021Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:31:16.072Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:31:16.072Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:16.073Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:17.485Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:17.598Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:31:17.659Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 61ms
+2025-11-21T06:31:17.668Z [DEBUG] FileHistory: Tracked file modification for /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:31:17.723Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706677723
+2025-11-21T06:31:17.723Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:31:17.729Z [DEBUG] Temp file written successfully, size: 11732 bytes
+2025-11-21T06:31:17.729Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:31:17.729Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706677723 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:31:17.729Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:31:17.822Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:31:17.822Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:17.822Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:19.063Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:19.407Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:31:19.434Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:31:19.434Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:19.434Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:20.866Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:20.980Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:31:21.070Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 90ms
+2025-11-21T06:31:21.116Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706681116
+2025-11-21T06:31:21.116Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:31:21.123Z [DEBUG] Temp file written successfully, size: 12014 bytes
+2025-11-21T06:31:21.124Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:31:21.124Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706681116 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:31:21.124Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:31:21.223Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:31:21.223Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:21.223Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:22.503Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:22.898Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:31:22.952Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:31:22.952Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:22.952Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:24.433Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:24.568Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:31:24.700Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 132ms
+2025-11-21T06:31:24.744Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706684744
+2025-11-21T06:31:24.744Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:31:24.752Z [DEBUG] Temp file written successfully, size: 12270 bytes
+2025-11-21T06:31:24.752Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:31:24.752Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706684744 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:31:24.752Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:31:24.838Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:31:24.838Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:24.838Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:26.125Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:26.551Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:31:26.598Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:31:26.599Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:26.599Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:28.040Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:28.179Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:31:28.240Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 61ms
+2025-11-21T06:31:28.321Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706688321
+2025-11-21T06:31:28.321Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:31:28.327Z [DEBUG] Temp file written successfully, size: 12548 bytes
+2025-11-21T06:31:28.327Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:31:28.327Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706688321 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:31:28.328Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:31:28.420Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:31:28.420Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:28.420Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:29.652Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:30.145Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:31:30.198Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:31:30.198Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:30.198Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:31.742Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:31.899Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:31:32.057Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 158ms
+2025-11-21T06:31:32.108Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706692108
+2025-11-21T06:31:32.108Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:31:32.115Z [DEBUG] Temp file written successfully, size: 12949 bytes
+2025-11-21T06:31:32.115Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:31:32.115Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706692108 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:31:32.115Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:31:32.216Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:31:32.216Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:32.216Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:33.410Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:33.905Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:31:33.968Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:31:33.968Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:33.968Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:35.393Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:35.560Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:31:35.673Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 113ms
+2025-11-21T06:31:35.729Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706695729
+2025-11-21T06:31:35.730Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:31:35.752Z [DEBUG] Temp file written successfully, size: 13309 bytes
+2025-11-21T06:31:35.752Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:31:35.752Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706695729 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:31:35.753Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:31:35.888Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:31:35.888Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:35.888Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:37.049Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:37.605Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:31:37.670Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:31:37.670Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:37.670Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:39.026Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:39.240Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:31:39.367Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 127ms
+2025-11-21T06:31:39.431Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706699431
+2025-11-21T06:31:39.431Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:31:39.441Z [DEBUG] Temp file written successfully, size: 13597 bytes
+2025-11-21T06:31:39.441Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:31:39.441Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706699431 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:31:39.442Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:31:39.564Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:31:39.564Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:39.564Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:40.787Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:41.369Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:31:41.437Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:31:41.437Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:41.437Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:42.989Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:43.183Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:31:43.404Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 221ms
+2025-11-21T06:31:43.468Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706703468
+2025-11-21T06:31:43.468Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:31:43.476Z [DEBUG] Temp file written successfully, size: 13961 bytes
+2025-11-21T06:31:43.476Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:31:43.476Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706703468 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:31:43.476Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:31:43.616Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:31:43.616Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:43.616Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:44.885Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:45.520Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:31:45.596Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:31:45.596Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:45.596Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:46.950Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:47.156Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:31:47.359Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 203ms
+2025-11-21T06:31:47.431Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706707431
+2025-11-21T06:31:47.431Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:31:47.438Z [DEBUG] Temp file written successfully, size: 14287 bytes
+2025-11-21T06:31:47.438Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:31:47.438Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706707431 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:31:47.439Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:31:47.596Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:31:47.596Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:47.596Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:48.877Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:49.564Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:31:49.640Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:31:49.640Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:49.640Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:51.134Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:51.359Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:31:51.572Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 213ms
+2025-11-21T06:31:51.643Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706711643
+2025-11-21T06:31:51.644Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:31:51.652Z [DEBUG] Temp file written successfully, size: 14598 bytes
+2025-11-21T06:31:51.652Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:31:51.652Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706711643 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:31:51.652Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:31:51.799Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:31:51.799Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:51.799Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:53.143Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:53.850Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:31:53.941Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:31:53.941Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:53.941Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:55.500Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:55.756Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:31:55.929Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 173ms
+2025-11-21T06:31:56.014Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706716014
+2025-11-21T06:31:56.014Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:31:56.028Z [DEBUG] Temp file written successfully, size: 14765 bytes
+2025-11-21T06:31:56.029Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:31:56.029Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706716014 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:31:56.029Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:31:56.217Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:31:56.218Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:56.218Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:31:57.518Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:31:58.310Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:31:58.401Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:31:58.401Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:31:58.401Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:32:00.051Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:32:00.332Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:32:00.430Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 98ms
+2025-11-21T06:32:00.530Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706720530
+2025-11-21T06:32:00.530Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:32:00.536Z [DEBUG] Temp file written successfully, size: 14919 bytes
+2025-11-21T06:32:00.537Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:32:00.537Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706720530 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:32:00.537Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:32:00.740Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:32:00.740Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:32:00.741Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:32:02.403Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:32:02.941Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:32:02.942Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:32:02.942Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:32:02.956Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:32:02.956Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:32:02.977Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 36ms
+2025-11-21T06:32:03.006Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:32:03.006Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:32:07.647Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:32:17.737Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-21T06:32:17.738Z [DEBUG] Found 1 hook matchers in settings
+2025-11-21T06:32:17.738Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-21T06:32:18.851Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:33:18.560Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-21T06:33:18.577Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:33:18.578Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:33:18.578Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:33:18.582Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:33:18.583Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:33:18.604Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 27ms
+2025-11-21T06:33:18.621Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-21T06:33:18.621Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:33:18.621Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-21T06:33:18.621Z [DEBUG] FileHistory: Making snapshot for message cc38fdd0-0014-4163-bd39-f1c59ac812a8
+2025-11-21T06:33:18.627Z [DEBUG] FileHistory: Added snapshot for cc38fdd0-0014-4163-bd39-f1c59ac812a8, tracking 1 files
+2025-11-21T06:33:18.646Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-21T06:33:18.681Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:33:18.682Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:33:18.717Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 71ms
+2025-11-21T06:33:18.884Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T06:33:18.884Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T06:33:19.244Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:33:20.134Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763706800134
+2025-11-21T06:33:20.134Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:33:20.149Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T06:33:20.149Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:33:20.149Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763706800134 to /home/v/.claude.json
+2025-11-21T06:33:20.149Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T06:33:21.606Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:33:23.848Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-21T06:33:23.851Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-21T06:33:23.851Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:33:23.851Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-21T06:33:23.870Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-21T06:33:23.870Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:33:23.870Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-21T06:33:23.895Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:33:23.896Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:33:23.896Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:33:23.901Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:33:23.901Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:33:23.917Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 22ms
+2025-11-21T06:33:23.943Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:33:23.943Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:33:26.056Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:34:47.266Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-21T06:34:47.269Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-21T06:34:47.269Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:34:47.269Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-21T06:34:48.424Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:34:48.434Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:34:48.437Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 3ms
+2025-11-21T06:34:48.440Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706888440
+2025-11-21T06:34:48.440Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:34:48.448Z [DEBUG] Temp file written successfully, size: 14919 bytes
+2025-11-21T06:34:48.448Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:34:48.448Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763706888440 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:34:48.448Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:34:48.457Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-21T06:34:48.457Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:34:48.457Z [DEBUG] Matched 1 unique hooks for query "Write" (1 before deduplication)
+2025-11-21T06:34:49.566Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:34:50.046Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:34:50.047Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:34:50.047Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:34:50.053Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:34:50.053Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:34:50.079Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 33ms
+2025-11-21T06:34:50.094Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:34:50.095Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:34:55.234Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:35:04.373Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-21T06:35:04.373Z [DEBUG] Found 1 hook matchers in settings
+2025-11-21T06:35:04.373Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-21T06:35:05.491Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:36:07.477Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-21T06:36:07.499Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:36:07.500Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:36:07.500Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:36:07.507Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:36:07.507Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:36:07.525Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 26ms
+2025-11-21T06:36:07.542Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-21T06:36:07.542Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:36:07.542Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-21T06:36:07.542Z [DEBUG] FileHistory: Making snapshot for message 1d08af60-ddd9-4cda-bb4e-b38af22d10e2
+2025-11-21T06:36:07.549Z [DEBUG] FileHistory: Added snapshot for 1d08af60-ddd9-4cda-bb4e-b38af22d10e2, tracking 1 files
+2025-11-21T06:36:07.567Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-21T06:36:07.609Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 42ms
+2025-11-21T06:36:07.623Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:36:07.623Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:36:07.784Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T06:36:07.784Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T06:36:08.346Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:36:09.024Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763706969024
+2025-11-21T06:36:09.024Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:36:09.034Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T06:36:09.035Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:36:09.035Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763706969024 to /home/v/.claude.json
+2025-11-21T06:36:09.035Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T06:36:11.363Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:36:26.872Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-21T06:36:26.872Z [DEBUG] Found 1 hook matchers in settings
+2025-11-21T06:36:26.872Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-21T06:36:28.031Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:38:04.190Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-21T06:38:04.212Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:38:04.213Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:38:04.213Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:38:04.219Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:38:04.219Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:38:04.234Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 22ms
+2025-11-21T06:38:04.262Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-21T06:38:04.262Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:38:04.262Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-21T06:38:04.263Z [DEBUG] FileHistory: Making snapshot for message 6a7a155f-afde-444b-8c43-528e518db4f7
+2025-11-21T06:38:04.263Z [DEBUG] FileHistory: Added snapshot for 6a7a155f-afde-444b-8c43-528e518db4f7, tracking 1 files
+2025-11-21T06:38:04.305Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-21T06:38:04.331Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 26ms
+2025-11-21T06:38:04.348Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:38:04.348Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:38:04.499Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T06:38:04.499Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T06:38:05.722Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763707085722
+2025-11-21T06:38:05.722Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:38:05.737Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T06:38:05.737Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:38:05.737Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763707085722 to /home/v/.claude.json
+2025-11-21T06:38:05.738Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T06:38:06.947Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:38:07.366Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:38:32.965Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-21T06:38:32.965Z [DEBUG] Found 1 hook matchers in settings
+2025-11-21T06:38:32.965Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-21T06:38:34.127Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:39:34.165Z [DEBUG] Getting matching hook commands for Notification with query: idle_prompt
+2025-11-21T06:39:34.165Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:39:34.165Z [DEBUG] Matched 0 unique hooks for query "idle_prompt" (0 before deduplication)
+2025-11-21T06:41:20.993Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-21T06:41:21.015Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:41:21.016Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:41:21.016Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:41:21.021Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:41:21.022Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:41:21.032Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 17ms
+2025-11-21T06:41:21.047Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-21T06:41:21.047Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:41:21.047Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-21T06:41:21.048Z [DEBUG] FileHistory: Making snapshot for message 5e8d6df0-028a-40ad-b95d-5981e98ed709
+2025-11-21T06:41:21.054Z [DEBUG] FileHistory: Added snapshot for 5e8d6df0-028a-40ad-b95d-5981e98ed709, tracking 1 files
+2025-11-21T06:41:21.077Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-21T06:41:21.099Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 22ms
+2025-11-21T06:41:21.113Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:41:21.113Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:41:21.299Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T06:41:21.299Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T06:41:21.618Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:41:22.603Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763707282603
+2025-11-21T06:41:22.603Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:41:22.619Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T06:41:22.619Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:41:22.619Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763707282603 to /home/v/.claude.json
+2025-11-21T06:41:22.619Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T06:41:23.725Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:41:36.793Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:41:36.794Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:41:36.794Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:41:36.805Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:41:36.805Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:41:36.831Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 38ms
+2025-11-21T06:41:36.860Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:41:36.860Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:41:39.814Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:41:40.629Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-21T06:41:40.633Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-21T06:41:40.633Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:41:40.633Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-21T06:41:40.653Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-21T06:41:40.653Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:41:40.653Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-21T06:41:40.681Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:41:40.682Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:41:40.682Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:41:40.688Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:41:40.688Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:41:40.705Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 24ms
+2025-11-21T06:41:40.718Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:41:40.718Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:41:42.936Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:41:49.336Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:41:49.339Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:41:49.340Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:41:49.340Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:41:50.512Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:41:50.529Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:41:50.534Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 5ms
+2025-11-21T06:41:50.539Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707310539
+2025-11-21T06:41:50.539Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:41:50.545Z [DEBUG] Temp file written successfully, size: 14391 bytes
+2025-11-21T06:41:50.545Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:41:50.545Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707310539 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:41:50.545Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:41:50.553Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:41:50.553Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:41:50.553Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:41:51.637Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:41:51.960Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:41:51.961Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:41:51.961Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:41:51.967Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:41:51.967Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:41:51.984Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 24ms
+2025-11-21T06:41:52.012Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:41:52.012Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:41:55.372Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:41:59.696Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-21T06:41:59.696Z [DEBUG] Found 1 hook matchers in settings
+2025-11-21T06:41:59.696Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-21T06:42:00.799Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:43:14.512Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-21T06:43:14.534Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:43:14.535Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:43:14.535Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:43:14.540Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:43:14.540Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:43:14.555Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 21ms
+2025-11-21T06:43:14.571Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-21T06:43:14.572Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:43:14.572Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-21T06:43:14.572Z [DEBUG] FileHistory: Making snapshot for message 58c22ca7-3870-4ffa-bce5-9f0860bcf21a
+2025-11-21T06:43:14.583Z [DEBUG] FileHistory: Added snapshot for 58c22ca7-3870-4ffa-bce5-9f0860bcf21a, tracking 1 files
+2025-11-21T06:43:14.606Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-21T06:43:14.632Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 26ms
+2025-11-21T06:43:14.648Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:43:14.648Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:43:14.843Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T06:43:14.843Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T06:43:16.031Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:43:16.075Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763707396075
+2025-11-21T06:43:16.075Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:43:16.090Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T06:43:16.090Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:43:16.090Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763707396075 to /home/v/.claude.json
+2025-11-21T06:43:16.090Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T06:43:19.146Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:44:12.612Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-21T06:44:12.617Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-21T06:44:12.617Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:44:12.617Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-21T06:44:12.639Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-21T06:44:12.639Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:44:12.639Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-21T06:44:12.674Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:44:12.679Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:44:12.679Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:44:12.679Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:44:13.875Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:44:13.891Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:44:13.895Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 4ms
+2025-11-21T06:44:13.901Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707453901
+2025-11-21T06:44:13.901Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:44:13.912Z [DEBUG] Temp file written successfully, size: 15267 bytes
+2025-11-21T06:44:13.912Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:44:13.912Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707453901 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:44:13.913Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:44:13.923Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:44:13.923Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:44:13.923Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:44:15.047Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:44:15.828Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:44:15.884Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:44:15.884Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:44:15.884Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:44:17.583Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:44:17.770Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:44:17.841Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 71ms
+2025-11-21T06:44:17.898Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707457898
+2025-11-21T06:44:17.899Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:44:17.906Z [DEBUG] Temp file written successfully, size: 15885 bytes
+2025-11-21T06:44:17.906Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:44:17.906Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707457898 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:44:17.906Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:44:18.117Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:44:18.117Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:44:18.117Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:44:19.589Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:44:20.256Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:44:20.322Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:44:20.322Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:44:20.322Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:44:22.024Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:44:22.220Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:44:22.412Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 192ms
+2025-11-21T06:44:22.482Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707462482
+2025-11-21T06:44:22.482Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:44:22.492Z [DEBUG] Temp file written successfully, size: 16540 bytes
+2025-11-21T06:44:22.492Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:44:22.492Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707462482 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:44:22.492Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:44:22.634Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:44:22.634Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:44:22.634Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:44:24.029Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:44:24.583Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:44:24.584Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:44:24.584Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:44:24.598Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:44:24.598Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:44:24.617Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 34ms
+2025-11-21T06:44:24.666Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:44:24.666Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:44:28.921Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:44:41.459Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-21T06:44:41.463Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-21T06:44:41.463Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:44:41.463Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-21T06:44:41.484Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-21T06:44:41.484Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:44:41.484Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-21T06:44:41.539Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:44:41.539Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:44:41.539Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:44:41.546Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:44:41.546Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:44:41.568Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 29ms
+2025-11-21T06:44:41.596Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:44:41.596Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:44:43.669Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:44:48.349Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:44:48.353Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:44:48.353Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:44:48.353Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:44:49.394Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:44:49.407Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:44:49.412Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 5ms
+2025-11-21T06:44:49.416Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707489416
+2025-11-21T06:44:49.416Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:44:49.422Z [DEBUG] Temp file written successfully, size: 16713 bytes
+2025-11-21T06:44:49.422Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:44:49.422Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707489416 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:44:49.422Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:44:49.430Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:44:49.431Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:44:49.431Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:44:50.485Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:44:50.792Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:44:50.792Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:44:50.792Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:44:50.799Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:44:50.799Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:44:50.824Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 32ms
+2025-11-21T06:44:50.854Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:44:50.854Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:44:52.783Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:45:04.681Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-21T06:45:04.681Z [DEBUG] Found 1 hook matchers in settings
+2025-11-21T06:45:04.681Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-21T06:45:05.796Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:46:05.833Z [DEBUG] Getting matching hook commands for Notification with query: idle_prompt
+2025-11-21T06:46:05.833Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:46:05.833Z [DEBUG] Matched 0 unique hooks for query "idle_prompt" (0 before deduplication)
+2025-11-21T06:47:00.850Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-21T06:47:00.871Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:47:00.872Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:47:00.872Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:47:00.878Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:47:00.878Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:47:00.899Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 28ms
+2025-11-21T06:47:00.917Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-21T06:47:00.917Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:47:00.917Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-21T06:47:00.919Z [DEBUG] FileHistory: Making snapshot for message 80461639-e2a0-416b-b64e-007ccd68f70d
+2025-11-21T06:47:00.927Z [DEBUG] FileHistory: Added snapshot for 80461639-e2a0-416b-b64e-007ccd68f70d, tracking 1 files
+2025-11-21T06:47:00.949Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-21T06:47:00.974Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 25ms
+2025-11-21T06:47:00.990Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:47:00.990Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:47:01.173Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T06:47:01.173Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T06:47:01.809Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:47:02.477Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763707622477
+2025-11-21T06:47:02.477Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:47:02.492Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T06:47:02.492Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:47:02.492Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763707622477 to /home/v/.claude.json
+2025-11-21T06:47:02.492Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T06:47:04.581Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:47:13.934Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T06:47:14.007Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T06:47:14.080Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T06:47:14.159Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T06:47:14.240Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T06:47:14.318Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T06:47:14.399Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T06:47:14.486Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T06:47:14.561Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T06:47:14.623Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T06:47:14.695Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T06:47:14.695Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:14.695Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:14.695Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T06:47:14.695Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:14.695Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:14.695Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T06:47:14.695Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:14.695Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:14.695Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T06:47:14.695Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:14.695Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:14.695Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T06:47:14.695Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:14.695Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:14.695Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T06:47:14.695Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:14.695Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:14.695Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T06:47:14.695Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:14.695Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:14.695Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T06:47:14.695Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:14.695Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:14.696Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T06:47:14.696Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:14.696Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:14.696Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T06:47:14.696Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:14.696Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:19.244Z [DEBUG] executePermissionRequestHooks called for tool: WebSearch
+2025-11-21T06:47:19.335Z [DEBUG] executePermissionRequestHooks called for tool: WebSearch
+2025-11-21T06:47:19.410Z [DEBUG] executePermissionRequestHooks called for tool: WebSearch
+2025-11-21T06:47:19.482Z [DEBUG] executePermissionRequestHooks called for tool: WebSearch
+2025-11-21T06:47:19.551Z [DEBUG] executePermissionRequestHooks called for tool: WebSearch
+2025-11-21T06:47:19.623Z [DEBUG] executePermissionRequestHooks called for tool: WebSearch
+2025-11-21T06:47:19.696Z [DEBUG] executePermissionRequestHooks called for tool: WebSearch
+2025-11-21T06:47:19.764Z [DEBUG] executePermissionRequestHooks called for tool: WebSearch
+2025-11-21T06:47:19.831Z [DEBUG] executePermissionRequestHooks called for tool: WebSearch
+2025-11-21T06:47:19.905Z [DEBUG] executePermissionRequestHooks called for tool: WebSearch
+2025-11-21T06:47:19.972Z [DEBUG] Getting matching hook commands for PermissionRequest with query: WebSearch
+2025-11-21T06:47:19.972Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:47:19.972Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:19.973Z [DEBUG] Getting matching hook commands for PermissionRequest with query: WebSearch
+2025-11-21T06:47:19.973Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:47:19.973Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:19.974Z [DEBUG] Getting matching hook commands for PermissionRequest with query: WebSearch
+2025-11-21T06:47:19.974Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:47:19.974Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:19.974Z [DEBUG] Getting matching hook commands for PermissionRequest with query: WebSearch
+2025-11-21T06:47:19.974Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:47:19.974Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:19.975Z [DEBUG] Getting matching hook commands for PermissionRequest with query: WebSearch
+2025-11-21T06:47:19.975Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:47:19.975Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:19.976Z [DEBUG] Getting matching hook commands for PermissionRequest with query: WebSearch
+2025-11-21T06:47:19.976Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:47:19.976Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:19.976Z [DEBUG] Getting matching hook commands for PermissionRequest with query: WebSearch
+2025-11-21T06:47:19.976Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:47:19.976Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:19.977Z [DEBUG] Getting matching hook commands for PermissionRequest with query: WebSearch
+2025-11-21T06:47:19.977Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:47:19.977Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:19.977Z [DEBUG] Getting matching hook commands for PermissionRequest with query: WebSearch
+2025-11-21T06:47:19.977Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:47:19.977Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:19.978Z [DEBUG] Getting matching hook commands for PermissionRequest with query: WebSearch
+2025-11-21T06:47:19.978Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:47:19.978Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:23.820Z [DEBUG] Persisting permission update: addRules to source 'localSettings'
+2025-11-21T06:47:23.820Z [DEBUG] Persisting 1 allow rule(s) to localSettings
+2025-11-21T06:47:23.821Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/.claude/settings.local.json.tmp.123676.1763707643821
+2025-11-21T06:47:23.821Z [DEBUG] Preserving file permissions: 100600
+2025-11-21T06:47:23.832Z [DEBUG] Temp file written successfully, size: 202 bytes
+2025-11-21T06:47:23.832Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:47:23.832Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/.claude/settings.local.json.tmp.123676.1763707643821 to /home/v/repos/learning/pro-d/gvias/.claude/settings.local.json
+2025-11-21T06:47:23.833Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/.claude/settings.local.json written atomically
+2025-11-21T06:47:23.891Z [DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["WebSearch"]
+2025-11-21T06:47:27.527Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:47:27.738Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:47:27.808Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:47:27.953Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:47:28.367Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:47:28.513Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:47:28.513Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:47:28.736Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:47:29.149Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:47:29.217Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:47:38.041Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T06:47:38.041Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:38.041Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:40.291Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T06:47:40.291Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:40.292Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:40.534Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T06:47:40.534Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:40.534Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:40.965Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T06:47:40.965Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:40.965Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:41.231Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T06:47:41.231Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:41.231Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:41.729Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T06:47:41.729Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:41.729Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:42.482Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T06:47:42.482Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:42.482Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:42.973Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T06:47:42.973Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:42.973Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:43.953Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T06:47:43.953Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:43.953Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:44.356Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T06:47:44.356Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:47:44.356Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:47:44.511Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:47:44.512Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:47:44.512Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:47:44.517Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:47:44.517Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:47:44.539Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 28ms
+2025-11-21T06:47:44.567Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:47:44.567Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:47:46.573Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:48:02.971Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:48:03.045Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:48:03.045Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:03.045Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:04.502Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:04.699Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:48:04.905Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 206ms
+2025-11-21T06:48:04.984Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707684984
+2025-11-21T06:48:04.984Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:48:04.991Z [DEBUG] Temp file written successfully, size: 16672 bytes
+2025-11-21T06:48:04.991Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:48:04.991Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707684984 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:48:04.991Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:48:05.134Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:48:05.134Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:05.134Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:06.352Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:06.902Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:48:06.969Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:48:06.969Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:06.969Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:08.475Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:08.653Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:48:08.865Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 212ms
+2025-11-21T06:48:08.923Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707688923
+2025-11-21T06:48:08.923Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:48:08.934Z [DEBUG] Temp file written successfully, size: 16686 bytes
+2025-11-21T06:48:08.934Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:48:08.934Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707688923 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:48:08.934Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:48:09.052Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:48:09.052Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:09.052Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:10.276Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:10.864Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:48:10.933Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:48:10.933Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:10.933Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:12.454Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:12.663Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:48:12.802Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 139ms
+2025-11-21T06:48:12.871Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707692871
+2025-11-21T06:48:12.871Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:48:12.881Z [DEBUG] Temp file written successfully, size: 16672 bytes
+2025-11-21T06:48:12.881Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:48:12.881Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707692871 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:48:12.881Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:48:13.028Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:48:13.028Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:13.028Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:14.337Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:14.967Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:48:15.064Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:48:15.064Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:15.064Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:16.652Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:16.894Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:48:17.052Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 158ms
+2025-11-21T06:48:17.129Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707697129
+2025-11-21T06:48:17.129Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:48:17.145Z [DEBUG] Temp file written successfully, size: 16672 bytes
+2025-11-21T06:48:17.145Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:48:17.145Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707697129 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:48:17.145Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:48:17.311Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:48:17.311Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:17.311Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:18.550Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:19.368Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:48:19.480Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:48:19.480Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:19.480Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:21.276Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:21.579Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:48:21.855Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 276ms
+2025-11-21T06:48:21.952Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707701952
+2025-11-21T06:48:21.952Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:48:21.961Z [DEBUG] Temp file written successfully, size: 16651 bytes
+2025-11-21T06:48:21.961Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:48:21.961Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707701952 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:48:21.962Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:48:22.193Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:48:22.193Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:22.193Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:23.558Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:24.479Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:48:24.594Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:48:24.594Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:24.594Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:26.314Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:26.676Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:48:27.081Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 405ms
+2025-11-21T06:48:27.206Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707707206
+2025-11-21T06:48:27.206Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:48:27.210Z [DEBUG] Temp file written successfully, size: 16655 bytes
+2025-11-21T06:48:27.211Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:48:27.211Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707707206 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:48:27.211Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:48:27.441Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:48:27.441Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:27.441Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:29.050Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:30.231Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:48:30.371Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:48:30.371Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:30.371Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:32.586Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:33.019Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:48:33.481Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 462ms
+2025-11-21T06:48:33.615Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707713615
+2025-11-21T06:48:33.615Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:48:33.624Z [DEBUG] Temp file written successfully, size: 16660 bytes
+2025-11-21T06:48:33.624Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:48:33.624Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707713615 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:48:33.624Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:48:33.944Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:48:33.944Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:33.944Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:35.460Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:36.644Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:48:36.788Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:48:36.788Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:36.788Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:39.128Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:39.542Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:48:39.996Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 454ms
+2025-11-21T06:48:40.129Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707720129
+2025-11-21T06:48:40.130Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:48:40.147Z [DEBUG] Temp file written successfully, size: 16648 bytes
+2025-11-21T06:48:40.147Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:48:40.147Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707720129 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:48:40.148Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:48:40.462Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:48:40.462Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:48:40.462Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:48:41.845Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:48:42.701Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:48:42.702Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:48:42.702Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:48:42.710Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:48:42.710Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:48:42.734Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 33ms
+2025-11-21T06:48:42.772Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:48:42.773Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:48:45.166Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:48:54.968Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-21T06:48:54.968Z [DEBUG] Found 1 hook matchers in settings
+2025-11-21T06:48:54.968Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-21T06:48:56.043Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:49:16.053Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-21T06:49:16.078Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:49:16.079Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:49:16.079Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:49:16.092Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:49:16.092Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:49:16.108Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 30ms
+2025-11-21T06:49:16.129Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-21T06:49:16.129Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:49:16.129Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-21T06:49:16.130Z [DEBUG] FileHistory: Making snapshot for message f4524ae9-232c-424c-9c2c-48eddc5d427c
+2025-11-21T06:49:16.135Z [DEBUG] FileHistory: Added snapshot for f4524ae9-232c-424c-9c2c-48eddc5d427c, tracking 1 files
+2025-11-21T06:49:16.160Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-21T06:49:16.188Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 28ms
+2025-11-21T06:49:16.214Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:49:16.214Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:49:16.363Z [DEBUG] AutoUpdater: Detected installation type: npm-global
+2025-11-21T06:49:16.363Z [DEBUG] AutoUpdater: Using global update method
+2025-11-21T06:49:16.884Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:49:17.540Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.123676.1763707757540
+2025-11-21T06:49:17.540Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:49:17.664Z [DEBUG] Temp file written successfully, size: 45709 bytes
+2025-11-21T06:49:17.664Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:49:17.664Z [DEBUG] Renaming /home/v/.claude.json.tmp.123676.1763707757540 to /home/v/.claude.json
+2025-11-21T06:49:17.664Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-21T06:49:21.509Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:49:22.796Z [DEBUG] executePreToolHooks called for tool: WebSearch
+2025-11-21T06:49:22.802Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebSearch
+2025-11-21T06:49:22.802Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:49:22.802Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:49:24.197Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:49:41.252Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebSearch
+2025-11-21T06:49:41.252Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:49:41.252Z [DEBUG] Matched 0 unique hooks for query "WebSearch" (0 before deduplication)
+2025-11-21T06:49:41.288Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:49:41.289Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:49:41.289Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:49:41.298Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:49:41.298Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:49:41.326Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 38ms
+2025-11-21T06:49:41.366Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:49:41.366Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:49:43.462Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:49:50.158Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:49:50.163Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:49:50.163Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:49:50.164Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:49:51.257Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:49:51.273Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:49:51.278Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 5ms
+2025-11-21T06:49:51.284Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707791284
+2025-11-21T06:49:51.284Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:49:51.291Z [DEBUG] Temp file written successfully, size: 16687 bytes
+2025-11-21T06:49:51.291Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:49:51.291Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707791284 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:49:51.291Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:49:51.302Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:49:51.302Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:49:51.302Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:49:52.431Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:49:53.165Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-21T06:49:53.248Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-21T06:49:53.248Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:49:53.248Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:49:54.566Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:49:54.827Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:49:54.924Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 97ms
+2025-11-21T06:49:55.036Z [DEBUG] Writing to temp file: /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707795036
+2025-11-21T06:49:55.036Z [DEBUG] Preserving file permissions: 100644
+2025-11-21T06:49:55.043Z [DEBUG] Temp file written successfully, size: 16726 bytes
+2025-11-21T06:49:55.043Z [DEBUG] Applied original permissions to temp file
+2025-11-21T06:49:55.043Z [DEBUG] Renaming /home/v/repos/learning/pro-d/gvias/00-introduction.md.tmp.123676.1763707795036 to /home/v/repos/learning/pro-d/gvias/00-introduction.md
+2025-11-21T06:49:55.044Z [DEBUG] File /home/v/repos/learning/pro-d/gvias/00-introduction.md written atomically
+2025-11-21T06:49:55.205Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-21T06:49:55.206Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:49:55.206Z [DEBUG] Matched 1 unique hooks for query "Edit" (1 before deduplication)
+2025-11-21T06:49:56.563Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:49:57.111Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:49:57.112Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:49:57.112Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:49:57.124Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:49:57.124Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:49:57.151Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 40ms
+2025-11-21T06:49:57.185Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:49:57.185Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:49:59.688Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:50:03.908Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-21T06:50:03.908Z [DEBUG] Found 1 hook matchers in settings
+2025-11-21T06:50:03.909Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-21T06:50:05.019Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:50:22.163Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-21T06:50:22.164Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-21T06:50:22.164Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-21T06:50:22.171Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-21T06:50:22.171Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-21T06:50:22.185Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 22ms
+2025-11-21T06:50:22.202Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-21T06:50:22.202Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:50:22.202Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-21T06:50:22.203Z [DEBUG] FileHistory: Making snapshot for message 24763580-eae4-47b9-9887-b4b7b6928356
+2025-11-21T06:50:22.208Z [DEBUG] FileHistory: Added snapshot for 24763580-eae4-47b9-9887-b4b7b6928356, tracking 1 files
+2025-11-21T06:50:22.236Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-21T06:50:22.259Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 23ms
+2025-11-21T06:50:22.288Z [DEBUG] Getting matching hook commands for PreCompact with query: auto
+2025-11-21T06:50:22.288Z [DEBUG] Found 2 hook matchers in settings
+2025-11-21T06:50:22.288Z [DEBUG] Matched 1 unique hooks for query "auto" (1 before deduplication)
+2025-11-21T06:50:22.301Z [DEBUG] PreCompact:auto [/bin/bash -c 'echo "🔄 Auto-Compact Guidance (Context Window Full):"; echo "📋 CRITICAL: Before compacting, ensure you understand:"; echo "   • All 54 agents available in .claude/agents/ directory"; echo "   • Concurrent execution patterns from CLAUDE.md"; echo "   • Batchtools optimization for 300% performance gains"; echo "   • Swarm coordination strategies for complex tasks"; echo "⚡ Apply GOLDEN RULE: Always batch operations in single messages"; echo "✅ Auto-compact proceeding with full agent context"'] completed with status 0
+2025-11-21T06:50:22.301Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-21T06:50:23.002Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:50:26.434Z [DEBUG] Stream started - received first chunk
+2025-11-21T06:50:31.850Z [DEBUG] Streaming aborted by user: Request was aborted.
+2025-11-21T06:50:31.850Z [ERROR] Error in non-streaming fallback: Request was aborted.
+2025-11-21T06:50:31.851Z [ERROR] Error: Error: Request was aborted.
+    at rr._createMessage (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:440:3151)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-11-21T06:50:31.861Z [ERROR] Error: Error: Failed to get summary response from streaming
+    at E01 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:1827:1194)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async yB2 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:1823:6554)
+    at async hM (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2140:34476)
+    at async RN (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2665:4519)
+    at async Qw (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2665:5855)
+    at async Sa2 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2653:5017)
+    at async x70 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2653:3566)
+    at async file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2665:1423
+    at async file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2645:4715
+2025-11-21T06:50:31.870Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-21T06:50:31.870Z [DEBUG] Slash commands included in SlashCommand tool: /flow-nexus:challenges, /flow-nexus:workflow, /flow-nexus:sandbox, /flow-nexus:swarm, /flow-nexus:payments, /flow-nexus:login-registration, /flow-nexus:neural-network, /flow-nexus:app-store, /flow-nexus:user-tools
+2025-11-21T06:50:31.875Z [ERROR] Error in non-streaming fallback: Request was aborted.
+2025-11-21T06:50:31.875Z [ERROR] Error: Error: Request was aborted.
+    at xQ1 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:1965:39718)
+    at xQ1.next (<anonymous>)
+    at hZ9 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:3761:10248)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:3761:7944
+    at async ha1 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:1729:1971)
+    at async wZA (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:3761:7914)
+    at async hM (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2140:35717)
+    at async RN (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2665:4519)
+    at async Qw (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2665:5855)
+2025-11-21T06:50:39.908Z [DEBUG] Getting matching hook commands for SessionEnd with query: clear
+2025-11-21T06:50:39.908Z [DEBUG] Found 0 hook matchers in settings
+2025-11-21T06:50:39.908Z [DEBUG] Matched 0 unique hooks for query "clear" (0 before deduplication)
+2025-11-21T06:50:39.914Z [DEBUG] Cleared all session hooks for session 32e494c0-8a6b-4cfc-9e8a-ba49bcb1dabb

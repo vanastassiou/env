@@ -1,0 +1,312 @@
+#!/usr/bin/env python3
+"""
+PDF to Markdown Converter
+
+This script converts PDF files to Markdown format while preserving:
+- Headers (detected by font size and weight)
+- Hyperlinks (both internal and external)
+- Basic text formatting
+"""
+
+import argparse
+import re
+from pathlib import Path
+from typing import List, Dict, Tuple
+import pymupdf  # PyMuPDF
+
+
+class PDFToMarkdownConverter:
+    """Convert PDF files to Markdown with structure preservation."""
+
+    def __init__(self, pdf_path: str):
+        self.pdf_path = Path(pdf_path)
+        self.doc = pymupdf.open(pdf_path)
+        self.markdown_lines: List[str] = []
+        self.font_sizes: Dict[float, int] = {}
+        self.page_titles: set = set()  # Track repeating titles
+        self.in_toc = False  # Track if we're in table of contents
+
+    def analyze_font_sizes(self) -> None:
+        """Analyze font sizes to determine header levels."""
+        font_size_counts = {}
+
+        for page in self.doc:
+            blocks = page.get_text("dict")["blocks"]
+            for block in blocks:
+                if "lines" in block:
+                    for line in block["lines"]:
+                        for span in line["spans"]:
+                            size = round(span["size"], 1)
+                            font_size_counts[size] = font_size_counts.get(size, 0) + 1
+
+        if not font_size_counts:
+            return
+
+        # Sort font sizes in descending order
+        sorted_sizes = sorted(font_size_counts.keys(), reverse=True)
+
+        # Find the most common font size (likely body text)
+        body_text_size = max(font_size_counts.items(), key=lambda x: x[1])[0]
+
+        # Only assign header levels to fonts LARGER than body text by a meaningful margin
+        # Require at least 1.5pt difference to avoid treating slightly larger text as headers
+        header_sizes = [size for size in sorted_sizes if size >= body_text_size + 1.5]
+
+        # Assign header levels (H1-H3) for most cases - rarely need more
+        # H1 = largest, H2 = second largest, H3 = third largest
+        for idx, size in enumerate(header_sizes[:3]):
+            self.font_sizes[size] = idx + 1
+
+    def get_header_level(self, font_size: float, is_bold: bool, text: str = "") -> int:
+        """Determine Markdown header level based on font size and weight."""
+        rounded_size = round(font_size, 1)
+
+        # If exact match found in header sizes
+        if rounded_size in self.font_sizes:
+            return self.font_sizes[rounded_size]
+
+        # Only consider as header if size is close to a known header size
+        if self.font_sizes:
+            closest_size = min(self.font_sizes.keys(),
+                             key=lambda x: abs(x - rounded_size))
+
+            # Only treat as header if very close to a known header size (within 0.3pt)
+            if abs(closest_size - rounded_size) <= 0.3:
+                return self.font_sizes[closest_size]
+
+        # Additional heuristic: short bold text might be a subheading
+        # Only if it's reasonably short (< 80 chars) and doesn't end with period
+        if is_bold and len(text) < 80 and not text.rstrip().endswith('.'):
+            # Treat as H4 (lower level heading)
+            return 4
+
+        # Default to paragraph (not a header)
+        return 0
+
+    def extract_links(self, page) -> Dict[Tuple[float, float, float, float], str]:
+        """Extract hyperlinks from a page."""
+        links = {}
+        for link in page.get_links():
+            if "uri" in link:
+                # External link
+                rect = (link["from"].x0, link["from"].y0,
+                       link["from"].x1, link["from"].y1)
+                links[rect] = link["uri"]
+            elif "page" in link:
+                # Internal link
+                rect = (link["from"].x0, link["from"].y0,
+                       link["from"].x1, link["from"].y1)
+                links[rect] = f"#page-{link['page'] + 1}"
+        return links
+
+    def point_in_rect(self, x: float, y: float, rect: Tuple[float, float, float, float]) -> bool:
+        """Check if a point is within a rectangle."""
+        x0, y0, x1, y1 = rect
+        return x0 <= x <= x1 and y0 <= y <= y1
+
+    def is_toc_indicator(self, text: str) -> bool:
+        """Check if text indicates table of contents."""
+        toc_keywords = [
+            'contents', 'table of contents', 'toc',
+            'index', 'overview'
+        ]
+        text_lower = text.lower().strip()
+        return any(keyword in text_lower for keyword in toc_keywords)
+
+    def is_page_number(self, text: str) -> bool:
+        """Check if text is just a page number."""
+        text = text.strip()
+        # Roman numerals or regular numbers, possibly with dots
+        return bool(re.match(r'^[ivxlcdm]+$|^\d+\.?$', text, re.IGNORECASE))
+
+    def has_dot_leaders(self, text: str) -> bool:
+        """Check if text has dot leaders (.....) typical of TOC."""
+        return '.  .  .' in text or '...' in text or text.count('.') > 5
+
+    def is_repeating_title(self, text: str, header_level: int) -> bool:
+        """Check if this is a repeating page title/header."""
+        if header_level == 0:
+            return False
+
+        text_normalized = text.strip().lower()
+
+        # If we've seen this exact header before, it's likely a repeating title
+        if text_normalized in self.page_titles:
+            return True
+
+        # Add to our set of titles
+        self.page_titles.add(text_normalized)
+        return False
+
+    def convert(self) -> str:
+        """Convert PDF to Markdown."""
+        self.analyze_font_sizes()
+
+        for page_num, page in enumerate(self.doc, 1):
+            # Add page separator (no page numbers)
+            if page_num > 1:
+                self.markdown_lines.append(f"\n---\n\n")
+
+            # Extract links for this page
+            page_links = self.extract_links(page)
+
+            # Get text with formatting information
+            blocks = page.get_text("dict")["blocks"]
+
+            for block in blocks:
+                if block["type"] == 0:  # Text block
+                    if "lines" not in block:
+                        continue
+
+                    for line in block["lines"]:
+                        line_text = ""
+                        line_font_size = 0
+                        is_bold = False
+                        link_url = None
+
+                        for span in line["spans"]:
+                            text = span["text"].strip()
+                            if not text:
+                                continue
+
+                            # Get font properties
+                            font_size = span["size"]
+                            font_flags = span.get("flags", 0)
+                            is_bold = bool(font_flags & 2**4)  # Bold flag
+                            is_italic = bool(font_flags & 2**1)  # Italic flag
+
+                            # Check for links
+                            span_bbox = span["bbox"]
+                            for rect, url in page_links.items():
+                                if self.point_in_rect(
+                                    (span_bbox[0] + span_bbox[2]) / 2,
+                                    (span_bbox[1] + span_bbox[3]) / 2,
+                                    rect
+                                ):
+                                    link_url = url
+                                    break
+
+                            # Format text (no bold/italic in headers, they're already marked)
+                            formatted_text = text
+                            if is_italic:
+                                formatted_text = f"*{formatted_text}*"
+
+                            # Add link if present
+                            if link_url:
+                                formatted_text = f"[{formatted_text}]({link_url})"
+                                link_url = None  # Reset for next span
+
+                            line_text += formatted_text + " "
+                            line_font_size = max(line_font_size, font_size)
+
+                        line_text = line_text.strip()
+                        if not line_text:
+                            continue
+
+                        # Replace smart quotes with regular quotes
+                        line_text = line_text.replace('"', '"').replace('"', '"')
+                        line_text = line_text.replace(''', "'").replace(''', "'")
+
+                        # Skip page numbers
+                        if self.is_page_number(line_text):
+                            continue
+
+                        # Detect TOC start
+                        if self.is_toc_indicator(line_text):
+                            self.in_toc = True
+
+                        # Skip TOC lines (lines with dot leaders)
+                        if self.in_toc and self.has_dot_leaders(line_text):
+                            continue
+
+                        # Exit TOC when we hit a non-TOC section
+                        if self.in_toc and not self.has_dot_leaders(line_text):
+                            # Check if this looks like end of TOC (new section starts)
+                            header_level = self.get_header_level(line_font_size, is_bold, line_text)
+                            if header_level > 0 and not self.is_toc_indicator(line_text):
+                                self.in_toc = False
+
+                        # Skip TOC headers
+                        if self.in_toc:
+                            continue
+
+                        # Determine if this is a header
+                        header_level = self.get_header_level(line_font_size, is_bold, line_text)
+
+                        # Skip repeating page titles
+                        if self.is_repeating_title(line_text, header_level):
+                            continue
+
+                        if header_level > 0:
+                            # Format as header (no bold markers)
+                            clean_text = line_text.replace('**', '')
+                            self.markdown_lines.append(f"{'#' * header_level} {clean_text}\n")
+                        else:
+                            # Regular paragraph (can have bold)
+                            if is_bold:
+                                line_text = f"**{line_text}**"
+                            self.markdown_lines.append(f"{line_text}\n")
+
+                    # Add paragraph spacing
+                    if block.get("lines"):
+                        self.markdown_lines.append("\n")
+
+        return "".join(self.markdown_lines)
+
+    def save_markdown(self, output_path: str = None) -> None:
+        """Save the converted Markdown to a file."""
+        if output_path is None:
+            output_path = self.pdf_path.with_suffix('.md')
+
+        markdown_content = self.convert()
+
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(markdown_content)
+
+        print(f"✓ Converted: {self.pdf_path}")
+        print(f"✓ Saved to: {output_path}")
+
+    def __del__(self):
+        """Clean up resources."""
+        if hasattr(self, 'doc'):
+            self.doc.close()
+
+
+def main():
+    """Main entry point for the script."""
+    parser = argparse.ArgumentParser(
+        description="Convert PDF files to Markdown while preserving headers and hyperlinks"
+    )
+    parser.add_argument(
+        "pdf_file",
+        help="Path to the PDF file to convert"
+    )
+    parser.add_argument(
+        "-o", "--output",
+        help="Output Markdown file path (default: same name as PDF with .md extension)"
+    )
+
+    args = parser.parse_args()
+
+    # Validate input file
+    pdf_path = Path(args.pdf_file)
+    if not pdf_path.exists():
+        print(f"Error: File '{args.pdf_file}' not found")
+        return 1
+
+    if not pdf_path.suffix.lower() == '.pdf':
+        print(f"Error: '{args.pdf_file}' is not a PDF file")
+        return 1
+
+    # Convert PDF to Markdown
+    try:
+        converter = PDFToMarkdownConverter(args.pdf_file)
+        converter.save_markdown(args.output)
+        return 0
+    except Exception as e:
+        print(f"Error converting PDF: {e}")
+        return 1
+
+
+if __name__ == "__main__":
+    exit(main())

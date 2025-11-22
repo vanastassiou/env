@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Create docs directory structure",
+    "status": "completed",
+    "activeForm": "Creating docs directory structure"
+  },
+  {
+    "content": "Write comprehensive risk management framework markdown file",
+    "status": "in_progress",
+    "activeForm": "Writing comprehensive risk management framework markdown file"
+  },
+  {
+    "content": "Format document with proper markdown structure",
+    "status": "pending",
+    "activeForm": "Formatting document with proper markdown structure"
+  },
+  {
+    "content": "Review and validate content completeness",
+    "status": "pending",
+    "activeForm": "Reviewing and validating content completeness"
+  }
+]

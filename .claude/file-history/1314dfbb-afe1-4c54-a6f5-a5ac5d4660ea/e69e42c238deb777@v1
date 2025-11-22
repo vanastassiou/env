@@ -1,0 +1,89 @@
+# Risk Identification & Assessment Framework
+
+## Table of Contents
+
+- [Relevant Legislation](#relevant-legislation)
+- [Event-Specific Risk Categories](#event-specific-risk-categories)
+- [Risk Assessment Matrix](#risk-assessment-matrix)
+- [Risk Rating Calculation](#risk-rating-calculation)
+- [Priority Levels](#priority-levels)
+
+## Relevant Legislation
+
+- **Federal**: *Canada Labour Code* (R.S.C., 1985, c. L-2)
+- **BC**: *Workers Compensation Act* (RSBC 1996, c. 492)
+- **BC**: *Occupational Health and Safety Regulation* (BC Reg 296/97)
+- **BC**: *Community Care and Assisted Living Act* (SBC 2002, c. 75)
+- **Federal**: *Criminal Code* (R.S.C., 1985, c. C-46) - duty to provide necessaries
+
+## Event-Specific Risk Categories
+
+#### Physical/Safety Risks
+
+- Slip, trip, and fall hazards
+- Food safety and allergic reactions
+- Alcohol service liability
+- Crowd control and venue capacity management
+- Fire safety and emergency evacuation
+- Weather-related risks (outdoor events)
+- Equipment and staging safety
+- Vehicle and transportation risks
+
+#### Financial Risks
+
+- Event cancellation losses
+- Vendor and supplier defaults
+- Theft, fraud, or embezzlement
+- Property damage and loss
+- Budget overruns and cost escalation
+- Contractual disputes and breaches
+- Payment processing failures
+
+#### Liability Risks
+
+- Participant injuries and accidents
+- Third-party property damage
+- Professional liability (advice/services provided)
+- Directors & Officers liability
+- Volunteer-related incidents
+- Vehicle use and transportation liability
+- Sexual misconduct and harassment allegations
+- Discrimination and human rights complaints
+
+#### Reputational Risks
+
+- Negative publicity and media coverage
+- Social media incidents and viral content
+- Discrimination and harassment claims
+- Data breaches and privacy violations
+- Inappropriate conduct by attendees/volunteers
+- Association with controversial speakers/sponsors
+
+## Risk Assessment Matrix
+
+| Likelihood | Description | Score |
+|------------|-------------|-------|
+| Rare | May occur only in exceptional circumstances | 1 |
+| Unlikely | Could occur at some time | 2 |
+| Possible | Might occur at some time | 3 |
+| Likely | Will probably occur in most circumstances | 4 |
+| Almost Certain | Expected to occur in most circumstances | 5 |
+
+| Impact | Description | Score |
+|--------|-------------|-------|
+| Negligible | No injuries, minimal financial impact (<$1,000) | 1 |
+| Minor | First aid treatment, low financial impact ($1,000-$5,000) | 2 |
+| Moderate | Medical treatment required, moderate impact ($5,000-$25,000) | 3 |
+| Major | Extensive injuries, significant impact ($25,000-$100,000) | 4 |
+| Catastrophic | Death, extreme impact (>$100,000) | 5 |
+
+## Risk Rating Calculation
+
+**Risk Rating = Likelihood × Impact**
+
+## Priority Levels
+
+- **Critical (20-25)**: Immediate action required
+- **High (15-19)**: Senior management attention needed
+- **Medium (10-14)**: Management responsibility specified
+- **Low (5-9)**: Manage by routine procedures
