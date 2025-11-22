@@ -1,0 +1,37 @@
+# Used by Markdownlint tool
+# Reference: https://github.com/DavidAnson/markdownlint
+
+heading-style: atx
+ul-style: dash
+blanks-around-fences:
+  list-items: false
+blanks-around-headings:
+  lines-above: 1
+  lines-below: 1
+first-line-heading: true
+line-length:
+  line-length: 80
+  code_blocks: false
+  tables: false
+  headings: false
+  strict: false
+list-marker-space:
+  ol_multi: 1
+  ol_single: 1
+  ul_multi: 1
+  ul_single: 1
+no-duplicate-heading:
+  siblings_only: true
+no-inline-html:
+  allowed-elements:
+    - "a"
+    - "br"
+    - "code"
+no-trailing-spaces: true
+ol-prefix:
+  style: "ordered"
+ul-indent:
+  indent: 2
+ul-style:
+  style: "dash"
+
