@@ -22,9 +22,5 @@
   "prettier.configPath": ".pre-commit-config/.prettierrc.yaml",
 
   "yaml.format.enable": false,
-  "yaml.validate": true,
-
-  "yaml-linter.enable": true,
-  "yaml-linter.configPath": ".pre-commit-config/.yamllint.yaml",
-  "yaml-linter.run": "onSave"
+  "yaml.validate": true
 }
