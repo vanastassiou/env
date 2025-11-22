@@ -747,3 +747,629 @@
 2025-11-22T04:44:55.659Z [DEBUG] Applied original permissions to temp file
 2025-11-22T04:44:55.660Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763786695653 to /home/v/.claude.json
 2025-11-22T04:44:55.660Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:48:11.268Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:48:11.268Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:48:11.268Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:48:11.273Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:48:11.273Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:48:11.282Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 14ms
+2025-11-22T04:48:11.297Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-22T04:48:11.297Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:48:11.297Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:48:11.298Z [DEBUG] FileHistory: Making snapshot for message f55d12f7-41cb-43d8-a91c-54fe76b71bbd
+2025-11-22T04:48:11.298Z [DEBUG] FileHistory: Added snapshot for f55d12f7-41cb-43d8-a91c-54fe76b71bbd, tracking 7 files
+2025-11-22T04:48:11.320Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-22T04:48:11.344Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 24ms
+2025-11-22T04:48:12.280Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:48:14.171Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:48:22.933Z [DEBUG] executePreToolHooks called for tool: ExitPlanMode
+2025-11-22T04:48:22.936Z [DEBUG] Getting matching hook commands for PreToolUse with query: ExitPlanMode
+2025-11-22T04:48:22.936Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:48:22.936Z [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+2025-11-22T04:48:23.005Z [DEBUG] executePermissionRequestHooks called for tool: ExitPlanMode
+2025-11-22T04:48:23.049Z [DEBUG] Getting matching hook commands for PermissionRequest with query: ExitPlanMode
+2025-11-22T04:48:23.050Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:48:23.050Z [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+2025-11-22T04:48:29.489Z [DEBUG] Getting matching hook commands for Notification with query: permission_prompt
+2025-11-22T04:48:29.489Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:48:29.489Z [DEBUG] Matched 0 unique hooks for query "permission_prompt" (0 before deduplication)
+2025-11-22T04:48:59.883Z [DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+2025-11-22T04:48:59.894Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:48:59.912Z [DEBUG] Getting matching hook commands for PostToolUse with query: ExitPlanMode
+2025-11-22T04:48:59.912Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:48:59.912Z [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+2025-11-22T04:48:59.950Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:48:59.951Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:48:59.951Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:48:59.958Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:48:59.958Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:48:59.978Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 28ms
+2025-11-22T04:49:03.900Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:49:11.941Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-22T04:49:11.946Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-22T04:49:11.946Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:11.946Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-22T04:49:11.964Z [DEBUG] Writing to temp file: /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json.tmp.226770.1763786951964
+2025-11-22T04:49:11.964Z [DEBUG] Preserving file permissions: 100600
+2025-11-22T04:49:11.966Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-22T04:49:11.966Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:49:11.967Z [DEBUG] Renaming /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json.tmp.226770.1763786951964 to /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json
+2025-11-22T04:49:11.967Z [DEBUG] File /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json written atomically
+2025-11-22T04:49:11.967Z [DEBUG] Writing to temp file: /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json.tmp.226770.1763786951967
+2025-11-22T04:49:11.967Z [DEBUG] Preserving file permissions: 100600
+2025-11-22T04:49:11.970Z [DEBUG] Temp file written successfully, size: 665 bytes
+2025-11-22T04:49:11.970Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:49:11.970Z [DEBUG] Renaming /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json.tmp.226770.1763786951967 to /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json
+2025-11-22T04:49:11.970Z [DEBUG] File /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json written atomically
+2025-11-22T04:49:11.990Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-22T04:49:11.990Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:11.990Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-22T04:49:12.022Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T04:49:12.027Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T04:49:12.027Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:12.027Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:49:13.116Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:49:13.143Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addDirectories",
+    "directories": [
+      "/home/v/repos/env/.claude/hooks"
+    ],
+    "destination": "session"
+  },
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+2025-11-22T04:49:13.218Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T04:49:13.263Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T04:49:13.263Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:49:13.263Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T04:49:19.168Z [DEBUG] Getting matching hook commands for Notification with query: permission_prompt
+2025-11-22T04:49:19.168Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:49:19.168Z [DEBUG] Matched 0 unique hooks for query "permission_prompt" (0 before deduplication)
+2025-11-22T04:49:22.307Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:49:22.519Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T04:49:22.519Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:22.520Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:49:23.254Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:49:23.578Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:49:23.650Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T04:49:23.656Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T04:49:23.656Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:23.656Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:49:24.727Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:49:24.753Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addDirectories",
+    "directories": [
+      "/home/v/repos/env/.claude/agents"
+    ],
+    "destination": "session"
+  },
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+2025-11-22T04:49:24.799Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T04:49:24.825Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T04:49:24.825Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:49:24.825Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T04:49:26.211Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:49:26.416Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T04:49:26.416Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:26.416Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:49:27.084Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:49:27.520Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:49:27.597Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T04:49:27.604Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T04:49:27.604Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:27.604Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:49:28.655Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:49:28.682Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addDirectories",
+    "directories": [
+      "/home/v/repos/env/.claude/standards"
+    ],
+    "destination": "session"
+  },
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+2025-11-22T04:49:28.729Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T04:49:28.752Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T04:49:28.752Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:49:28.752Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T04:49:31.194Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:49:31.411Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T04:49:31.411Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:31.412Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:49:32.424Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:49:32.503Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T04:49:32.509Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T04:49:32.509Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:32.509Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:49:32.623Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:49:33.567Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:49:33.595Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addDirectories",
+    "directories": [
+      "/home/v/repos/env/.claude/examples"
+    ],
+    "destination": "session"
+  },
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+2025-11-22T04:49:33.643Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T04:49:33.667Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T04:49:33.667Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:49:33.667Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T04:49:35.618Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:49:35.826Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T04:49:35.826Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:35.826Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:49:36.613Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:49:36.882Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:49:36.964Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T04:49:36.971Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T04:49:36.971Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:36.972Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:49:38.031Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:49:38.063Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addDirectories",
+    "directories": [
+      "/home/v/repos/env/.claude/hooks"
+    ],
+    "destination": "session"
+  },
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+2025-11-22T04:49:38.129Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T04:49:38.162Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T04:49:38.163Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:49:38.163Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T04:49:44.089Z [DEBUG] Getting matching hook commands for Notification with query: permission_prompt
+2025-11-22T04:49:44.089Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:49:44.089Z [DEBUG] Matched 0 unique hooks for query "permission_prompt" (0 before deduplication)
+2025-11-22T04:49:48.560Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:49:48.779Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T04:49:48.779Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:48.779Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:49:49.244Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:49:49.812Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:49:49.893Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T04:49:49.901Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T04:49:49.901Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:49.901Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:49:50.968Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:49:51.015Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Read",
+        "ruleContent": "//home/v/repos/env/.claude/**"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "session"
+  }
+]
+2025-11-22T04:49:51.069Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T04:49:51.096Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T04:49:51.096Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:49:51.096Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T04:49:52.739Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T04:49:52.945Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T04:49:52.945Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:52.945Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:49:53.654Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:49:53.975Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:49:54.055Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-22T04:49:54.062Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-22T04:49:54.062Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:54.063Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-22T04:49:54.082Z [DEBUG] Writing to temp file: /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json.tmp.226770.1763786994082
+2025-11-22T04:49:54.083Z [DEBUG] Preserving file permissions: 100600
+2025-11-22T04:49:54.087Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-22T04:49:54.087Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:49:54.087Z [DEBUG] Renaming /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json.tmp.226770.1763786994082 to /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json
+2025-11-22T04:49:54.087Z [DEBUG] File /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-e01a7f2f-48c4-414d-a3da-8b7c636fe04e.json written atomically
+2025-11-22T04:49:54.087Z [DEBUG] Writing to temp file: /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json.tmp.226770.1763786994087
+2025-11-22T04:49:54.087Z [DEBUG] Preserving file permissions: 100600
+2025-11-22T04:49:54.090Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-22T04:49:54.090Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:49:54.090Z [DEBUG] Renaming /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json.tmp.226770.1763786994087 to /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json
+2025-11-22T04:49:54.090Z [DEBUG] File /home/v/.claude/todos/a74d0e67-25ce-44ab-8e0d-d0242adece86-agent-a74d0e67-25ce-44ab-8e0d-d0242adece86.json written atomically
+2025-11-22T04:49:54.107Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-22T04:49:54.107Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:49:54.107Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-22T04:49:54.143Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:49:54.143Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:49:54.144Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:49:54.150Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:49:54.150Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:49:54.175Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 32ms
+2025-11-22T04:49:56.129Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:49:59.477Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-22T04:49:59.477Z [DEBUG] Found 1 hook matchers in settings
+2025-11-22T04:49:59.477Z [DEBUG] Matched 1 unique hooks for query "no match query" (1 before deduplication)
+2025-11-22T04:50:00.574Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:50:00.619Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763787000619
+2025-11-22T04:50:00.619Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:50:00.624Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:50:00.624Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:50:00.624Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763787000619 to /home/v/.claude.json
+2025-11-22T04:50:00.624Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:50:00.630Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763787000630
+2025-11-22T04:50:00.630Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:50:00.633Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:50:00.634Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:50:00.634Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763787000630 to /home/v/.claude.json
+2025-11-22T04:50:00.634Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:50:06.799Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763787006799
+2025-11-22T04:50:06.799Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T04:50:06.806Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T04:50:06.806Z [DEBUG] Applied original permissions to temp file
+2025-11-22T04:50:06.806Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763787006799 to /home/v/.claude.json
+2025-11-22T04:50:06.806Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T04:50:06.806Z [DEBUG] Applying permission update: Setting mode to 'plan'
+2025-11-22T04:50:23.186Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T04:50:23.186Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T04:50:23.186Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T04:50:23.191Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T04:50:23.191Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T04:50:23.208Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 22ms
+2025-11-22T04:50:23.223Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-22T04:50:23.223Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:50:23.223Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T04:50:23.224Z [DEBUG] FileHistory: Making snapshot for message 5ed28bec-2a84-4a67-8f29-1771a3caa436
+2025-11-22T04:50:23.224Z [DEBUG] FileHistory: Missing tracked file: /home/v/.claude/hooks/documentation.config.json
+2025-11-22T04:50:23.224Z [DEBUG] FileHistory: Missing tracked file: /home/v/.claude/hooks/post-write
+2025-11-22T04:50:23.224Z [DEBUG] FileHistory: Missing tracked file: /home/v/.claude/hooks/post-edit
+2025-11-22T04:50:23.224Z [DEBUG] FileHistory: Missing tracked file: /home/v/.claude/hooks/pre-commit
+2025-11-22T04:50:23.224Z [DEBUG] FileHistory: Missing tracked file: /home/v/.claude/agents/documentation-chain.json
+2025-11-22T04:50:23.224Z [DEBUG] FileHistory: Missing tracked file: /home/v/.claude/standards/documentation.json
+2025-11-22T04:50:23.224Z [DEBUG] FileHistory: Missing tracked file: /home/v/.claude/examples/documentation-auto-review.md
+2025-11-22T04:50:23.224Z [DEBUG] FileHistory: Added snapshot for 5ed28bec-2a84-4a67-8f29-1771a3caa436, tracking 7 files
+2025-11-22T04:50:23.251Z [DEBUG] MCP server "ide": Calling MCP tool: closeAllDiffTabs
+2025-11-22T04:50:23.281Z [DEBUG] MCP server "ide": Tool 'closeAllDiffTabs' completed successfully in 30ms
+2025-11-22T04:50:23.922Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:50:26.038Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:50:37.543Z [DEBUG] executePreToolHooks called for tool: Task
+2025-11-22T04:50:37.547Z [DEBUG] Getting matching hook commands for PreToolUse with query: Task
+2025-11-22T04:50:37.547Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:50:37.547Z [DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+2025-11-22T04:50:37.592Z [DEBUG] Getting matching hook commands for SubagentStart with query: Plan
+2025-11-22T04:50:37.592Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:50:37.592Z [DEBUG] Matched 0 unique hooks for query "Plan" (0 before deduplication)
+2025-11-22T04:50:40.702Z [DEBUG] Stream started - received first chunk
+2025-11-22T04:50:43.417Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T04:50:43.422Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T04:50:43.422Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T04:50:43.422Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T04:50:44.483Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T04:50:44.518Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Read",
+        "ruleContent": "//home/v/**"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "session"
+  }
+]
+2025-11-22T04:50:44.533Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T04:50:44.536Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T04:50:44.536Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:50:44.536Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T04:50:50.530Z [DEBUG] Getting matching hook commands for Notification with query: permission_prompt
+2025-11-22T04:50:50.530Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T04:50:50.530Z [DEBUG] Matched 0 unique hooks for query "permission_prompt" (0 before deduplication)
+2025-11-22T05:07:01.300Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T05:07:09.118Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T05:07:09.118Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:09.118Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T05:07:09.627Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:07:10.581Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T05:07:13.143Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:07:14.027Z [DEBUG] executePreToolHooks called for tool: Glob
+2025-11-22T05:07:14.031Z [DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+2025-11-22T05:07:14.031Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:14.031Z [DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+2025-11-22T05:07:14.042Z [DEBUG] Permission suggestions for Glob: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Read",
+        "ruleContent": "//home/v/.claude/agents/**"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "session"
+  },
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Read",
+        "ruleContent": "//home/v/repos/env/.claude/agents/**"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "session"
+  }
+]
+2025-11-22T05:07:14.053Z [ERROR] Error: Error: EISDIR: illegal operation on a directory, read
+    at Module.readSync (node:fs:739:18)
+    at Object.readSync (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:472)
+    at aD (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:4131:105)
+    at WN (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:4133:204)
+    at kf5 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2400:7603)
+    at K (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2400:6803)
+    at file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2400:7137
+    at cW (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:744:21554)
+    at Qz (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:744:41144)
+    at E$ (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:744:35177)
+2025-11-22T05:07:14.056Z [ERROR] Error: Error: EISDIR: illegal operation on a directory, read
+    at Module.readFileSync (node:fs:440:20)
+    at Object.readFileSync (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:299)
+    at WN (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:4133:219)
+    at kf5 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2400:7603)
+    at K (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2400:6803)
+    at file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:2400:7137
+    at cW (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:744:21554)
+    at Qz (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:744:41144)
+    at E$ (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:744:35177)
+    at u2 (file:///home/v/.nvm/versions/node/v24.9.0/lib/node_modules/@anthropic-ai/claude-code/cli.js:742:4841)
+2025-11-22T05:07:14.057Z [DEBUG] executePermissionRequestHooks called for tool: Glob
+2025-11-22T05:07:14.060Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Glob
+2025-11-22T05:07:14.060Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T05:07:14.060Z [DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+2025-11-22T05:07:16.792Z [DEBUG] MCP server "ide": Calling MCP tool: close_tab
+2025-11-22T05:07:16.803Z [DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'session': ["Read(//home/v/.claude/agents/**)"]
+2025-11-22T05:07:16.803Z [DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'session': ["Read(//home/v/repos/env/.claude/agents/**)"]
+2025-11-22T05:07:16.814Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T05:07:16.836Z [DEBUG] MCP server "ide": Tool 'close_tab' completed successfully in 44ms
+2025-11-22T05:07:16.864Z [DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+2025-11-22T05:07:16.864Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:16.864Z [DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+2025-11-22T05:07:19.158Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:07:21.014Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-22T05:07:21.018Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-22T05:07:21.018Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:21.018Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:07:21.039Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-22T05:07:21.039Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:21.039Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:07:23.416Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:07:25.346Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-22T05:07:25.351Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-22T05:07:25.351Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:25.351Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:07:25.371Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-22T05:07:25.371Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:25.371Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:07:27.663Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:07:29.549Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-22T05:07:29.554Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-22T05:07:29.554Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:29.554Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:07:29.579Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-22T05:07:29.579Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:29.579Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:07:32.527Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:07:37.886Z [DEBUG] executePreToolHooks called for tool: Grep
+2025-11-22T05:07:37.890Z [DEBUG] Getting matching hook commands for PreToolUse with query: Grep
+2025-11-22T05:07:37.890Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:37.890Z [DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+2025-11-22T05:07:37.949Z [DEBUG] Getting matching hook commands for PostToolUse with query: Grep
+2025-11-22T05:07:37.949Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:37.949Z [DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+2025-11-22T05:07:40.499Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:07:43.303Z [DEBUG] executePreToolHooks called for tool: Grep
+2025-11-22T05:07:43.307Z [DEBUG] Getting matching hook commands for PreToolUse with query: Grep
+2025-11-22T05:07:43.307Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:43.307Z [DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+2025-11-22T05:07:43.349Z [DEBUG] Getting matching hook commands for PostToolUse with query: Grep
+2025-11-22T05:07:43.349Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:43.349Z [DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+2025-11-22T05:07:45.531Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:07:49.802Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:07:51.143Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T05:07:51.147Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T05:07:51.148Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:51.148Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T05:07:52.191Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T05:07:52.209Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Read",
+        "ruleContent": "//home/v/repos/env/.claude/**"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "session"
+  }
+]
+2025-11-22T05:07:52.226Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T05:07:52.229Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T05:07:52.229Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T05:07:52.229Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T05:07:54.987Z [DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'session': ["Read(//home/v/repos/env/.claude/**)"]
+2025-11-22T05:07:54.999Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T05:07:55.196Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T05:07:55.196Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:55.196Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T05:07:55.813Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:07:56.225Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T05:07:58.799Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:07:59.589Z [DEBUG] executePreToolHooks called for tool: Glob
+2025-11-22T05:07:59.594Z [DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+2025-11-22T05:07:59.594Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:59.594Z [DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+2025-11-22T05:07:59.640Z [DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+2025-11-22T05:07:59.640Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:07:59.640Z [DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+2025-11-22T05:08:01.970Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:08:02.703Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-22T05:08:02.708Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-22T05:08:02.708Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:08:02.708Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:08:02.731Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-22T05:08:02.731Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:08:02.731Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:08:05.834Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:08:08.327Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-22T05:08:08.332Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-22T05:08:08.332Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:08:08.332Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:08:08.356Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-22T05:08:08.356Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:08:08.356Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:08:10.613Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:08:15.404Z [DEBUG] executePreToolHooks called for tool: Grep
+2025-11-22T05:08:15.409Z [DEBUG] Getting matching hook commands for PreToolUse with query: Grep
+2025-11-22T05:08:15.409Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:08:15.409Z [DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+2025-11-22T05:08:15.453Z [DEBUG] Getting matching hook commands for PostToolUse with query: Grep
+2025-11-22T05:08:15.453Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:08:15.453Z [DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+2025-11-22T05:08:18.113Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:08:21.252Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T05:08:21.259Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T05:08:21.259Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:08:21.259Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T05:08:22.379Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T05:08:22.420Z [DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Read",
+        "ruleContent": "//home/v/node_modules/claude-flow/**"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "session"
+  }
+]
+2025-11-22T05:08:22.440Z [DEBUG] executePermissionRequestHooks called for tool: Bash
+2025-11-22T05:08:22.447Z [DEBUG] Getting matching hook commands for PermissionRequest with query: Bash
+2025-11-22T05:08:22.447Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T05:08:22.447Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-22T05:08:28.435Z [DEBUG] Getting matching hook commands for Notification with query: permission_prompt
+2025-11-22T05:08:28.435Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T05:08:28.435Z [DEBUG] Matched 0 unique hooks for query "permission_prompt" (0 before deduplication)
+2025-11-22T05:09:03.204Z [DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'session': ["Read(//home/v/node_modules/claude-flow/**)"]
+2025-11-22T05:09:03.219Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T05:09:03.807Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T05:09:03.807Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:09:03.807Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T05:09:04.471Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:09:05.189Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T05:09:07.572Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:09:08.544Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-22T05:09:08.549Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-22T05:09:08.549Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:09:08.549Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:09:08.575Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-22T05:09:08.575Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:09:08.575Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:09:11.216Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:09:14.070Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T05:09:14.075Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T05:09:14.075Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:09:14.075Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T05:09:15.212Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T05:09:15.433Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T05:09:15.433Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:09:15.433Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T05:09:16.069Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:09:16.488Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T05:09:19.532Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:09:20.375Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-22T05:09:20.379Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-22T05:09:20.379Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:09:20.379Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:09:20.402Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-22T05:09:20.402Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:09:20.402Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-22T05:09:22.757Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:09:26.350Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-22T05:09:26.355Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-22T05:09:26.355Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:09:26.355Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T05:09:27.423Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T05:09:27.651Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-22T05:09:27.651Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:09:27.651Z [DEBUG] Matched 1 unique hooks for query "Bash" (1 before deduplication)
+2025-11-22T05:09:28.421Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:09:28.704Z [DEBUG] Hook output does not start with {, treating as plain text
+2025-11-22T05:09:31.159Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:09:56.502Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-11-22T05:09:56.502Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T05:09:56.502Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-22T05:09:56.512Z [DEBUG] Getting matching hook commands for PostToolUse with query: Task
+2025-11-22T05:09:56.512Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:09:56.512Z [DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+2025-11-22T05:09:56.544Z [DEBUG] MCP server "ide": Calling MCP tool: getDiagnostics
+2025-11-22T05:09:56.546Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-22T05:09:56.546Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-22T05:09:56.553Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-22T05:09:56.553Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-22T05:09:56.578Z [DEBUG] MCP server "ide": Tool 'getDiagnostics' completed successfully in 34ms
+2025-11-22T05:10:02.461Z [DEBUG] Stream started - received first chunk
+2025-11-22T05:10:20.957Z [DEBUG] executePreToolHooks called for tool: ExitPlanMode
+2025-11-22T05:10:20.961Z [DEBUG] Getting matching hook commands for PreToolUse with query: ExitPlanMode
+2025-11-22T05:10:20.961Z [DEBUG] Found 2 hook matchers in settings
+2025-11-22T05:10:20.961Z [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+2025-11-22T05:10:21.059Z [DEBUG] executePermissionRequestHooks called for tool: ExitPlanMode
+2025-11-22T05:10:21.116Z [DEBUG] Getting matching hook commands for PermissionRequest with query: ExitPlanMode
+2025-11-22T05:10:21.116Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T05:10:21.116Z [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+2025-11-22T05:10:26.998Z [DEBUG] Getting matching hook commands for Notification with query: permission_prompt
+2025-11-22T05:10:26.998Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T05:10:26.998Z [DEBUG] Matched 0 unique hooks for query "permission_prompt" (0 before deduplication)
+2025-11-22T05:15:13.242Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T05:15:13.350Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763788513350
+2025-11-22T05:15:13.350Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T05:15:13.354Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T05:15:13.354Z [DEBUG] Applied original permissions to temp file
+2025-11-22T05:15:13.354Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763788513350 to /home/v/.claude.json
+2025-11-22T05:15:13.354Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T05:15:13.359Z [DEBUG] Writing to temp file: /home/v/.claude.json.tmp.226770.1763788513359
+2025-11-22T05:15:13.359Z [DEBUG] Preserving file permissions: 100644
+2025-11-22T05:15:13.362Z [DEBUG] Temp file written successfully, size: 46184 bytes
+2025-11-22T05:15:13.362Z [DEBUG] Applied original permissions to temp file
+2025-11-22T05:15:13.362Z [DEBUG] Renaming /home/v/.claude.json.tmp.226770.1763788513359 to /home/v/.claude.json
+2025-11-22T05:15:13.362Z [DEBUG] File /home/v/.claude.json written atomically
+2025-11-22T05:15:15.807Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-11-22T05:15:15.807Z [DEBUG] Getting matching hook commands for SessionEnd with query: clear
+2025-11-22T05:15:15.807Z [DEBUG] Found 0 hook matchers in settings
+2025-11-22T05:15:15.807Z [DEBUG] Matched 0 unique hooks for query "clear" (0 before deduplication)
+2025-11-22T05:15:15.813Z [DEBUG] Cleared all session hooks for session a74d0e67-25ce-44ab-8e0d-d0242adece86

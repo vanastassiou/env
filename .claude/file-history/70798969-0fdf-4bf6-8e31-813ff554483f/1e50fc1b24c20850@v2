@@ -1,0 +1,508 @@
+# BC Emergency Department Triage Guidelines for Head Injuries with Unconsciousness
+
+**Last Updated:** January 2025
+**Based on:** CTAS Implementation Guidelines, BC Concussion/mTBI Guidelines (2024), BCEHS Clinical Practice Guidelines
+
+---
+
+## Table of Contents
+1. [Quick Reference Summary](#quick-reference-summary)
+2. [CTAS Triage Levels](#ctas-triage-levels)
+3. [Glasgow Coma Scale (GCS)](#glasgow-coma-scale-gcs)
+4. [Red Flag Symptoms](#red-flag-symptoms)
+5. [Assessment Protocols](#assessment-protocols)
+6. [Pediatric Considerations](#pediatric-considerations)
+7. [BC-Specific Protocols](#bc-specific-protocols)
+8. [Documentation Requirements](#documentation-requirements)
+9. [WorkSafeBC Reporting](#worksafebc-reporting)
+10. [Resources and References](#resources-and-references)
+
+---
+
+## Quick Reference Summary
+
+### Triage Level Assignment Table
+
+| **LOC Duration** | **GCS Score** | **CTAS Level** | **Time to MD** | **Priority** |
+|-----------------|---------------|----------------|----------------|--------------|
+| Prolonged/Ongoing | 3-9 | **Level 1** | Immediate | Resuscitation |
+| Any duration with ALC | 10-13 | **Level 2** | <15 min | Emergent |
+| Brief (<5 min), now alert | 14-15 | **Level 3** | <30 min | Urgent |
+
+**ALC = Altered Level of Consciousness**
+
+---
+
+## CTAS Triage Levels
+
+### Level 1 - Resuscitation (IMMEDIATE)
+
+**Criteria:**
+- **GCS 3-9**: Unconscious patients unable to protect airway
+- Continuous seizure activity
+- Major trauma with shock
+- Severe respiratory distress
+- Penetrating head trauma with decreased LOC
+
+**Time to Physician:** Immediate
+
+**Required Actions:**
+- Immediate physician notification
+- Airway management preparation
+- IV access and monitoring
+- Neurosurgical consultation
+- CT imaging as soon as stable
+
+**Source:** [CTAS Participant Manual](http://ctas-phctas.ca/wp-content/uploads/2018/05/participant_manual_v2.5b_november_2013_0.pdf)
+
+---
+
+### Level 2 - Emergent (WITHIN 15 MINUTES)
+
+**Criteria:**
+- **GCS 10-13**: Altered level of consciousness
+- New confusion or agitation
+- Disorientation to person, place, or time
+- Potential threat to life or limb
+- Persistent vomiting after head injury
+- Signs of increased intracranial pressure
+
+**Time to Physician:** Within 15 minutes (95% of the time)
+
+**Required Actions:**
+- Rapid medical intervention
+- Frequent neurological reassessment (q15min)
+- Vital signs monitoring
+- IV access
+- Keep NPO (nothing by mouth)
+- Consider CT head imaging
+
+**Source:** [Understanding CTAS](https://www.triageiq.com/understanding-the-canadian-triage-and-acuity-scale-ctas)
+
+---
+
+### Level 3 - Urgent (WITHIN 30 MINUTES)
+
+**Criteria:**
+- **GCS 14-15**: Alert but with history of LOC
+- Brief loss of consciousness (now resolved)
+- Moderate pain (<8/10)
+- Nausea or single episode of vomiting
+- Headache after head injury
+- Mechanism of injury concerning
+
+**Time to Physician:** Within 30 minutes (90% of the time)
+
+**Required Actions:**
+- Neurological assessment
+- Vital signs
+- Pain management
+- Observation period (4-6 hours typical)
+- Consider imaging based on red flags
+
+**Source:** [CTAS Implementation Guidelines](https://ctas-phctas.ca/wp-content/uploads/2018/05/ctased16_98.pdf)
+
+---
+
+## Glasgow Coma Scale (GCS)
+
+### Severity Classification
+
+| **Category** | **GCS Score** | **Description** | **Typical Presentation** |
+|-------------|---------------|-----------------|-------------------------|
+| **Severe** | 3-8 | Comatose, unresponsive | Unable to follow commands, no eye opening |
+| **Moderate** | 9-12 | Lethargic, confused | Opens eyes to stimuli, confused speech |
+| **Mild** | 13-15 | Alert or minimally impaired | Oriented or minor confusion |
+
+### GCS Components
+
+**Eye Opening (E)**
+- 4 = Spontaneous
+- 3 = To speech
+- 2 = To pain
+- 1 = None
+
+**Verbal Response (V)**
+- 5 = Oriented
+- 4 = Confused
+- 3 = Inappropriate words
+- 2 = Incomprehensible sounds
+- 1 = None
+
+**Motor Response (M)**
+- 6 = Obeys commands
+- 5 = Localizes pain
+- 4 = Withdraws from pain
+- 3 = Flexion to pain
+- 2 = Extension to pain
+- 1 = None
+
+**Total GCS = E + V + M** (Range: 3-15)
+
+**Source:** [Glasgow Coma Scale - NCBI](https://www.ncbi.nlm.nih.gov/books/NBK513298/)
+
+---
+
+## Red Flag Symptoms
+
+### ⚠️ Immediate ED Assessment Required
+
+#### Adult Red Flags
+- ✓ GCS <13 at any time since injury
+- ✓ GCS <15 two hours after injury
+- ✓ Suspected open or depressed skull fracture
+- ✓ Signs of basilar skull fracture:
+  - Battle's sign (mastoid bruising)
+  - Raccoon eyes (periorbital bruising)
+  - CSF otorrhea (ear drainage)
+  - CSF rhinorrhea (nose drainage)
+  - Hemotympanum (blood behind eardrum)
+- ✓ Focal neurological deficit (weakness, numbness, vision changes)
+- ✓ Post-traumatic seizure
+- ✓ Vomiting ≥2 episodes
+- ✓ Age ≥65 years with any LOC
+- ✓ Coagulopathy or anticoagulant use
+- ✓ Dangerous mechanism of injury:
+  - Fall from >3 feet (or 5 stairs)
+  - Motor vehicle collision with ejection
+  - Pedestrian struck by vehicle
+  - Assault with weapon
+
+#### Additional Pediatric Red Flags (<18 years)
+- ✓ Persistent crying, cannot be consoled
+- ✓ Palpable skull abnormalities or deformity
+- ✓ Large scalp hematoma (especially in infants)
+- ✓ Acting abnormally according to parent
+- ✓ LOC ≥5 seconds (significant in children)
+- ✓ Severe mechanism:
+  - Fall from >5 feet if <2 years old
+  - Fall from >3 feet if ≥2 years old
+  - Motor vehicle collision at high speed
+  - Struck by high-impact object
+
+**Sources:**
+- [BC Concussion Guidelines](https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/bc-guidelines/concussion-mbti-full-guideline.pdf)
+- [Canadian Paediatric Society Guidelines](https://cps.ca/en/documents/position/acute-head-trauma)
+
+---
+
+## Assessment Protocols
+
+### Initial Triage Assessment
+
+**Primary Survey (ABC)**
+1. **Airway**: Patent? Protected?
+2. **Breathing**: Rate, effort, SpO2
+3. **Circulation**: HR, BP, perfusion
+4. **Disability**: GCS, pupils, focal deficits
+5. **Exposure**: Examine head for injuries
+
+**Key Questions:**
+- Mechanism of injury?
+- Witnessed LOC? Duration?
+- Amnesia (retrograde or anterograde)?
+- Number of vomiting episodes?
+- Seizure activity?
+- Current medications (anticoagulants)?
+- Medical history (prior head injuries, bleeding disorders)?
+
+### Neurological Examination
+
+**Mental Status:**
+- Level of consciousness (alert, drowsy, confused)
+- Orientation (person, place, time, situation)
+- Memory (short-term and long-term)
+
+**Cranial Nerves:**
+- Pupils (size, reactivity, equality)
+- Extraocular movements
+- Facial symmetry
+- Gag reflex
+
+**Motor/Sensory:**
+- Strength in all extremities
+- Sensation testing
+- Coordination
+
+**Reflexes:**
+- Deep tendon reflexes
+- Pathological reflexes (Babinski)
+
+---
+
+## Pediatric Considerations
+
+### Age-Specific Guidelines
+
+#### PECARN Algorithm (for GCS >14)
+**For children <2 years:**
+- Severe mechanism of injury
+- Scalp hematoma (except frontal)
+- LOC ≥5 seconds
+- Not acting normally per parent
+- Palpable skull fracture
+
+**For children ≥2 years:**
+- Severe mechanism of injury
+- History of LOC
+- Severe headache
+- Signs of basilar skull fracture
+
+**CT Imaging Recommended If:**
+- Any high-risk factor present
+- Multiple moderate-risk factors
+
+**Observation Period:**
+- 4-6 hours minimum for children with LOC
+- Longer if any concerning features
+- Parental supervision instructions critical
+
+**Source:** [Canadian Paediatric Society Guidelines](https://cps.ca/en/documents/position/acute-head-trauma)
+
+---
+
+## BC-Specific Protocols
+
+### BC Health Authority Guidelines
+
+#### Provincial Concussion/mTBI Guidelines (2024)
+- **Key Update:** Concussion may or may not include brief LOC
+- **Clinical Diagnosis:** Based on mechanism + symptoms, not imaging
+- **Routine Neuroimaging:** NOT recommended unless red flags present
+- **Return to Activity:** Graduated stepwise approach
+- **Source:** [BC Guidelines for Concussion/mTBI](https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/bc-guidelines/concussion-mild-traumatic-brain-injury-mtbi)
+
+#### Vancouver Coastal Health Trauma Program
+- **Neurosurgical consult** recommended for all significant head injuries
+- **Priority consultation** for:
+  - GCS <8
+  - Lateralizing neurological signs
+  - Depressed skull fracture
+  - Penetrating injury
+- **Source:** [VCH Trauma Program Guidelines](http://sphemerg.ca/wp-content/uploads/2015/05/VCHTraumaCPG2005.pdf)
+
+### BCEHS Pre-Hospital Integration
+
+#### Transport Decisions
+- **Severe head injury (GCS ≤12):** Transport to facility with neurosurgical capabilities
+- **Moderate head injury (GCS 13-14):** Consider neurosurgical-capable facility
+- **Mild head injury (GCS 15):** Appropriate facility based on other injuries
+
+#### Pre-Hospital Management
+- **Airway:** Maintain patency, consider advanced airway if GCS ≤8
+- **Breathing:** Target SpO2 >94%, avoid hyperventilation
+- **Circulation:**
+  - Target MAP ≥80 mmHg OR
+  - Target SBP ≥120 mmHg
+- **Disability:** Serial GCS assessments
+- **Exposure:** Cervical spine precautions until cleared
+
+#### BCEHS Concussion Rule
+- **All "concussed" patients** should be conveyed to ED for evaluation
+- **Brief LOC** triggers automatic transport recommendation
+- **Persistent symptoms** require medical assessment
+
+**Source:** [BCEHS Head Trauma Guidelines](https://handbook.bcehs.ca/clinical-practice-guidelines/h-traumatic-injuries/h03-head-trauma/)
+
+### Provincial Pre-Hospital Trauma Triage Guidelines (2019)
+- Standardized recognition and destination decision-making
+- Integration between BCEHS and health authorities
+- **Bypass protocols** for Level 1 trauma centers when appropriate
+- **Source:** [BCEHS Pre-hospital Triage Guidelines](https://handbook.bcehs.ca/media/1829/2019-pre-hospitaltriage-transport-guidelines_july-26-2019.pdf)
+
+---
+
+## Documentation Requirements
+
+### Essential Elements to Document
+
+**Patient Information:**
+- Date and time of injury
+- Time of ED arrival
+- Time of triage assessment
+- Age and sex
+
+**Injury Details:**
+- Mechanism of injury (detailed description)
+- Duration of LOC (if any) - witnessed vs reported
+- Amnesia (retrograde/anterograde)
+- Time from injury to assessment
+- Use of protective equipment (helmet, etc.)
+
+**Clinical Assessment:**
+- **GCS score** (E + V + M = Total)
+- Vital signs (BP, HR, RR, SpO2, Temp)
+- Neurological examination findings
+- Pupil size and reactivity
+- Presence of focal deficits
+- Injury patterns noted on physical exam
+
+**Symptoms:**
+- Headache (severity, location, character)
+- Nausea/vomiting (number of episodes)
+- Dizziness or balance problems
+- Vision changes
+- Confusion or disorientation
+- Seizure activity
+
+**Medical History:**
+- Prior head injuries or concussions
+- Current medications (especially anticoagulants)
+- Bleeding disorders
+- Alcohol or drug use
+
+**Disposition:**
+- CTAS level assigned
+- Time to physician assessment
+- Imaging ordered (if any)
+- Consultations requested
+- Discharge instructions or admission
+
+---
+
+## WorkSafeBC Reporting
+
+### Reporting Requirements for Workplace Head Injuries
+
+#### Immediate Reporting Required (24/7 Line)
+**Call:** 1-888-621-7233 (Prevention Information Line)
+
+**Report immediately if:**
+- Serious injury or fatality
+- Major structural failure
+- Major release of hazardous substance
+- Incident requiring rescue operations
+- Diving or blasting incident
+
+**Head injuries with LOC typically qualify as "serious injury"**
+
+#### Standard Reporting (Within 72 Hours)
+**Report if:**
+- Medical treatment beyond first aid required
+- Time loss from work
+- Modified duties required
+
+#### Online Reporting
+- **Employer portal:** WorkSafeBC Online Services
+- **Form 7:** Employer's Report of Injury or Occupational Disease
+- **Form 7A:** Wage Information
+
+#### Documentation for WorkSafeBC Claims
+- Date, time, and location of injury
+- Activity being performed
+- Witnesses present
+- Mechanism of injury
+- First aid provided
+- Medical treatment received
+- Lost time from work
+
+**Source:** [WorkSafeBC Reporting Requirements](https://www.worksafebc.com/en/health-safety/create-manage/incident-investigations/reporting-incidents-worksafebc)
+
+---
+
+## Resources and References
+
+### BC Provincial Resources
+
+**BC Guidelines for Concussion/mTBI (2024)**
+- https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/bc-guidelines/concussion-mild-traumatic-brain-injury-mtbi
+- Full Guideline PDF: https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/bc-guidelines/concussion-mbti-full-guideline.pdf
+
+**BCEHS Clinical Practice Guidelines**
+- Head Trauma: https://handbook.bcehs.ca/clinical-practice-guidelines/h-traumatic-injuries/h03-head-trauma/
+- Pre-hospital Triage: https://handbook.bcehs.ca/media/1829/2019-pre-hospitaltriage-transport-guidelines_july-26-2019.pdf
+
+**Vancouver Coastal Health Trauma Program**
+- Clinical Practice Guidelines: http://sphemerg.ca/wp-content/uploads/2015/05/VCHTraumaCPG2005.pdf
+
+### National Resources
+
+**CTAS Implementation Guidelines**
+- CTAS Website: https://ctas-phctas.ca/
+- Participant Manual: http://ctas-phctas.ca/wp-content/uploads/2018/05/participant_manual_v2.5b_november_2013_0.pdf
+- Implementation Guidelines: https://ctas-phctas.ca/wp-content/uploads/2018/05/ctased16_98.pdf
+
+**Canadian Paediatric Society**
+- Acute Head Trauma Guidelines: https://cps.ca/en/documents/position/acute-head-trauma
+
+**Canadian Association of Emergency Physicians**
+- Clinical Practice Guidelines for Emergency Medicine
+
+### Clinical Decision Rules
+
+**Canadian CT Head Rule** (for adults >16 years, GCS 13-15)
+- High risk for neurosurgical intervention
+- Medium risk for brain injury on CT
+
+**PECARN Head Injury Algorithm** (pediatric <18 years)
+- Risk stratification for CT imaging
+- Age-specific criteria
+
+### WorkSafeBC
+
+**Reporting and Claims:**
+- Main Website: https://www.worksafebc.com/
+- Prevention Information Line: 1-888-621-7233
+- Online Services: https://online.worksafebc.com/
+- Reporting Incidents: https://www.worksafebc.com/en/health-safety/create-manage/incident-investigations/reporting-incidents-worksafebc
+
+### Emergency Contact Information
+
+**Poison Control BC:** 1-800-567-8911
+
+**BC NurseLine (HealthLink BC):** 811
+
+**Mental Health Support:** 310-6789 (do not add 1, 604, 778, or 250)
+
+**Emergency:** 911
+
+---
+
+## Important Notes
+
+### Clinical Pearls
+
+1. **LOC is NOT required for concussion diagnosis** - Many concussions occur without LOC
+2. **Serial GCS assessments** are more valuable than a single measurement
+3. **Pediatric patients** may deteriorate rapidly - maintain high index of suspicion
+4. **Elderly patients** on anticoagulants require longer observation even with minor mechanisms
+5. **Delayed deterioration** can occur hours after injury - patient education critical
+6. **Documentation** should be thorough enough to support clinical decision-making and medicolegal requirements
+
+### Common Pitfalls to Avoid
+
+- ❌ Discharging patients with persistent symptoms without adequate observation
+- ❌ Failing to document witnessed vs reported LOC
+- ❌ Inadequate discharge instructions for caregivers
+- ❌ Not considering anticoagulation in elderly patients
+- ❌ Dismissing parental concern about "not acting normally"
+- ❌ Over-reliance on CT imaging for diagnosis of concussion
+- ❌ Insufficient documentation of mechanism of injury
+
+### Discharge Instructions (If Appropriate)
+
+**When to Return to ED:**
+- Worsening headache
+- Persistent vomiting
+- Increasing confusion or agitation
+- Seizures
+- Weakness or numbness
+- Vision changes
+- Unusual behavior
+- Drowsiness that is difficult to arouse from
+- Neck pain or stiffness
+
+**Observation Period:**
+- Wake patient every 2-4 hours for first 24 hours
+- Avoid alcohol and sedating medications
+- No driving until cleared by physician
+- Rest and gradual return to activities
+- Follow up with family physician
+
+---
+
+**Document Version:** 1.0
+**Created:** January 2025
+**Recommended Review Date:** Annually or when BC guidelines updated
+
+*This document is for educational and reference purposes. Clinical judgment should always be applied in individual patient care scenarios.*
