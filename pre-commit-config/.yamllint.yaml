@@ -1,0 +1,73 @@
+# Used by yamllint
+# Reference: https://yamllint.readthedocs.io/en/stable/
+
+rules:
+  anchors:
+    forbid-duplicate-anchors: true
+    forbid-undeclared-aliases: true
+    forbid-unused-anchors: true
+  braces:
+    forbid: false
+    max-spaces-inside: 1
+    max-spaces-inside-empty: 1
+    min-spaces-inside: 0
+    min-spaces-inside-empty: 0
+  brackets:
+    forbid: false
+    max-spaces-inside: 1
+    max-spaces-inside-empty: 1
+    min-spaces-inside: 0
+    min-spaces-inside-empty: 0
+  commas:
+    max-spaces-after: 1
+    max-spaces-before: 1
+    min-spaces-after: 1
+  comments:
+    ignore-shebangs: true
+    min-spaces-from-content: 1
+    require-starting-space: true
+  comments-indentation: {}
+  document-end:
+    present: false
+  docuemnt-start:
+    present: false
+  empty-lines:
+    max: 2
+    max-end: 1
+    max-start: 1
+  empty-values:
+    forbid-in-block-mappings: true
+    forbid-in-block-sequences: true
+    forbid-in-flow-mappings: true
+  float-values:
+    forbid-inf: true
+    forbid-nan: true
+    forbid-scientific-notation: true
+    require-numeral-before-decimal: true
+  hyphens:
+    max-spaces-after: 1
+  indentation:
+    check-multi-line-strings: false
+    indent-sequences: true
+    spaces: 2
+  key-duplicates:
+    forbid-duplicated-merge-keys: false
+  # line-length rule disabled as it cannot be selectively ignored for long literals,
+  # and adding spaces may have unintended side effects
+  new-line-at-end-of-file: "enable"
+  new-lines:
+    type: "unix"
+  octal-values:
+    forbid-explicit-octal: true
+    forbit-implicit-octal: true
+  quoted-strings:
+    allow-quoted-quotes: false
+    check-keys: false
+    extra-allowed: []
+    extra-required: []
+    quote-type: "any"
+    required: true
+  trailing-spaces: {}
+  truthy:
+    allowed-values: ['true', 'false']
+    check-keys: true

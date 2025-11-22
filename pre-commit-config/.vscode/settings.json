@@ -1,0 +1,30 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "shellcheck.enable": true,
+  "shellcheck.exclude": ["SC1091", "SC2086", "SC2154"],
+  "shellcheck.run": "onSave",
+  "shellcheck.customArgs": ["--rcfile=./.pre-commit-config/.shellcheckrc"],
+
+  "markdownlint.configFile": ".pre-commit-config/.markdownlint.yaml",
+  "prettier.configPath": ".pre-commit-config/.prettierrc.yaml",
+
+  "yaml.format.enable": false,
+  "yaml.validate": true,
+
+  "yaml-linter.enable": true,
+  "yaml-linter.configPath": ".pre-commit-config/.yamllint.yaml",
+  "yaml-linter.run": "onSave"
+}

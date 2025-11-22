@@ -1,0 +1,7 @@
+# Used by Shellcheck
+# Reference: https://github.com/koalaman/shellcheck/wiki/Directive
+
+color=never
+format=json
+severity="error"
+shell=bash

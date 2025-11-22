@@ -1,0 +1,16 @@
+# For Prettier
+# Reference: https://prettier.io/docs/
+
+bracketSpacing: true
+endOfLine: "lf"
+printWidth: 80
+proseWrap: "always"
+singleQuote: false
+tabWidth: 2
+useTabs: false
+
+# Override for whitespace-significant languages
+overrides:
+  - files: ["*.yaml", "*.yml"]
+    options:
+      printWidth: 120
