@@ -1,0 +1,16 @@
+# Mac-specific zsh configuration
+
+# Homebrew paths
+export PATH="/opt/homebrew/opt:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
+export PATH="/opt/homebrew/bin/aws_completer:$PATH"
+
+# GNU coreutils - fixes issues where Linux scripts relying on GNU `date` break on Mac
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
+
+# AWS CLI completion
+complete -C '/opt/homebrew/bin/aws_completer' aws
+
+# Azure CLI autocompletion
+[ -f /opt/homebrew/etc/bash_completion.d/az ] && source /opt/homebrew/etc/bash_completion.d/az

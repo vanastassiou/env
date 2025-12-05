@@ -1,0 +1,4 @@
+# WSL-specific zsh configuration
+
+# VS Code (Windows)
+export PATH="$PATH:/mnt/c/Users/V/AppData/Local/Programs/Microsoft VS Code/bin"
