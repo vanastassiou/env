@@ -123,7 +123,6 @@ fi
 
 # Personal Bash aliases and functions
 alias gitpretty="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit"
-alias code="cursor"
 
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
@@ -131,3 +130,6 @@ eval "$(pyenv init - bash)"
 
 # To install claude-flow globally
 export CPLUS_INCLUDE_PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
+
+# VS Code
+export PATH="$PATH:/mnt/c/Users/V/AppData/Local/Programs/Microsoft VS Code/bin"
