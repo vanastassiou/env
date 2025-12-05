@@ -14,3 +14,8 @@ complete -C '/opt/homebrew/bin/aws_completer' aws
 
 # Azure CLI autocompletion
 [ -f /opt/homebrew/etc/bash_completion.d/az ] && source /opt/homebrew/etc/bash_completion.d/az
+
+# Maven (manually installed)
+export M2_HOME="$HOME/.local/bin"
+export PATH="$M2_HOME/bin:$PATH"
+alias mvn="$HOME/.local/bin/apache-maven-3.9.5/bin/mvn"

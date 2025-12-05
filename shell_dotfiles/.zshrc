@@ -18,5 +18,23 @@ export PATH=~/.npm-global/bin:$PATH
 # Don't check mail when opening terminal
 unset MAILCHECK
 
+# Path to your oh-my-zsh installation
+export ZSH="$HOME/.oh-my-zsh"
+
+# Theme
+ZSH_THEME="vtheme"
+
+# Plugins - platform-specific plugins are added conditionally
+plugins=(git dotenv pyenv python)
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  plugins+=(macos)
+fi
+
+source $ZSH/oh-my-zsh.sh
+
+# Completions
+autoload bashcompinit && bashcompinit
+autoload -Uz compinit && compinit
+
 # Aliases
-alias gitpretty="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gitpretty="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
