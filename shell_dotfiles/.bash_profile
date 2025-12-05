@@ -83,9 +83,6 @@ source "$BASH_IT"/bash_it.sh
 
 export PATH=/usr/local/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
-export PATH=/opt/homebrew/bin/aws_completer:$PATH
-
-complete -C '/opt/homebrew/bin/aws_completer' aws
 
 plugins=(
   git
@@ -95,26 +92,42 @@ plugins=(
   python
 )
 
-# Fixes issues where Linux scripts relying on GNU `date` break on Mac
-export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
-# Prefer GNU utilities over Mac OS X
+# Prefer GNU utilities over Mac OS X (different behaviour on Mac than expected in Linux)
+# https://apple.stackexchange.com/questions/69223/how-to-replace-mac-os-x-utilities-with-gnu-core-utilities
+# https://gist.github.com/skyzyx/3438280b18e4f7c490db8a2a2ca0b9da
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
 export PATH="/opt/homebrew/opt:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 
-# Enable Azure CLI autocompletion
+# Enable autocompletion
+
+## AWS
+export PATH=/opt/homebrew/bin/aws_completer:$PATH
+complete -C '/opt/homebrew/bin/aws_completer' aws
+
+## Azure
 source /opt/homebrew/etc/bash_completion.d/az
 
-# Enable homebrew bash completion
+## Homebrew
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
-# Set personal Bash aliases and functions
+[[ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]] && . "$(brew --prefix)/etc/profile.d/bash_completion.sh"
+
+# Personal Bash aliases and functions
 alias gitpretty="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias code="cursor"
+
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+
+# To install claude-flow globally
+export CPLUS_INCLUDE_PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
