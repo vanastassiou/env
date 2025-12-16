@@ -73,7 +73,7 @@ if command -v code &> /dev/null; then
     code --install-extension DavidAnson.vscode-markdownlint
 
     echo "Installing Prettier extension..."
-    code --install-extension esbenp.prettier-vscode
+    code --install-extension prettier.prettier-vscode
 
     echo "Installing YAML extension..."
     code --install-extension redhat.vscode-yaml
@@ -84,6 +84,9 @@ if command -v code &> /dev/null; then
     echo "Installing ShellCheck extension..."
     code --install-extension timonwong.shellcheck
 
+    echo "Installing Ruff extension..."
+    code --install-extension charliermarsh.ruff
+
     echo ""
     echo "VS Code extensions installed successfully!"
 else
@@ -93,7 +96,47 @@ else
     echo "  - YAML: redhat.vscode-yaml"
     echo "  - YamlLint: prantlf.vscode-yaml-linter"
     echo "  - ShellCheck: timonwong.shellcheck"
+    echo "  - Ruff: charliermarsh.ruff"
 fi
+
+# Configure VS Code settings for format-on-save
+echo ""
+echo "==================================="
+echo "Configuring VS Code Format-on-Save"
+echo "==================================="
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+ENV_REPO="$HOME/repos/env"
+ENV_VSCODE_SETTINGS="$ENV_REPO/pre-commit-config/.vscode/settings.json"
+
+# Create .vscode directory in project root if it doesn't exist
+mkdir -p "$PROJECT_ROOT/.vscode"
+
+# Copy settings.json from env repo to project root .vscode
+if [ -f "$ENV_VSCODE_SETTINGS" ]; then
+    cp "$ENV_VSCODE_SETTINGS" "$PROJECT_ROOT/.vscode/settings.json"
+    echo "Copied VS Code settings from $ENV_VSCODE_SETTINGS"
+    echo "  to $PROJECT_ROOT/.vscode/settings.json"
+else
+    echo "Warning: Source settings.json not found at $ENV_VSCODE_SETTINGS"
+    echo "Clone the env repo to ~/repos/env or copy settings.json manually."
+fi
+
+# Create extensions.json with recommendations
+cat > "$PROJECT_ROOT/.vscode/extensions.json" << 'EOF'
+{
+  "recommendations": [
+    "DavidAnson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "redhat.vscode-yaml",
+    "prantlf.vscode-yaml-linter",
+    "timonwong.shellcheck",
+    "charliermarsh.ruff"
+  ]
+}
+EOF
+echo "Created VS Code extensions recommendations at $PROJECT_ROOT/.vscode/extensions.json"
 
 # Verify installations
 source ~/.bashrc
