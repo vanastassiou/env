@@ -4,6 +4,14 @@
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit"
   },
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*\\.md$",
+        "cmd": "markdown-toc -i ${file}"
+      }
+    ]
+  },
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
