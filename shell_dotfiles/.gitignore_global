@@ -44,6 +44,8 @@ npm-debug.log*
 # Claude runtime
 .claude.json
 .claude.json.backup
+**/.claude
+CLAUDE.md
 
 # Backup files
 *.backup

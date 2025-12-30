@@ -17,9 +17,9 @@ Avoid:
 - Em dashes (—); use hyphens instead
 - Parallel constructions ("it's not just X, it's Y"); state the point directly
 - Empty summaries that restate what was already said; end sections with new information or omit the summary
-- Demonstrative pronouns without clear antecedents ("This is important" → "This constraint is important")
+- Demonstrative pronouns without clear antecedents ("This is important" --> "This constraint is important")
 - Undefined technical terms on first use
-- Unsupported claims; include specific examples or data ("improves performance" → "reduces latency by 40ms")
+- Unsupported claims; include specific examples or data ("improves performance" --> "reduces latency by 40ms")
 - Invented jargon or unverified terminology
 - Rhetorical questions for drama ("The twist?", "The kicker?")
 - Exaggerated enthusiasm ("game-changing", "incredibly powerful", "exciting"); use measured language

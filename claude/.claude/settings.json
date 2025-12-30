@@ -1,0 +1,7 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "~/repos/env/claude/scripts/customStatusLine.sh"
+  },
+  "includeCoAuthoredBy": false
+}

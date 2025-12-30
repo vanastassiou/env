@@ -1,11 +1,12 @@
 [user]
 	name = V Anastassiou
-	# email = <set locally per machine>
+	email = vanastassiou@users.noreply.github.com
 [push]
 	autoSetupRemote = true
 [alias]
 	logline = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [core]
+	editor = vim
 	excludesfile = /home/v/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
