@@ -1,0 +1,18 @@
+# Claude runtime files
+.claude/
+.claude-flow/
+.swarm/
+
+# Backup directories
+.config-backups/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

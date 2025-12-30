@@ -18,8 +18,12 @@ export PATH=~/.npm-global/bin:$PATH
 # Don't check mail when opening terminal
 unset MAILCHECK
 
-# Git completion
-[ -f ~/.git-completion.bash ] && . ~/.git-completion.bash
+# Git completion - use system completion if available
+if [ -f /usr/share/bash-completion/completions/git ]; then
+  . /usr/share/bash-completion/completions/git
+elif [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
 
 # Personal Bash aliases and functions
 alias gitpretty="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit"

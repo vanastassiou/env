@@ -1,0 +1,22 @@
+# SSH Config Template
+# Copy this file to ~/.ssh/config and customize for your environment
+# DO NOT commit actual private keys to version control
+
+# GitHub Personal Account
+Host personal-github
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/YOUR_GITHUB_KEY
+
+# Azure DevOps
+Host azuredevops
+  HostName ssh.dev.azure.com
+  User git
+  IdentityFile ~/.ssh/YOUR_AZURE_KEY
+
+# Common SSH Settings
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes  # macOS only
+  ServerAliveInterval 60
+  ServerAliveCountMax 3
