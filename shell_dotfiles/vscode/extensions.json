@@ -1,7 +1,7 @@
 {
   "recommendations": [
     "DavidAnson.vscode-markdownlint",
-    "esbenp.prettier-vscode",
+    "prettier.prettier-vscode",
     "redhat.vscode-yaml",
     "prantlf.vscode-yaml-linter",
     "timonwong.shellcheck",
