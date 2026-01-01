@@ -5,7 +5,6 @@ This directory contains writing principles and tools for Claude Code.
 ## Contents
 
 - `writing-principles.md` - documentation formatting and quality standards
-- `writing-principles.json` - machine-readable version of the same rules
 - `agents/editor-anti-llm.md` - agent that reviews documentation for AI patterns
 - `setup-claude.sh` - setup script
 
@@ -62,13 +61,10 @@ To review documentation for AI patterns and quality issues:
 Individual projects can extend or override standards by creating their own `.claude/CLAUDE.md`:
 
 ```markdown
-# Project Standards
+# Project standards
 
 Extends universal standards with project-specific guidelines.
 
 @~/.claude/CLAUDE.md
 
-## Project-specific rules
-
-- Additional rules here...
 ```

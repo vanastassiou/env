@@ -1,20 +1,12 @@
-# Documentation writing principles
+# Technical documentation writing principles
 
-Apply to READMEs, runbooks, API docs, setup guides, and error messages.
-
-## Core principles
-
-- Scannable: headers, lists, and whitespace guide the eye
-- Actionable: each instruction produces a concrete outcome
-- Specific: answer WHAT, WHERE, HOW, and WHAT VALUE
+Apply to READMEs, runbooks, API docs, setup guides, error messages, and related technical documentation.
 
 ## Formatting
 
-Use numbered lists for ordered procedures. Separate paragraphs with blank lines. Wrap technical identifiers in backticks: paths, config values, commands, identifiers.
+Wrap technical identifiers in backticks: paths, config values, commands, identifiers.
 
 Use fenced code blocks with language hints. Include blank lines before and after.
-
-Use ATX headers (`#`, `##`, `###`) not bold text for sections.
 
 ## Specificity over vagueness
 
@@ -28,20 +20,18 @@ Use ATX headers (`#`, `##`, `###`) not bold text for sections.
 
 Verification steps must be executable, not descriptive.
 
-```
-Verify the service is running: `systemctl status myapp`
-Test the endpoint: `curl localhost:8080/api/health`
-Confirm response status is `200` with body `{"status": "ok"}`
-```
+Correct: "Verify the service is running: `systemctl status myapp`"
 
-Not: "Make sure the service is working properly."
+Incorrect: "Make sure the service is working properly."
 
 ## Step structure
 
-Each step should:
+Each step should do all of the following:
 1. Start with an action verb
 2. Specify the exact target (file, command, setting)
 3. Include concrete values
+
+Example:
 
 ```
 1. Open `config/app.yaml`
@@ -71,16 +61,10 @@ Forbidden: "Something went wrong", "Invalid input", "Try again", "Check your con
 ## Quick reference
 
 Do:
-- Use `#` headers, not bold for sections
-- Use numbered lists for procedures
-- Separate paragraphs with blank lines
 - Wrap technical terms in backticks
 - Include specific commands and paths
 - Make errors actionable with remediation steps
-- Use sentence case (exception: media titles)
 
 Don't:
-- Write wall-of-text paragraphs
 - Use generic errors ("something failed")
 - Skip expected outcomes in verification
-- Mix multiple concepts in one paragraph
