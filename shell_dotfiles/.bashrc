@@ -22,7 +22,7 @@ fi
 export PATH="$HOME/.local/bin:$PATH"
 
 # Path to the bash it configuration
-export BASH_IT="$HOME/.bash_it"
+export BASH_IT="$HOME/.bash-it"
 
 # Lock and Load a custom theme file
 export BASH_IT_THEME='vtheme'

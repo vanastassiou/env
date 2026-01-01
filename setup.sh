@@ -117,24 +117,24 @@ fi
 
 # Bash-it setup
 echo -e "\n${GREEN}Setting up Bash-it...${NC}"
-if [ ! -d "$HOME/.bash_it" ]; then
+if [ ! -d "$HOME/.bash-it" ]; then
     echo -e "${YELLOW}→${NC} Installing Bash-it framework"
-    git clone --depth=1 https://github.com/Bash-it/bash-it.git "$HOME/.bash_it"
+    git clone --depth=1 https://github.com/Bash-it/bash-it.git "$HOME/.bash-it"
 
     # Install custom vtheme
     if [ -f "$ENV_DIR/bash-it-theme/vtheme.theme.bash" ]; then
         echo -e "${GREEN}+${NC} Installing custom vtheme"
-        mkdir -p "$HOME/.bash_it/themes/vtheme"
-        cp "$ENV_DIR/bash-it-theme/vtheme.theme.bash" "$HOME/.bash_it/themes/vtheme/vtheme.theme.bash"
+        mkdir -p "$HOME/.bash-it/themes/vtheme"
+        cp "$ENV_DIR/bash-it-theme/vtheme.theme.bash" "$HOME/.bash-it/themes/vtheme/vtheme.theme.bash"
     fi
 
     # Run the install script in silent mode
     echo -e "${YELLOW}→${NC} Configuring Bash-it (silent mode)"
-    $HOME/.bash_it/install.sh --silent
+    $HOME/.bash-it/install.sh --silent
 
     # Enable useful plugins
     echo -e "${YELLOW}→${NC} Enabling default plugins"
-    source "$HOME/.bash_it/bash_it.sh"
+    source "$HOME/.bash-it/bash_it.sh"
     bash-it enable plugin git base alias-completion
     bash-it enable alias git general
     bash-it enable completion git bash-it system
@@ -143,8 +143,8 @@ else
 
     # Ensure vtheme is installed/updated
     if [ -f "$ENV_DIR/bash-it-theme/vtheme.theme.bash" ]; then
-        mkdir -p "$HOME/.bash_it/themes/vtheme"
-        cp "$ENV_DIR/bash-it-theme/vtheme.theme.bash" "$HOME/.bash_it/themes/vtheme/vtheme.theme.bash"
+        mkdir -p "$HOME/.bash-it/themes/vtheme"
+        cp "$ENV_DIR/bash-it-theme/vtheme.theme.bash" "$HOME/.bash-it/themes/vtheme/vtheme.theme.bash"
         echo -e "${GREEN}✓${NC} vtheme updated"
     fi
 fi

@@ -1,20 +1,18 @@
 # shellcheck shell=bash
 # shellcheck disable=SC2034 # Expected behavior for themes.
 
-
-SCM_THEME_GIT_PROMPT_DIRTY=" %F{red}✗"
-SCM_THEME_GIT_PROMPT_CLEAN=" %F{green}✓"
-SCM_THEME_GIT_PROMPT_PREFIX=" %F{green}|"
-SCM_THEME_GIT_PROMPT_SUFFIX="%F{green}|"
-SCM_THEME_GIT_PROMPT_UNTRACKED='%F{green}?'
+SCM_THEME_PROMPT_DIRTY=" ${red?}✗"
+SCM_THEME_PROMPT_CLEAN=" ${bold_green?}✓"
+SCM_THEME_PROMPT_PREFIX=" ${green?}|"
+SCM_THEME_PROMPT_SUFFIX="${green?}|"
 
 GIT_THEME_PROMPT_DIRTY=" ${red?}✗"
 GIT_THEME_PROMPT_CLEAN=" ${bold_green?}✓"
 GIT_THEME_PROMPT_PREFIX=" ${green?}|"
 GIT_THEME_PROMPT_SUFFIX="${green?}|"
 
-SCM_THEME_VIRTUALENV_PREFIX="%F{green}ⓔ "
-SCM_THEME_VIRTUALENV_SUFFIX=" "
+VIRTUALENV_THEME_PROMPT_PREFIX="${green?}ⓔ "
+VIRTUALENV_THEME_PROMPT_SUFFIX=" "
 
 NEWLINE=$'\n'
 
