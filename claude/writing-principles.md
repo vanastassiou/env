@@ -4,9 +4,9 @@ Apply to READMEs, runbooks, API docs, setup guides, and error messages.
 
 ## Core principles
 
-- **Scannable**: headers, lists, and whitespace guide the eye
-- **Actionable**: each instruction produces a concrete outcome
-- **Specific**: answer WHAT, WHERE, HOW, and WHAT VALUE
+- Scannable: headers, lists, and whitespace guide the eye
+- Actionable: each instruction produces a concrete outcome
+- Specific: answer WHAT, WHERE, HOW, and WHAT VALUE
 
 ## Formatting
 
@@ -52,10 +52,10 @@ Each step should:
 ## Error reporting
 
 Errors must include:
-- **operation**: what failed ("Parsing config line 42")
-- **target**: resource involved (`/config/settings.yaml`)
-- **actual**: what happened ("unexpected token")
-- **remediation**: executable fix steps
+- operation: what failed ("Parsing config line 42")
+- target: resource involved (`/config/settings.yaml`)
+- actual: what happened ("unexpected token")
+- remediation: executable fix steps
 
 Forbidden: "Something went wrong", "Invalid input", "Try again", "Check your configuration"
 
@@ -70,7 +70,7 @@ Forbidden: "Something went wrong", "Invalid input", "Try again", "Check your con
 
 ## Quick reference
 
-**Do:**
+Do:
 - Use `#` headers, not bold for sections
 - Use numbered lists for procedures
 - Separate paragraphs with blank lines
@@ -79,7 +79,7 @@ Forbidden: "Something went wrong", "Invalid input", "Try again", "Check your con
 - Make errors actionable with remediation steps
 - Use sentence case (exception: media titles)
 
-**Don't:**
+Don't:
 - Write wall-of-text paragraphs
 - Use generic errors ("something failed")
 - Skip expected outcomes in verification
