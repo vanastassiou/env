@@ -1,5 +1,12 @@
 # Global style guidelines
 
+## General principles
+
+- Prefer editing existing files over creating new ones
+- Keep changes minimal and focused
+- No emojis unless explicitly requested
+- Include file paths when referencing code
+
 ## Markdown formatting
 
 ### Tables
@@ -87,28 +94,3 @@ variable "project_name" {
 - Use `#` comments for section headers
 - Use inline comments sparingly for non-obvious logic
 - Reference external docs with URLs when relevant
-
-## General principles
-
-- Prefer editing existing files over creating new ones
-- Keep changes minimal and focused
-- No emojis unless explicitly requested
-- Include file paths when referencing code
-
-## Research and citations
-
-When citing sources, prioritize in this order:
-
-1. Peer-reviewed journals (PubMed, PMC, DOI-linked articles)
-2. Government/institutional databases (NCBI, FDA, USDA, WHO)
-3. Professional society publications (AOCS, ACS)
-4. Official standards bodies (Codex, ISO)
-
-Avoid:
-
-- Blog posts and hobbyist forums as primary sources
-- Wikipedia (acceptable for orientation, not citation)
-- Commercial sites with conflicts of interest
-- Sources without clear authorship or publication date
-
-For scientific claims, always prefer primary literature over secondary summaries.
