@@ -32,3 +32,10 @@ alias gitpretty="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%C
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - bash)"
+
+# Source .bashrc if running bash
+if [ -n "${BASH_VERSION-}" ]; then
+	if [ -f "$HOME/.bashrc" ]; then
+		. "$HOME/.bashrc"
+	fi
+fi
