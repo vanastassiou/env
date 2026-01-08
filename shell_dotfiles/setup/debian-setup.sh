@@ -177,7 +177,7 @@ install_nodejs() {
 }
 
 install_java() {
-    log_info "Installing Java and Maven..."
+    log_info "Installing Java..."
 
     # OpenJDK via Homebrew
     if brew list openjdk &>/dev/null; then
@@ -187,15 +187,7 @@ install_java() {
         brew install openjdk
     fi
 
-    # Maven
-    if brew list maven &>/dev/null; then
-        log_info "Upgrading Maven..."
-        brew upgrade maven 2>/dev/null || true
-    else
-        brew install maven
-    fi
-
-    log_success "Java and Maven installed"
+    log_success "Java installed"
 }
 
 # -----------------------------------------------------------------------------

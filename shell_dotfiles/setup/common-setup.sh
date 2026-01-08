@@ -75,7 +75,7 @@ install_bash_it() {
 
     if [[ -d "$bash_it_dir" ]]; then
         log_info "Bash-it already installed, updating..."
-        (cd "$bash_it_dir" && git pull --quiet)
+        (cd "$bash_it_dir" && git pull origin master --quiet 2>/dev/null || git fetch origin && git reset --hard origin/master --quiet)
         log_success "Bash-it updated"
     else
         log_info "Installing Bash-it..."
@@ -84,19 +84,6 @@ install_bash_it() {
     fi
 }
 
-install_oh_my_zsh() {
-    local omz_dir="$HOME/.oh-my-zsh"
-
-    if [[ -d "$omz_dir" ]]; then
-        log_info "Oh-My-Zsh already installed, updating..."
-        (cd "$omz_dir" && git pull --quiet)
-        log_success "Oh-My-Zsh updated"
-    else
-        log_info "Installing Oh-My-Zsh..."
-        git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git "$omz_dir"
-        log_success "Oh-My-Zsh installed"
-    fi
-}
 
 # -----------------------------------------------------------------------------
 # Python Environment Setup (pyenv)
@@ -284,7 +271,6 @@ run_common_setup() {
     log_info "Running common setup tasks..."
 
     install_bash_it
-    install_oh_my_zsh
     setup_npm_global
     symlink_dotfiles
     setup_git
@@ -295,7 +281,7 @@ run_common_setup() {
 # Export functions for use by other scripts
 export -f log_info log_success log_warn log_error
 export -f command_exists detect_os detect_distro
-export -f install_bash_it install_oh_my_zsh
+export -f install_bash_it
 export -f setup_pyenv setup_npm_global
 export -f symlink_dotfiles setup_git
 export -f verify_installation run_common_setup

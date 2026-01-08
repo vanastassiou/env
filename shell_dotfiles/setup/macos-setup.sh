@@ -144,7 +144,7 @@ install_nodejs() {
 }
 
 install_java() {
-    log_info "Installing Java and Maven..."
+    log_info "Installing Java..."
 
     # OpenJDK
     if brew list openjdk &>/dev/null; then
@@ -162,15 +162,7 @@ install_java() {
         sudo ln -sfn "$jdk_path" "$system_jvm" || log_warn "Could not create system symlink - run manually with sudo"
     fi
 
-    # Maven
-    if brew list maven &>/dev/null; then
-        log_info "Upgrading Maven..."
-        brew upgrade maven 2>/dev/null || true
-    else
-        brew install maven
-    fi
-
-    log_success "Java and Maven installed"
+    log_success "Java installed"
 }
 
 # -----------------------------------------------------------------------------
