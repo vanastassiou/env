@@ -83,10 +83,11 @@ for file in "${SHELL_FILES[@]}"; do
     fi
 done
 
-# Claude configuration
-echo -e "\n${GREEN}Setting up Claude configuration...${NC}"
-if [ -d "$ENV_DIR/.claude" ]; then
-    create_symlink "$ENV_DIR/.claude" "$HOME/.claude"
+# Claude Code configuration
+echo -e "\n${GREEN}Setting up Claude Code configuration...${NC}"
+mkdir -p "$HOME/.claude"
+if [ -d "$ENV_DIR/claude" ]; then
+    create_symlink "$ENV_DIR/claude" "$HOME/.claude/rules"
 fi
 
 # Platform-specific setup
