@@ -8,7 +8,7 @@
     "commands": [
       {
         "match": ".*\\.md$",
-        "cmd": "markdown-toc -i ${file}"
+        "cmd": "echo 'runonsave triggered' >> /tmp/runonsave.log && /usr/local/bin/markdown-toc -i ${file}"
       }
     ]
   },
