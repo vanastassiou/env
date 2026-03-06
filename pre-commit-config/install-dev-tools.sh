@@ -72,9 +72,6 @@ if command -v code &> /dev/null; then
     echo "Installing MarkdownLint extension..."
     code --install-extension DavidAnson.vscode-markdownlint
 
-    echo "Installing Prettier extension..."
-    code --install-extension prettier.prettier-vscode
-
     echo "Installing YAML extension..."
     code --install-extension redhat.vscode-yaml
 
@@ -92,7 +89,6 @@ if command -v code &> /dev/null; then
 else
     echo "VS Code CLI not found. Please install extensions manually:"
     echo "  - MarkdownLint: DavidAnson.vscode-markdownlint"
-    echo "  - Prettier: esbenp.prettier-vscode"
     echo "  - YAML: redhat.vscode-yaml"
     echo "  - YamlLint: prantlf.vscode-yaml-linter"
     echo "  - ShellCheck: timonwong.shellcheck"
@@ -128,7 +124,6 @@ cat > "$PROJECT_ROOT/.vscode/extensions.json" << 'EOF'
 {
   "recommendations": [
     "DavidAnson.vscode-markdownlint",
-    "esbenp.prettier-vscode",
     "redhat.vscode-yaml",
     "prantlf.vscode-yaml-linter",
     "timonwong.shellcheck",

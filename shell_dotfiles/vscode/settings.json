@@ -8,7 +8,7 @@
     "commands": [
       {
         "match": ".*\\.md$",
-        "cmd": "markdown-toc -i ${file}"
+        "cmd": "markdown-toc -i --maxdepth=6 ${file}" 
       }
     ]
   },
@@ -26,18 +26,20 @@
   },
 
   "[yaml]": {
-    "editor.defaultFormatter": "prettier.prettier-vscode",
+    "editor.defaultFormatter": "redhat.vscode-yaml",
     "editor.formatOnSave": true
   },
 
   "[json][jsonc]": {
-    "editor.defaultFormatter": "prettier.prettier-vscode",
     "editor.formatOnSave": true
   },
 
   "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": "explicit"
+    }
   },
 
   "shellcheck.enable": true,
@@ -45,9 +47,7 @@
   "shellcheck.run": "onSave",
   "shellcheck.customArgs": ["--rcfile=./.pre-commit-config/.config/.shellcheckrc"],
 
-  "markdownlint.config": {
-    "extends": ".pre-commit-config/.config/.markdownlint.yaml"
-  },
+  "markdownlint.config": {},
   "prettier.configPath": ".pre-commit-config/.config/.prettierrc.yaml",
 
   "ruff.configuration": ".pre-commit-config/.config/ruff.toml",

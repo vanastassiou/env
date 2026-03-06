@@ -2,12 +2,11 @@
 # Reference: https://github.com/DavidAnson/markdownlint
 
 heading-style: atx
-ul-style: dash
 blanks-around-fences:
   list-items: false
-blanks-around-headings:
-  lines-above: 1
-  lines-below: 1
+blanks-around-headings: false
+blanks-around-lists: false
+MD032: false
 first-line-heading: true
 line-length:
   line-length: 80

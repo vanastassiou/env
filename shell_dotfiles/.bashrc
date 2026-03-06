@@ -74,3 +74,4 @@ TODO="t"
 
 # Load Bash It
 source "${BASH_IT?}/bash_it.sh"
+export PATH="$HOME/.local/bin:$PATH"
