@@ -8,7 +8,11 @@
     "commands": [
       {
         "match": ".*\\.md$",
-        "cmd": "markdown-toc -i --maxdepth=6 ${file}" 
+        "cmd": "markdown-toc -i --maxdepth=6 ${file}"
+      },
+      {
+        "match": ".*\\.md$",
+        "cmd": "npx markdownlint-cli2 --config .pre-commit-config/.config/.markdownlint.yaml --fix ${file}"
       }
     ]
   },
@@ -36,10 +40,7 @@
 
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.markdownlint": "explicit"
-    }
+    "editor.formatOnSave": true
   },
 
   "shellcheck.enable": true,

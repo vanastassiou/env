@@ -1,9 +1,26 @@
 {
   "permissions": {
     "allow": [
-      "Bash(zsh:*)"
+      "Bash(zsh:*)",
+      "Bash(xargs file:*)",
+      "Bash(npm list:*)",
+      "Bash(prettier:*)",
+      "Bash(find:*)",
+      "Bash(python3:*)",
+      "Bash(code:*)",
+      "Read(//mnt/c/Users/**)",
+      "Bash(ln:*)",
+      "Bash(npx markdownlint-cli2:*)",
+      "Bash(markdownlint:*)",
+      "Bash(markdown-toc:*)"
     ],
     "deny": [],
     "ask": []
-  }
+  },
+  "disabledMcpjsonServers": [
+    "claude-flow@alpha",
+    "ruv-swarm",
+    "flow-nexus",
+    "agentic-payments"
+  ]
 }

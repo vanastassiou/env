@@ -8,7 +8,15 @@
     "commands": [
       {
         "match": ".*\\.md$",
-        "cmd": "echo 'runonsave triggered' >> /tmp/runonsave.log && /usr/local/bin/markdown-toc -i ${file}"
+        "cmd": "markdown-toc -i --maxdepth=6 ${file}"
+      },
+      {
+        "match": ".*\\.md$",
+        "cmd": "prettier --config .pre-commit-config/.config/.prettierrc.yaml --write ${file}"
+      },
+      {
+        "match": ".*\\.md$",
+        "cmd": "markdownlint --config .pre-commit-config/.config/.markdownlint.yaml --fix ${file}"
       }
     ]
   },
@@ -20,14 +28,14 @@
   "shellcheck.enable": true,
   "shellcheck.exclude": ["SC1091", "SC2086", "SC2154"],
   "shellcheck.run": "onSave",
-  "shellcheck.customArgs": ["--rcfile=./.config/.shellcheckrc"],
+  "shellcheck.customArgs": ["--rcfile=./.pre-commit-config/.config/.shellcheckrc"],
 
-  "markdownlint.configFile": ".config/.markdownlint.yaml",
-  "prettier.configPath": ".config/.prettierrc.yaml",
+  "markdownlint.configFile": ".pre-commit-config/.config/.markdownlint.yaml",
+  "prettier.configPath": ".pre-commit-config/.config/.prettierrc.yaml",
 
   "yaml.format.enable": true,
   "yaml.validate": true,
   "yaml.schemas": {
-    ".config/.yamllint.yaml": ["*.yaml", ".config/**/*.yml"]
+    ".pre-commit-config/.config/.yamllint.yaml": ["*.yaml", "*.yml"]
   }
 }

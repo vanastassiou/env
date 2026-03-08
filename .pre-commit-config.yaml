@@ -56,13 +56,13 @@ repos:
     hooks:
       - id: "markdownlint-cli2"
         name: "markdownlint-fix"
-        args: ["--config", "./.pre-commit-config/.markdownlint.yaml", "--fix"]
+        args: ["--config", "./.pre-commit-config/.config/.markdownlint.yaml", "--fix"]
 
   - repo: "https://github.com/DavidAnson/markdownlint-cli2"
     rev: "v0.17.2"
     hooks:
       - id: "markdownlint-cli2"
-        args: ["--config", "./.pre-commit-config/.markdownlint.yaml"]
+        args: ["--config", "./.pre-commit-config/.config/.markdownlint.yaml"]
 
   - repo: "https://github.com/astral-sh/ruff-pre-commit"
     rev: "v0.11.4"

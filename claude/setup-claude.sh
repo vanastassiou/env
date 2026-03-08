@@ -16,7 +16,8 @@ These standards apply to all my projects.
 
 ## Writing Standards
 
-@~/repos/env/claude/writing-principles.md
+@~/repos/env/claude/rules/general-writing-principles.md
+@~/repos/env/claude/rules/tech-writing-principles.md
 EOF
     echo "Created ~/.claude/CLAUDE.md"
 else

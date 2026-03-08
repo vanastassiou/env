@@ -8,12 +8,8 @@ blanks-around-headings: false
 blanks-around-lists: false
 MD032: false
 first-line-heading: true
-line-length:
-  line-length: 80
-  code_blocks: false
-  tables: false
-  headings: false
-  strict: false
+line-length: false
+table-column-style: false
 list-marker-space:
   ol_multi: 1
   ol_single: 1

@@ -8,7 +8,7 @@ case $- in
 esac
 
 # Path to the bash it configuration
-BASH_IT="/Users/vanastassiou/.bash-it"
+BASH_IT="${HOME}/.bash-it"
 
 # Lock and Load a custom theme file.
 # Leave empty to disable theming.
@@ -75,3 +75,7 @@ TODO="t"
 # Load Bash It
 source "${BASH_IT?}/bash_it.sh"
 export PATH="$HOME/.local/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
